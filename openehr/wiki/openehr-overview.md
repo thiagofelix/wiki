@@ -3,6 +3,8 @@ title: OpenEHR Overview
 type: overview
 sources:
   - raw/architecture-overview.md
+  - raw/lang-bmm.md
+  - raw/cds-gdl2.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -61,13 +63,13 @@ The openEHR specifications are organized into components:
 | Component | Description | Key Specs |
 |-----------|-------------|-----------|
 | **[[base-component\|BASE]]** | Foundation types, identifiers, definitions | Foundation Types, Base Types |
-| **LANG** | Generic languages: ODIN, BMM, Expression Language | |
+| **LANG** | Generic languages: ODIN, BMM, Expression Language | See [[basic-meta-model]], [[odin]], [[expression-language]] |
 | **[[reference-model\|RM]]** | Core information model: EHR, demographics, data types | See [[reference-model]] |
 | **[[archetype-model\|AM]]** | Archetype formalism: ADL, AOM, templates | See [[archetype-model]] |
 | **[[archetype-query-language\|QUERY]]** | Archetype Query Language (AQL) | See [[archetype-query-language]] |
 | **TERM** | openEHR support terminology | |
 | **[[task-planning\|PROC]]** | Process model / Task Planning | See [[task-planning]] |
-| **CDS** | Clinical Decision Support (GDL) | |
+| **CDS** | Clinical Decision Support (GDL) | See [[guideline-definition-language]] |
 | **SM** | Service Model — abstract platform APIs | |
 
 ### Implementation Technology Specifications (ITS)

@@ -3,6 +3,7 @@ title: Archetype Object Model (AOM)
 type: entity
 sources:
   - raw/am-aom2.md
+  - raw/am-aom14.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -165,3 +166,30 @@ The AOM supports adaptation to different reference models via **AOM profiles**. 
 - Lifecycle state mappings
 
 This allows the archetype formalism to be used with reference models other than openEHR (e.g., HL7 FHIR, ISO 13606).
+
+## AOM 1.4 (Legacy)
+
+The AOM 1.4 specification defines the object model for ADL 1.4 archetypes. While AOM 2 is the current version, AOM 1.4 remains relevant because many production systems and tools still work with ADL 1.4 archetypes. The key structural and semantic differences are outlined below.
+
+### ARCHETYPE Class
+
+In AOM 1.4, `ARCHETYPE` **directly inherits** from `AUTHORED_RESOURCE` (from the [[resource-model|Resource Model]]). This contrasts with AOM 2, where the inheritance chain is `ARCHETYPE` -> `AUTHORED_ARCHETYPE` -> `AUTHORED_RESOURCE`. The AOM 1.4 ARCHETYPE class carries all authoring metadata directly, with attributes including `archetype_id`, `concept` (the root at-code, typically `at0000`), `parent_archetype_id` (for specialisation), `definition`, `ontology`, and `invariants`.
+
+### Constraint Model Differences
+
+The AOM 1.4 constraint tree uses an **alternating structure** of object constraint nodes and attribute constraint nodes, similar to AOM 2, but with notable differences:
+
+- **C_ATTRIBUTE subtypes**: AOM 1.4 distinguishes `C_SINGLE_ATTRIBUTE` (single-valued attributes where children represent alternatives) and `C_MULTIPLE_ATTRIBUTE` (container-valued attributes where children co-exist). AOM 2 merges these into a unified `C_ATTRIBUTE`.
+- **C_DOMAIN_TYPE**: AOM 1.4 provides `C_DOMAIN_TYPE` as an explicit extension point for domain-specific constraint classes (e.g., `C_QUANTITY`, `C_ORDINAL`, `C_CODED_TEXT`). These allow specialized constraint semantics for particular Reference Model types.
+- **CONSTRAINT_REF**: AOM 1.4 includes `CONSTRAINT_REF` (inheriting from `C_REFERENCE_OBJECT`) for delegating constraints to external terminology services via ac-codes. In AOM 2, this is handled differently through `C_TERMINOLOGY_CODE`.
+- **ARCHETYPE_INTERNAL_REF**: The AOM 1.4 equivalent of AOM 2's `C_COMPLEX_OBJECT_PROXY` for "use_node" references.
+
+### ARCHETYPE_ONTOLOGY vs ARCHETYPE_TERMINOLOGY
+
+In AOM 1.4, the terminology section uses the class `ARCHETYPE_ONTOLOGY` (reflecting the ADL 1.4 `ontology` keyword). AOM 2 renames this to `ARCHETYPE_TERMINOLOGY` (matching the ADL 2 `terminology` keyword). The internal structure is similar -- both carry term definitions, constraint definitions, term bindings, and constraint bindings -- but the naming reflects the conceptual evolution from "ontology" to "terminology."
+
+### See Also
+
+- [[operational-templates]] -- OPT generation from the AOM
+- [[archetype-identification]] -- identification scheme across AOM versions
+- [[basic-meta-model]] -- the BMM that provides the computable RM representation AOM validates against

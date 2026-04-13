@@ -3,6 +3,7 @@ title: Demographic Model
 type: entity
 sources:
   - raw/rm-demographic.md
+  - raw/its-rest-demographic.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -111,3 +112,17 @@ The EHR references demographics via PARTY_PROXY objects in the [[common-informat
 - PARTY_RELATED — parties with stated relationship to patient
 
 This separation enables anonymous EHRs (no demographic link) and flexible identity management.
+
+## REST API
+
+The openEHR Demographic REST API (currently in DEVELOPMENT status) provides RESTful endpoints for managing demographic entities under the `/demographic/` path. Each party type -- AGENT, GROUP, ORGANISATION, PERSON, and ROLE -- supports full CRUD operations (POST, GET, PUT, DELETE) with identical request/response patterns.
+
+Key capabilities include:
+
+- **Version history**: Retrieve the full revision history of any party, or get the version active at a specific point in time.
+- **Contributions**: Record batches of demographic changes as a single contribution for auditability.
+- **ITEM_TAG metadata**: Associate, retrieve, and remove metadata tags on demographic records and their versions.
+- **Optimistic locking**: Concurrent modification protection via `If-Match`/`ETag` headers.
+- **Simplified formats**: Supports `application/openehr.wt.flat+json` and `application/openehr.wt.structured+json` in addition to standard JSON and XML.
+
+See [[rest-api]] for the full endpoint listing and details on content negotiation.

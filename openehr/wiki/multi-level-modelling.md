@@ -4,6 +4,7 @@ type: concept
 sources:
   - raw/architecture-overview.md
   - raw/am-overview.md
+  - raw/lang-bmm.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -92,4 +93,16 @@ Because archetypes are abstract, technology-independent definitions, they serve 
 - API definitions
 - Query templates
 
-Change the archetype → all downstream artifacts update automatically.
+Change the archetype -> all downstream artifacts update automatically.
+
+## BMM: The Formal Meta-Model
+
+The **Basic Meta-Model** ([[basic-meta-model|BMM]]) provides the computable representation of the Reference Model that archetypes validate against. While the RM can be expressed informally in UML diagrams and documentation, BMM makes it machine-processable -- enabling tools to:
+
+- **Validate archetypes** against the RM by checking that constrained types, attributes, and cardinalities actually exist and are correct.
+- **Validate runtime data** against operational templates by verifying that data instances conform to both the RM and the archetype constraints.
+- **Generate code and schemas** from a single authoritative model definition.
+
+BMM is defined in the LANG component and supports key features required for accurate RM representation: full generic types (open and closed), container types (`List<T>`, `Hash<K,V>`), multiple inheritance, enumerated types, and Design by Contract (invariants, pre/post-conditions). It serves as an alternative to UML/XMI that is both human-readable (serialised in ODIN format) and computationally processable.
+
+In the multi-level modelling architecture, BMM sits at Level 1 -- it formalises the stable information model that archetypes (Level 2) and templates (Level 3) constrain. Without a computable RM, archetype tooling would have no way to verify that archetype constraints reference valid types and attributes.

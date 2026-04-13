@@ -14,9 +14,20 @@
 - [[archetype-definition-language]] — ADL 2 syntax: cADL constraints, terminology section, specialisation, slots
 - [[archetype-object-model]] — AOM 2: constraint model classes, validation, flattening, operational templates
 - [[archetype-query-language]] — AQL: SQL-like queries using archetype paths, CONTAINS operator, functions
-- [[rest-api]] — ITS-REST: EHR, Query, and Definition API endpoints (OpenAPI 3.0)
+- [[rest-api]] — ITS-REST: EHR, Query, Definition, Demographic, System, and Admin API endpoints (OpenAPI 3.0)
+- [[rest-api-overview]] — REST API conventions: HTTP methods, headers, content negotiation, status codes, resource identification
+- [[simplified-formats]] — Developer-friendly JSON alternatives to canonical RM format: Flat, Structured, ECISFLAT, TDS
+- [[smart-on-openehr]] — SMART App Launch adaptation for openEHR: service discovery, OAuth 2.0 flows, scopes, launch contexts
+- [[admin-api]] — Admin API: hard-delete endpoints for GDPR compliance and dev/test cleanup
+- [[guideline-definition-language]] — CDS/GDL: clinical decision support language (v1 retired, v2 stable) with production rules and template output
+- [[resource-model]] — BASE resource package: AUTHORED_RESOURCE, RESOURCE_DESCRIPTION, translations, revision history
 - [[task-planning]] — PROC: Task Planning for clinical workflows, care plans, execution tracking
 - [[base-component]] — BASE: foundation types, identification hierarchy, terminology types
+- [[archetype-identification]] — Archetype identification: HRID structure, semantic versioning, lifecycle states, referencing, governance
+- [[operational-templates]] — Operational Templates (OPT2): compiled deployment-ready artefacts from source archetypes and templates
+- [[basic-meta-model]] — BMM: computable meta-model for expressing object models as alternative to UML/XMI
+- [[odin]] — ODIN: human-readable object data serialization syntax used in BMM schemas and ADL files
+- [[expression-language]] — EL: typed expression language for BMM models, archetype rules, and decision support
 
 ## Concepts
 - [[multi-level-modelling]] — Core design paradigm: separating stable RM from variable archetypes/templates

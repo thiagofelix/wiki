@@ -5,6 +5,10 @@ sources:
   - raw/its-rest-ehr.md
   - raw/its-rest-query.md
   - raw/its-rest-definition.md
+  - raw/its-rest-definitions.md
+  - raw/its-rest-demographic.md
+  - raw/its-rest-admin.md
+  - raw/its-rest-system.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -60,8 +64,11 @@ Manages EHR records and their contents.
 ### Content Negotiation
 
 Supports multiple formats via `Accept` / `Content-Type` headers:
-- `application/json` — JSON format
-- `application/xml` — XML format
+- `application/json` -- standard JSON format
+- `application/xml` -- standard XML format
+- `application/openehr.wt+json` -- [[simplified-formats|WebTemplate]] JSON format
+- `application/openehr.wt.flat+json` -- [[simplified-formats|simplified flat]] JSON format
+- `application/openehr.wt.structured+json` -- [[simplified-formats|simplified structured]] JSON format
 
 ### Versioning Headers
 
@@ -131,3 +138,61 @@ Format: `{namespace}::{query-name}`
 Example: `org.example::active-medications`
 
 Versioning follows semantic versioning. The `LATEST` tag always points to the most recent version.
+
+### Demographic API
+
+The Demographic API manages demographic entities (people, organizations, groups, agents, and roles) through RESTful endpoints under `/demographic/`. It is currently in **DEVELOPMENT** status.
+
+#### Party CRUD Endpoints
+
+Each party type (AGENT, GROUP, ORGANISATION, PERSON, ROLE) supports identical CRUD operations:
+
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | `/demographic/{type}` | Create new party record |
+| GET | `/demographic/{type}/{uid_based_id}` | Get party (latest or specific version) |
+| PUT | `/demographic/{type}/{uid_based_id}` | Update party (creates new version) |
+| DELETE | `/demographic/{type}/{uid_based_id}` | Logical delete (deletion version) |
+
+#### Version History
+
+| Method | Path | Description |
+|--------|------|-------------|
+| GET | `/demographic/{type}/{uid_based_id}/history` | Get complete version history |
+| GET | `/demographic/{type}/{uid_based_id}?version_at_time={ISO8601}` | Get version at a point in time |
+| GET | `/demographic/{type}/{uid_based_id}/version/{version_id}` | Get specific version by ID |
+
+#### Contributions and Tags
+
+| Method | Path | Description |
+|--------|------|-------------|
+| POST | `/demographic/contribution` | Record batch of demographic changes |
+| GET | `/demographic/contribution/{contribution_id}` | Get contribution record |
+| GET/PUT/DELETE | `/demographic/{type}/{uid_based_id}/tags` | Manage ITEM_TAG metadata on records |
+
+See [[demographic-model]] for the underlying information model.
+
+### System API
+
+The System API provides a single conformance endpoint.
+
+| Method | Path | Description |
+|--------|------|-------------|
+| OPTIONS | `/` | Returns server conformance statement: solution name, version, vendor, REST API spec version, conformance profile, and list of supported endpoints |
+
+The response reveals which API groups the server supports (e.g., `/ehr`, `/demographic`, `/definition`, `/query`, `/admin`).
+
+### Admin API
+
+The Admin API provides hard-delete endpoints for permanently removing EHR data, primarily for GDPR compliance and development/testing. See [[admin-api]] for full details.
+
+| Method | Path | Description |
+|--------|------|-------------|
+| DELETE | `/admin/ehr/{ehr_id}` | Permanently delete a single EHR |
+| DELETE | `/admin/ehr/all` | Permanently delete multiple/all EHRs (may be disabled in production) |
+
+## See Also
+
+- [[rest-api-overview]] -- high-level overview of all openEHR REST API groups
+- [[simplified-formats]] -- the simplified JSON formats for data exchange
+- [[smart-on-openehr]] -- authorization framework for REST API access

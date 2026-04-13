@@ -5,6 +5,10 @@ sources:
   - raw/base-foundation-types.md
   - raw/base-types.md
   - raw/architecture-overview.md
+  - raw/base-resource.md
+  - raw/lang-bmm.md
+  - raw/lang-odin.md
+  - raw/lang-el.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -119,8 +123,20 @@ Types for terminology service integration:
 
 Related specifications in the LANG component:
 
-| Language | Purpose |
-|----------|---------|
-| **ODIN** | Object Data Instance Notation — serialization format used in ADL and BMM |
-| **BMM** | Basic Meta-Model — formal meta-model for expressing RM and other models |
-| **EL** | Expression Language — predicate logic expressions used in archetypes and guidelines |
+| Language | Purpose | Details |
+|----------|---------|---------|
+| **[[odin\|ODIN]]** | Object Data Instance Notation -- serialization format used in ADL and BMM | Human-readable data notation using angle-bracket delimiters; evolved from dADL in ADL 1.4 |
+| **[[basic-meta-model\|BMM]]** | Basic Meta-Model -- formal meta-model for expressing RM and other models | Computable object model representation with support for generics, containers, expressions, and Design by Contract |
+| **[[expression-language\|EL]]** | Expression Language -- predicate logic expressions used in archetypes and guidelines | Typed expression syntax based on the BMM expression package; used in archetype rules, Task Planning, and GDL |
+
+## Resource Model
+
+The BASE component also includes the **Resource Model** (`base.resource` package), which defines the abstract concept of an authored, translatable online resource. The central class is `AUTHORED_RESOURCE`, providing:
+
+- `original_language` -- the initial authorship language (ISO 639-1)
+- `translations` -- keyed `TRANSLATION_DETAILS` instances for each target language
+- `description` -- `RESOURCE_DESCRIPTION` with authoring metadata (author, lifecycle state, purpose, etc.)
+- `revision_history` -- audit trail when under change control
+- `annotations` -- path-keyed annotations on resource items
+
+`AUTHORED_RESOURCE` is the common ancestor of archetypes (in AOM 1.4, `ARCHETYPE` inherits directly; in AOM 2, via `AUTHORED_ARCHETYPE`) and GDL guidelines. See [[resource-model]] for full details.

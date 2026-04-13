@@ -3,6 +3,7 @@ title: Archetype Definition Language (ADL)
 type: entity
 sources:
   - raw/am-adl2.md
+  - raw/am-adl14.md
 created: 2026-04-13
 updated: 2026-04-13
 ---
@@ -278,3 +279,44 @@ definition
         }
     }
 ```
+
+## ADL 1.4 (Legacy)
+
+ADL 1.4 is the earlier version of the Archetype Definition Language, still widely used in production systems. While ADL 2 is the current specification, many deployed archetypes, tools, and repositories continue to use ADL 1.4 syntax.
+
+### dADL Syntax
+
+ADL 1.4 uses **dADL** (Data ADL) for the language, description, and ontology sections -- a data instance notation that later evolved into [[odin|ODIN]]. dADL expresses object data using angle-bracket delimiters:
+
+```adl
+original_language = <[iso_639-1::en]>
+term_definitions = <
+    ["en"] = <
+        items = <
+            ["at0000"] = <
+                text = <"blood pressure">;
+                description = <"measurement of arterial blood pressure">
+            >
+        >
+    >
+>
+```
+
+### Key Differences from ADL 2
+
+| Feature | ADL 1.4 | ADL 2 |
+|---------|---------|-------|
+| **Header** | `archetype (adl_version=1.4)` with separate `concept` section | `archetype (adl_version=2.0.6; rm_release=1.1.0)` |
+| **Tuple constraints** | Not supported -- unit/magnitude pairs constrained separately | Supported via `[units, magnitude] matches { ... }` syntax |
+| **Slot syntax** | `include`/`exclude` with assertion expressions | Same structure, but with refined matching semantics |
+| **Specialisation encoding** | Encoded via hyphens in the `concept_id` segment of the archetype ID (e.g., `problem-diagnosis`) | Uses explicit `specialize` keyword; ID structure is independent |
+| **Terminology section** | Named `ontology`; uses `ARCHETYPE_ONTOLOGY` class | Named `terminology`; uses `ARCHETYPE_TERMINOLOGY` class |
+| **Node ID format** | `at0000` codes with dot-based specialisation depth (e.g., `at0001.1`) | Same at-codes but with refined id-code semantics |
+
+### Archetype Identification in ADL 1.4
+
+ADL 1.4 archetype IDs follow the pattern `{rm_publisher}-{rm_closure}-{rm_class}.{concept_id}.v{version}`. Specialisation is encoded by appending hyphenated segments to the concept_id (e.g., `openEHR-EHR-EVALUATION.problem.v1` specialises to `openEHR-EHR-EVALUATION.problem-diagnosis.v1`). See [[archetype-identification]] for the full identification scheme across both versions.
+
+### Production Usage
+
+ADL 1.4 remains the dominant format in production openEHR deployments. The REST API Definition service supports both ADL 1.4 and ADL 2 template uploads (at `/definition/template/adl1.4` and `/definition/template/adl2` respectively). Most clinical archetypes in the openEHR Clinical Knowledge Manager (CKM) are authored in ADL 1.4 format.
