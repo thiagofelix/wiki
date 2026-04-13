@@ -1,5 +1,20 @@
 # Log
 
+## [2026-04-13] ingest | Fetched 20 additional openEHR specification documents
+
+Completed full coverage of official openEHR GitHub specification repos. Raw sources now total 49 files.
+
+**New sources added:**
+- LANG (5): BMM, BMM Persistence, ODIN, Expression Language, Basic Expression Language
+- ITS-REST (8): Overview, Admin API, Demographic API, Definitions API, System API, Simplified Data Template, Simplified Formats, SMART App Launch
+- AM (4): ADL 1.4, AOM 1.4, Archetype Identification, OPT2
+- CDS (2): GDL v1 (retired), GDL2 (stable)
+- BASE (1): Resource Model
+
+**Index updated:** Sources section reorganized by component, community/research sources listed separately.
+
+**Not yet ingested into wiki pages** — raw sources saved only. Wiki pages pending for: LANG specs (BMM, ODIN, EL, BEL), additional ITS-REST APIs, AM 1.4 legacy specs, archetype identification, OPT2, CDS/GDL, and resource model.
+
 ## [2026-04-13] ingest | Initial crawl of OpenEHR specification documents
 
 Crawled 22 specification documents from specifications.openehr.org and saved as raw markdown sources.
