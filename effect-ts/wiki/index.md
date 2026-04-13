@@ -1,0 +1,539 @@
+# Index
+
+
+## Overviews
+
+- [[effect-ts-v4]] — Effect v4 (Smol)
+
+## Modules
+
+- [[effect-ai-index]] — AI index (unstable)
+- [[effect-ai-internal]] — AI internal (unstable)
+- [[effect-workflow-activity]] — Activity (unstable)
+- [[effect-ai-ai-error]] — AiError (unstable)
+- [[effect-pkg-ai-anthropic-client]] — AnthropicClient (@effect/ai-anthropic)
+- [[effect-pkg-ai-anthropic-config]] — AnthropicConfig (@effect/ai-anthropic)
+- [[effect-pkg-ai-anthropic-error]] — AnthropicError (@effect/ai-anthropic)
+- [[effect-pkg-ai-anthropic-language-model]] — AnthropicLanguageModel (@effect/ai-anthropic)
+- [[effect-ai-anthropic-structured-output]] — AnthropicStructuredOutput (unstable)
+- [[effect-pkg-ai-anthropic-telemetry]] — AnthropicTelemetry (@effect/ai-anthropic)
+- [[effect-pkg-ai-anthropic-tool]] — AnthropicTool (@effect/ai-anthropic)
+- [[effect-cli-argument]] — Argument (unstable)
+- [[effect-array]] — Array
+- [[effect-reactivity-async-result]] — AsyncResult (unstable)
+- [[effect-reactivity-atom]] — Atom (unstable)
+- [[effect-reactivity-atom-http-api]] — AtomHttpApi (unstable)
+- [[effect-reactivity-atom-ref]] — AtomRef (unstable)
+- [[effect-reactivity-atom-registry]] — AtomRegistry (unstable)
+- [[effect-reactivity-atom-rpc]] — AtomRpc (unstable)
+- [[effect-big-decimal]] — BigDecimal
+- [[effect-big-int]] — BigInt
+- [[effect-boolean]] — Boolean
+- [[effect-brand]] — Brand
+- [[effect-pkg-platform-browser-browser-http-client]] — BrowserHttpClient (@effect/platform-browser)
+- [[effect-pkg-platform-browser-browser-key-value-store]] — BrowserKeyValueStore (@effect/platform-browser)
+- [[effect-pkg-platform-browser-browser-runtime]] — BrowserRuntime (@effect/platform-browser)
+- [[effect-pkg-platform-browser-browser-socket]] — BrowserSocket (@effect/platform-browser)
+- [[effect-pkg-platform-browser-browser-stream]] — BrowserStream (@effect/platform-browser)
+- [[effect-pkg-platform-browser-browser-worker]] — BrowserWorker (@effect/platform-browser)
+- [[effect-pkg-platform-browser-browser-worker-runner]] — BrowserWorkerRunner (@effect/platform-browser)
+- [[effect-pkg-platform-bun-bun-child-process-spawner]] — BunChildProcessSpawner (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-cluster-http]] — BunClusterHttp (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-cluster-socket]] — BunClusterSocket (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-file-system]] — BunFileSystem (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-http-client]] — BunHttpClient (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-http-platform]] — BunHttpPlatform (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-http-server]] — BunHttpServer (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-http-server-request]] — BunHttpServerRequest (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-multipart]] — BunMultipart (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-path]] — BunPath (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-redis]] — BunRedis (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-runtime]] — BunRuntime (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-services]] — BunServices (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-sink]] — BunSink (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-socket]] — BunSocket (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-socket-server]] — BunSocketServer (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-stdio]] — BunStdio (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-stream]] — BunStream (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-terminal]] — BunTerminal (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-worker]] — BunWorker (@effect/platform-bun)
+- [[effect-pkg-platform-bun-bun-worker-runner]] — BunWorkerRunner (@effect/platform-bun)
+- [[effect-cli-index]] — CLI index (unstable)
+- [[effect-cli-internal]] — CLI internal (unstable)
+- [[effect-cache]] — Cache
+- [[effect-cause]] — Cause
+- [[effect-channel]] — Channel
+- [[effect-channel-schema]] — ChannelSchema
+- [[effect-ai-chat]] — Chat (unstable)
+- [[effect-process-child-process]] — ChildProcess (unstable)
+- [[effect-process-child-process-spawner]] — ChildProcessSpawner (unstable)
+- [[effect-chunk]] — Chunk
+- [[effect-pkg-tools-bundle-cli]] — Cli (@effect/bundle)
+- [[effect-cli-cli-error]] — CliError (unstable)
+- [[effect-cli-cli-output]] — CliOutput (unstable)
+- [[effect-pkg-platform-browser-clipboard]] — Clipboard (@effect/platform-browser)
+- [[effect-clock]] — Clock
+- [[effect-cluster-cluster-cron]] — ClusterCron (unstable)
+- [[effect-cluster-cluster-error]] — ClusterError (unstable)
+- [[effect-cluster-cluster-metrics]] — ClusterMetrics (unstable)
+- [[effect-cluster-cluster-schema]] — ClusterSchema (unstable)
+- [[effect-cluster-cluster-workflow-engine]] — ClusterWorkflowEngine (unstable)
+- [[effect-pkg-tools-utils-codegen]] — Codegen (@effect/utils)
+- [[effect-combiner]] — Combiner
+- [[effect-cli-command]] — Command (unstable)
+- [[effect-cli-completions]] — Completions (unstable)
+- [[effect-config]] — Config
+- [[effect-pkg-tools-ai-codegen-config]] — Config (@effect/ai-codegen)
+- [[effect-config-provider]] — ConfigProvider
+- [[effect-console]] — Console
+- [[effect-context]] — Context
+- [[effect-http-cookies]] — Cookies (unstable)
+- [[effect-cron]] — Cron
+- [[effect-data]] — Data
+- [[effect-date-time]] — DateTime
+- [[effect-deferred]] — Deferred
+- [[effect-cluster-deliver-at]] — DeliverAt (unstable)
+- [[effect-devtools-dev-tools]] — DevTools (unstable)
+- [[effect-devtools-dev-tools-client]] — DevToolsClient (unstable)
+- [[effect-devtools-dev-tools-schema]] — DevToolsSchema (unstable)
+- [[effect-devtools-dev-tools-server]] — DevToolsServer (unstable)
+- [[effect-differ]] — Differ
+- [[effect-pkg-tools-ai-codegen-discovery]] — Discovery (@effect/ai-codegen)
+- [[effect-workflow-durable-clock]] — DurableClock (unstable)
+- [[effect-workflow-durable-deferred]] — DurableDeferred (unstable)
+- [[effect-duration]] — Duration
+- [[effect-effect]] — Effect
+- [[effect-internal]] — Effect Internal
+- [[effect-index]] — Effect Package Index
+- [[effect-persistence]] — Effect Persistence (unstable)
+- [[effect-pkg-ai]] — Effect Pkg Ai
+- [[effect-pkg-opentelemetry]] — Effect Pkg Opentelemetry
+- [[effect-pkg-platform-browser]] — Effect Pkg Platform Browser
+- [[effect-pkg-platform-bun]] — Effect Pkg Platform Bun
+- [[effect-pkg-platform-node]] — Effect Pkg Platform Node
+- [[effect-pkg-platform-node-shared]] — Effect Pkg Platform Node Shared
+- [[effect-pkg-sql]] — Effect Pkg Sql
+- [[effect-pkg-sql-clickhouse-client]] — Effect Pkg Sql Clickhouse Client
+- [[effect-pkg-sql-clickhouse-migrator]] — Effect Pkg Sql Clickhouse Migrator
+- [[effect-pkg-sql-d1-client]] — Effect Pkg Sql D1 Client
+- [[effect-pkg-sql-libsql-client]] — Effect Pkg Sql Libsql Client
+- [[effect-pkg-sql-libsql-migrator]] — Effect Pkg Sql Libsql Migrator
+- [[effect-pkg-sql-mssql]] — Effect Pkg Sql Mssql
+- [[effect-pkg-sql-mssql-client]] — Effect Pkg Sql Mssql Client
+- [[effect-pkg-sql-mssql-migrator]] — Effect Pkg Sql Mssql Migrator
+- [[effect-pkg-sql-mssql-parameter]] — Effect Pkg Sql Mssql Parameter
+- [[effect-pkg-sql-mssql-procedure]] — Effect Pkg Sql Mssql Procedure
+- [[effect-pkg-sql-mysql2-client]] — Effect Pkg Sql Mysql2 Client
+- [[effect-pkg-sql-mysql2-migrator]] — Effect Pkg Sql Mysql2 Migrator
+- [[effect-pkg-sql-pg-client]] — Effect Pkg Sql Pg Client
+- [[effect-pkg-sql-pg-migrator]] — Effect Pkg Sql Pg Migrator
+- [[effect-pkg-sql-sqlite-bun-client]] — Effect Pkg Sql Sqlite Bun Client
+- [[effect-pkg-sql-sqlite-bun-migrator]] — Effect Pkg Sql Sqlite Bun Migrator
+- [[effect-pkg-sql-sqlite-do-client]] — Effect Pkg Sql Sqlite Do Client
+- [[effect-pkg-sql-sqlite-do-migrator]] — Effect Pkg Sql Sqlite Do Migrator
+- [[effect-pkg-sql-sqlite-node-client]] — Effect Pkg Sql Sqlite Node Client
+- [[effect-pkg-sql-sqlite-node-migrator]] — Effect Pkg Sql Sqlite Node Migrator
+- [[effect-pkg-sql-sqlite-react-native-client]] — Effect Pkg Sql Sqlite React Native Client
+- [[effect-pkg-sql-sqlite-react-native-migrator]] — Effect Pkg Sql Sqlite React Native Migrator
+- [[effect-pkg-sql-sqlite-wasm]] — Effect Pkg Sql Sqlite Wasm
+- [[effect-pkg-sql-sqlite-wasm-client]] — Effect Pkg Sql Sqlite Wasm Client
+- [[effect-pkg-sql-sqlite-wasm-internal]] — Effect Pkg Sql Sqlite Wasm Internal
+- [[effect-pkg-sql-sqlite-wasm-migrator]] — Effect Pkg Sql Sqlite Wasm Migrator
+- [[effect-pkg-sql-sqlite-wasm-opfs-worker]] — Effect Pkg Sql Sqlite Wasm Opfs Worker
+- [[effect-pkg-tools]] — Effect Pkg Tools
+- [[effect-pkg-vitest]] — Effect Pkg Vitest
+- [[effect-sql]] — Effect SQL (unstable)
+- [[effect-testing]] — Effect Testing
+- [[effect-unstable-schema]] — Effect Unstable Schema (unstable)
+- [[effect-ai-embedding-model]] — EmbeddingModel (unstable)
+- [[effect-encoding]] — Encoding
+- [[effect-cluster-entity]] — Entity (unstable)
+- [[effect-cluster-entity-address]] — EntityAddress (unstable)
+- [[effect-cluster-entity-id]] — EntityId (unstable)
+- [[effect-cluster-entity-proxy]] — EntityProxy (unstable)
+- [[effect-cluster-entity-proxy-server]] — EntityProxyServer (unstable)
+- [[effect-cluster-entity-resource]] — EntityResource (unstable)
+- [[effect-cluster-entity-type]] — EntityType (unstable)
+- [[effect-cluster-envelope]] — Envelope (unstable)
+- [[effect-equal]] — Equal
+- [[effect-equivalence]] — Equivalence
+- [[effect-error-reporter]] — ErrorReporter
+- [[effect-http-etag]] — Etag (unstable)
+- [[effect-eventlog-event]] — Event (unstable)
+- [[effect-eventlog-event-group]] — EventGroup (unstable)
+- [[effect-eventlog-event-journal]] — EventJournal (unstable)
+- [[effect-eventlog-event-log]] — EventLog (unstable)
+- [[effect-eventlog-event-log-encryption]] — EventLogEncryption (unstable)
+- [[effect-eventlog-event-log-message]] — EventLogMessage (unstable)
+- [[effect-eventlog-event-log-remote]] — EventLogRemote (unstable)
+- [[effect-eventlog-event-log-server]] — EventLogServer (unstable)
+- [[effect-eventlog-event-log-server-encrypted]] — EventLogServerEncrypted (unstable)
+- [[effect-eventlog-event-log-server-unencrypted]] — EventLogServerUnencrypted (unstable)
+- [[effect-eventlog-event-log-session-auth]] — EventLogSessionAuth (unstable)
+- [[effect-execution-plan]] — ExecutionPlan
+- [[effect-exit]] — Exit
+- [[effect-http-fetch-http-client]] — FetchHttpClient (unstable)
+- [[effect-fiber]] — Fiber
+- [[effect-fiber-handle]] — FiberHandle
+- [[effect-fiber-map]] — FiberMap
+- [[effect-fiber-set]] — FiberSet
+- [[effect-file-system]] — FileSystem
+- [[effect-filter]] — Filter
+- [[effect-http-find-my-way]] — FindMyWay (unstable)
+- [[effect-pkg-tools-bundle-fixtures]] — Fixtures (@effect/bundle)
+- [[effect-cli-flag]] — Flag (unstable)
+- [[effect-formatter]] — Formatter
+- [[effect-function]] — Function
+- [[effect-pkg-ai-anthropic-generated]] — Generated (@effect/ai-anthropic)
+- [[effect-pkg-ai-openai-generated]] — Generated (@effect/ai-openai)
+- [[effect-pkg-ai-openrouter-generated]] — Generated (@effect/ai-openrouter)
+- [[effect-pkg-tools-ai-codegen-generator]] — Generator (@effect/ai-codegen)
+- [[effect-pkg-platform-browser-geolocation]] — Geolocation (@effect/platform-browser)
+- [[effect-pkg-tools-ai-codegen-glob]] — Glob (@effect/ai-codegen)
+- [[effect-pkg-tools-ai-docgen-glob]] — Glob (@effect/ai-docgen)
+- [[effect-pkg-tools-utils-glob]] — Glob (@effect/utils)
+- [[effect-cli-global-flag]] — GlobalFlag (unstable)
+- [[effect-graph]] — Graph
+- [[effect-hkt]] — HKT
+- [[effect-hash]] — Hash
+- [[effect-hash-map]] — HashMap
+- [[effect-hash-ring]] — HashRing
+- [[effect-hash-set]] — HashSet
+- [[effect-http-headers]] — Headers (unstable)
+- [[effect-cli-help-doc]] — HelpDoc (unstable)
+- [[effect-pkg-atom-react-hooks]] — Hooks (@effect/atom-react)
+- [[effect-pkg-atom-solid-hooks]] — Hooks (@effect/atom-solid)
+- [[effect-httpapi-http-api]] — HttpApi (unstable)
+- [[effect-httpapi-http-api-builder]] — HttpApiBuilder (unstable)
+- [[effect-httpapi-http-api-client]] — HttpApiClient (unstable)
+- [[effect-httpapi-http-api-endpoint]] — HttpApiEndpoint (unstable)
+- [[effect-httpapi-http-api-error]] — HttpApiError (unstable)
+- [[effect-httpapi-http-api-group]] — HttpApiGroup (unstable)
+- [[effect-httpapi-http-api-middleware]] — HttpApiMiddleware (unstable)
+- [[effect-httpapi-http-api-scalar]] — HttpApiScalar (unstable)
+- [[effect-httpapi-http-api-schema]] — HttpApiSchema (unstable)
+- [[effect-httpapi-http-api-security]] — HttpApiSecurity (unstable)
+- [[effect-httpapi-http-api-swagger]] — HttpApiSwagger (unstable)
+- [[effect-pkg-tools-openapi-generator-httpapitransformer]] — HttpApiTransformer (@effect/openapi-generator)
+- [[effect-http-http-body]] — HttpBody (unstable)
+- [[effect-http-http-client]] — HttpClient (unstable)
+- [[effect-http-http-client-error]] — HttpClientError (unstable)
+- [[effect-http-http-client-request]] — HttpClientRequest (unstable)
+- [[effect-http-http-client-response]] — HttpClientResponse (unstable)
+- [[effect-http-http-effect]] — HttpEffect (unstable)
+- [[effect-http-http-incoming-message]] — HttpIncomingMessage (unstable)
+- [[effect-http-http-method]] — HttpMethod (unstable)
+- [[effect-http-http-middleware]] — HttpMiddleware (unstable)
+- [[effect-http-http-platform]] — HttpPlatform (unstable)
+- [[effect-http-http-router]] — HttpRouter (unstable)
+- [[effect-cluster-http-runner]] — HttpRunner (unstable)
+- [[effect-http-http-server]] — HttpServer (unstable)
+- [[effect-http-http-server-error]] — HttpServerError (unstable)
+- [[effect-http-http-server-request]] — HttpServerRequest (unstable)
+- [[effect-http-http-server-respondable]] — HttpServerRespondable (unstable)
+- [[effect-http-http-server-response]] — HttpServerResponse (unstable)
+- [[effect-http-http-static-server]] — HttpStaticServer (unstable)
+- [[effect-http-http-trace-context]] — HttpTraceContext (unstable)
+- [[effect-reactivity-hydration]] — Hydration (unstable)
+- [[effect-ai-id-generator]] — IdGenerator (unstable)
+- [[effect-pkg-atom-vue-index]] — Index (@effect/atom-vue)
+- [[effect-pkg-platform-browser-indexed-db]] — IndexedDb (@effect/platform-browser)
+- [[effect-pkg-platform-browser-indexed-db-database]] — IndexedDbDatabase (@effect/platform-browser)
+- [[effect-pkg-platform-browser-indexed-db-query-builder]] — IndexedDbQueryBuilder (@effect/platform-browser)
+- [[effect-pkg-platform-browser-indexed-db-table]] — IndexedDbTable (@effect/platform-browser)
+- [[effect-pkg-platform-browser-indexed-db-version]] — IndexedDbVersion (@effect/platform-browser)
+- [[effect-inspectable]] — Inspectable
+- [[effect-pkg-ai-anthropic-internal]] — Internal (@effect/ai-anthropic)
+- [[effect-pkg-ai-openai-internal]] — Internal (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-internal]] — Internal (@effect/ai-openai-compat)
+- [[effect-pkg-ai-openrouter-internal]] — Internal (@effect/ai-openrouter)
+- [[effect-pkg-platform-node-shared-internal]] — Internal utilities (@effect/platform-node-shared)
+- [[effect-iterable]] — Iterable
+- [[effect-json-patch]] — JsonPatch
+- [[effect-json-pointer]] — JsonPointer
+- [[effect-json-schema]] — JsonSchema
+- [[effect-pkg-tools-openapi-generator-jsonschemagenerator]] — JsonSchemaGenerator (@effect/openapi-generator)
+- [[effect-cluster-k8s-http-client]] — K8sHttpClient (unstable)
+- [[effect-persistence-key-value-store]] — KeyValueStore (unstable)
+- [[effect-ai-language-model]] — LanguageModel (unstable)
+- [[effect-latch]] — Latch
+- [[effect-layer]] — Layer
+- [[effect-layer-map]] — LayerMap
+- [[effect-log-level]] — LogLevel
+- [[effect-logger]] — Logger
+- [[effect-pkg-opentelemetry-logger]] — Logger (@effect/opentelemetry)
+- [[effect-cluster-machine-id]] — MachineId (unstable)
+- [[effect-managed-runtime]] — ManagedRuntime
+- [[effect-match]] — Match
+- [[effect-ai-mcp-schema]] — McpSchema (unstable)
+- [[effect-ai-mcp-server]] — McpServer (unstable)
+- [[effect-cluster-message]] — Message (unstable)
+- [[effect-cluster-message-storage]] — MessageStorage (unstable)
+- [[effect-metric]] — Metric
+- [[effect-pkg-opentelemetry-metrics]] — Metrics (@effect/opentelemetry)
+- [[effect-sql-migrator]] — Migrator (unstable)
+- [[effect-pkg-platform-node-mime]] — Mime (@effect/platform-node)
+- [[effect-ai-model]] — Model (unstable)
+- [[effect-unstable-schema-model]] — Model (unstable)
+- [[effect-unstable-encoding-msgpack]] — Msgpack (unstable)
+- [[effect-http-multipart]] — Multipart (unstable)
+- [[effect-http-multipasta]] — Multipasta (unstable)
+- [[effect-mutable-hash-map]] — MutableHashMap
+- [[effect-mutable-hash-set]] — MutableHashSet
+- [[effect-mutable-list]] — MutableList
+- [[effect-mutable-ref]] — MutableRef
+- [[effect-unstable-encoding-ndjson]] — Ndjson (unstable)
+- [[effect-newtype]] — Newtype
+- [[effect-pkg-platform-node-node-child-process-spawner]] — NodeChildProcessSpawner (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-child-process-spawner]] — NodeChildProcessSpawner (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-cluster-http]] — NodeClusterHttp (@effect/platform-node)
+- [[effect-pkg-platform-node-node-cluster-socket]] — NodeClusterSocket (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-cluster-socket]] — NodeClusterSocket (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-file-system]] — NodeFileSystem (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-file-system]] — NodeFileSystem (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-http-client]] — NodeHttpClient (@effect/platform-node)
+- [[effect-pkg-platform-node-node-http-incoming-message]] — NodeHttpIncomingMessage (@effect/platform-node)
+- [[effect-pkg-platform-node-node-http-platform]] — NodeHttpPlatform (@effect/platform-node)
+- [[effect-pkg-platform-node-node-http-server]] — NodeHttpServer (@effect/platform-node)
+- [[effect-pkg-platform-node-node-http-server-request]] — NodeHttpServerRequest (@effect/platform-node)
+- [[effect-pkg-platform-node-node-multipart]] — NodeMultipart (@effect/platform-node)
+- [[effect-pkg-platform-node-node-path]] — NodePath (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-path]] — NodePath (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-redis]] — NodeRedis (@effect/platform-node)
+- [[effect-pkg-platform-node-node-runtime]] — NodeRuntime (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-runtime]] — NodeRuntime (@effect/platform-node-shared)
+- [[effect-pkg-opentelemetry-nodesdk]] — NodeSdk (@effect/opentelemetry)
+- [[effect-pkg-platform-node-node-services]] — NodeServices (@effect/platform-node)
+- [[effect-pkg-platform-node-node-sink]] — NodeSink (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-sink]] — NodeSink (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-socket]] — NodeSocket (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-socket]] — NodeSocket (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-socket-server]] — NodeSocketServer (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-socket-server]] — NodeSocketServer (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-stdio]] — NodeStdio (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-stdio]] — NodeStdio (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-stream]] — NodeStream (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-stream]] — NodeStream (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-terminal]] — NodeTerminal (@effect/platform-node)
+- [[effect-pkg-platform-node-shared-node-terminal]] — NodeTerminal (@effect/platform-node-shared)
+- [[effect-pkg-platform-node-node-worker]] — NodeWorker (@effect/platform-node)
+- [[effect-pkg-platform-node-node-worker-runner]] — NodeWorkerRunner (@effect/platform-node)
+- [[effect-non-empty-iterable]] — NonEmptyIterable
+- [[effect-number]] — Number
+- [[effect-pkg-ai-openai-client]] — OpenAiClient (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-client]] — OpenAiClient (@effect/ai-openai-compat)
+- [[effect-pkg-ai-openai-config]] — OpenAiConfig (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-config]] — OpenAiConfig (@effect/ai-openai-compat)
+- [[effect-pkg-ai-openai-embedding-model]] — OpenAiEmbeddingModel (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-embedding-model]] — OpenAiEmbeddingModel (@effect/ai-openai-compat)
+- [[effect-pkg-ai-openai-error]] — OpenAiError (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-error]] — OpenAiError (@effect/ai-openai-compat)
+- [[effect-pkg-ai-openai-language-model]] — OpenAiLanguageModel (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-language-model]] — OpenAiLanguageModel (@effect/ai-openai-compat)
+- [[effect-ai-open-ai-structured-output]] — OpenAiStructuredOutput (unstable)
+- [[effect-pkg-ai-openai-telemetry]] — OpenAiTelemetry (@effect/ai-openai)
+- [[effect-pkg-ai-openai-compat-telemetry]] — OpenAiTelemetry (@effect/ai-openai-compat)
+- [[effect-pkg-ai-openai-tool]] — OpenAiTool (@effect/ai-openai)
+- [[effect-httpapi-open-api]] — OpenApi (unstable)
+- [[effect-pkg-tools-openapi-generator-openapigenerator]] — OpenApiGenerator (@effect/openapi-generator)
+- [[effect-pkg-tools-openapi-generator-openapipatch]] — OpenApiPatch (@effect/openapi-generator)
+- [[effect-pkg-tools-openapi-generator-openapitransformer]] — OpenApiTransformer (@effect/openapi-generator)
+- [[effect-pkg-ai-openrouter-client]] — OpenRouterClient (@effect/ai-openrouter)
+- [[effect-pkg-ai-openrouter-config]] — OpenRouterConfig (@effect/ai-openrouter)
+- [[effect-pkg-ai-openrouter-error]] — OpenRouterError (@effect/ai-openrouter)
+- [[effect-pkg-ai-openrouter-language-model]] — OpenRouterLanguageModel (@effect/ai-openrouter)
+- [[effect-optic]] — Optic
+- [[effect-option]] — Option
+- [[effect-order]] — Order
+- [[effect-ordering]] — Ordering
+- [[effect-observability-otlp]] — Otlp (unstable)
+- [[effect-observability-otlp-exporter]] — OtlpExporter (unstable)
+- [[effect-observability-otlp-logger]] — OtlpLogger (unstable)
+- [[effect-observability-otlp-metrics]] — OtlpMetrics (unstable)
+- [[effect-observability-otlp-resource]] — OtlpResource (unstable)
+- [[effect-observability-otlp-serialization]] — OtlpSerialization (unstable)
+- [[effect-observability-otlp-tracer]] — OtlpTracer (unstable)
+- [[effect-cli-param]] — Param (unstable)
+- [[effect-pkg-tools-openapi-generator-parsedoperation]] — ParsedOperation (@effect/openapi-generator)
+- [[effect-partitioned-semaphore]] — PartitionedSemaphore
+- [[effect-path]] — Path
+- [[effect-pkg-platform-browser-permissions]] — Permissions (@effect/platform-browser)
+- [[effect-persistence-persistable]] — Persistable (unstable)
+- [[effect-persistence-persisted-cache]] — PersistedCache (unstable)
+- [[effect-persistence-persisted-queue]] — PersistedQueue (unstable)
+- [[effect-persistence-persistence]] — Persistence (unstable)
+- [[effect-pipeable]] — Pipeable
+- [[effect-platform-error]] — PlatformError
+- [[effect-pkg-tools-bundle-plugins]] — Plugins (@effect/bundle)
+- [[effect-pool]] — Pool
+- [[effect-pkg-tools-ai-codegen-postprocess]] — PostProcess (@effect/ai-codegen)
+- [[effect-predicate]] — Predicate
+- [[effect-primary-key]] — PrimaryKey
+- [[effect-cli-primitive]] — Primitive (unstable)
+- [[effect-observability-prometheus-metrics]] — PrometheusMetrics (unstable)
+- [[effect-ai-prompt]] — Prompt (unstable)
+- [[effect-cli-prompt]] — Prompt (unstable)
+- [[effect-pub-sub]] — PubSub
+- [[effect-pull]] — Pull
+- [[effect-queue]] — Queue
+- [[effect-random]] — Random
+- [[effect-persistence-rate-limiter]] — RateLimiter (unstable)
+- [[effect-rc-map]] — RcMap
+- [[effect-rc-ref]] — RcRef
+- [[effect-pkg-atom-react-reacthydration]] — ReactHydration (@effect/atom-react)
+- [[effect-reactivity-reactivity]] — Reactivity (unstable)
+- [[effect-record]] — Record
+- [[effect-persistence-redis]] — Redis (unstable)
+- [[effect-pkg-atom-react-registrycontext]] — RegistryContext (@effect/atom-react)
+- [[effect-pkg-atom-solid-registrycontext]] — RegistryContext (@effect/atom-solid)
+- [[effect-cluster-reply]] — Reply (unstable)
+- [[effect-pkg-tools-bundle-reporter]] — Reporter (@effect/bundle)
+- [[effect-request-resolver]] — RequestResolver
+- [[effect-resource]] — Resource
+- [[effect-pkg-opentelemetry-resource]] — Resource (@effect/opentelemetry)
+- [[effect-ai-response]] — Response (unstable)
+- [[effect-ai-response-id-tracker]] — ResponseIdTracker (unstable)
+- [[effect-result]] — Result
+- [[effect-pkg-tools-bundle-rollup]] — Rollup (@effect/bundle)
+- [[effect-rpc-rpc]] — Rpc (unstable)
+- [[effect-rpc-rpc-client]] — RpcClient (unstable)
+- [[effect-rpc-rpc-client-error]] — RpcClientError (unstable)
+- [[effect-rpc-rpc-group]] — RpcGroup (unstable)
+- [[effect-rpc-rpc-message]] — RpcMessage (unstable)
+- [[effect-rpc-rpc-middleware]] — RpcMiddleware (unstable)
+- [[effect-rpc-rpc-schema]] — RpcSchema (unstable)
+- [[effect-rpc-rpc-serialization]] — RpcSerialization (unstable)
+- [[effect-rpc-rpc-server]] — RpcServer (unstable)
+- [[effect-rpc-rpc-test]] — RpcTest (unstable)
+- [[effect-rpc-rpc-worker]] — RpcWorker (unstable)
+- [[effect-cluster-runner]] — Runner (unstable)
+- [[effect-cluster-runner-address]] — RunnerAddress (unstable)
+- [[effect-cluster-runner-health]] — RunnerHealth (unstable)
+- [[effect-cluster-runner-server]] — RunnerServer (unstable)
+- [[effect-cluster-runner-storage]] — RunnerStorage (unstable)
+- [[effect-cluster-runners]] — Runners (unstable)
+- [[effect-runtime]] — Runtime
+- [[effect-schedule]] — Schedule
+- [[effect-scheduler]] — Scheduler
+- [[effect-schema]] — Schema
+- [[effect-schema-ast]] — SchemaAST
+- [[effect-schema-getter]] — SchemaGetter
+- [[effect-schema-issue]] — SchemaIssue
+- [[effect-schema-parser]] — SchemaParser
+- [[effect-schema-representation]] — SchemaRepresentation
+- [[effect-schema-transformation]] — SchemaTransformation
+- [[effect-schema-utils]] — SchemaUtils
+- [[effect-scope]] — Scope
+- [[effect-pkg-atom-react-scopedatom]] — ScopedAtom (@effect/atom-react)
+- [[effect-scoped-cache]] — ScopedCache
+- [[effect-scoped-ref]] — ScopedRef
+- [[effect-semaphore]] — Semaphore
+- [[effect-cluster-shard-id]] — ShardId (unstable)
+- [[effect-cluster-sharding]] — Sharding (unstable)
+- [[effect-cluster-sharding-config]] — ShardingConfig (unstable)
+- [[effect-cluster-sharding-registration-event]] — ShardingRegistrationEvent (unstable)
+- [[effect-cluster-single-runner]] — SingleRunner (unstable)
+- [[effect-cluster-singleton]] — Singleton (unstable)
+- [[effect-cluster-singleton-address]] — SingletonAddress (unstable)
+- [[effect-sink]] — Sink
+- [[effect-cluster-snowflake]] — Snowflake (unstable)
+- [[effect-socket-socket]] — Socket (unstable)
+- [[effect-cluster-socket-runner]] — SocketRunner (unstable)
+- [[effect-socket-socket-server]] — SocketServer (unstable)
+- [[effect-pkg-tools-ai-codegen-specfetcher]] — SpecFetcher (@effect/ai-codegen)
+- [[effect-sql-sql-client]] — SqlClient (unstable)
+- [[effect-sql-sql-connection]] — SqlConnection (unstable)
+- [[effect-sql-sql-error]] — SqlError (unstable)
+- [[effect-eventlog-sql-event-journal]] — SqlEventJournal (unstable)
+- [[effect-eventlog-sql-event-log-server-encrypted]] — SqlEventLogServerEncrypted (unstable)
+- [[effect-eventlog-sql-event-log-server-unencrypted]] — SqlEventLogServerUnencrypted (unstable)
+- [[effect-cluster-sql-message-storage]] — SqlMessageStorage (unstable)
+- [[effect-sql-sql-model]] — SqlModel (unstable)
+- [[effect-sql-sql-resolver]] — SqlResolver (unstable)
+- [[effect-cluster-sql-runner-storage]] — SqlRunnerStorage (unstable)
+- [[effect-sql-sql-schema]] — SqlSchema (unstable)
+- [[effect-sql-sql-stream]] — SqlStream (unstable)
+- [[effect-unstable-encoding-sse]] — Sse (unstable)
+- [[effect-sql-statement]] — Statement (unstable)
+- [[effect-stdio]] — Stdio
+- [[effect-stream]] — Stream
+- [[effect-string]] — String
+- [[effect-struct]] — Struct
+- [[effect-subscription-ref]] — SubscriptionRef
+- [[effect-symbol]] — Symbol
+- [[effect-synchronized-ref]] — SynchronizedRef
+- [[effect-take]] — Take
+- [[effect-ai-telemetry]] — Telemetry (unstable)
+- [[effect-http-template]] — Template (unstable)
+- [[effect-terminal]] — Terminal
+- [[effect-cluster-test-runner]] — TestRunner (unstable)
+- [[effect-ai-tokenizer]] — Tokenizer (unstable)
+- [[effect-ai-tool]] — Tool (unstable)
+- [[effect-ai-toolkit]] — Toolkit (unstable)
+- [[effect-tracer]] — Tracer
+- [[effect-pkg-opentelemetry-tracer]] — Tracer (@effect/opentelemetry)
+- [[effect-workers-transferable]] — Transferable (unstable)
+- [[effect-trie]] — Trie
+- [[effect-tuple]] — Tuple
+- [[effect-tx-chunk]] — TxChunk
+- [[effect-tx-deferred]] — TxDeferred
+- [[effect-tx-hash-map]] — TxHashMap
+- [[effect-tx-hash-set]] — TxHashSet
+- [[effect-tx-priority-queue]] — TxPriorityQueue
+- [[effect-tx-pub-sub]] — TxPubSub
+- [[effect-tx-queue]] — TxQueue
+- [[effect-tx-reentrant-lock]] — TxReentrantLock
+- [[effect-tx-ref]] — TxRef
+- [[effect-tx-semaphore]] — TxSemaphore
+- [[effect-tx-subscription-ref]] — TxSubscriptionRef
+- [[effect-types]] — Types
+- [[effect-undefined-or]] — UndefinedOr
+- [[effect-pkg-platform-node-undici]] — Undici (@effect/platform-node)
+- [[effect-unify]] — Unify
+- [[effect-http-url]] — Url (unstable)
+- [[effect-http-url-params]] — UrlParams (unstable)
+- [[effect-utils]] — Utils
+- [[effect-pkg-tools-openapi-generator-utils]] — Utils (@effect/openapi-generator)
+- [[effect-rpc-utils]] — Utils (unstable)
+- [[effect-unstable-schema-variant-schema]] — VariantSchema (unstable)
+- [[effect-pkg-opentelemetry-websdk]] — WebSdk (@effect/opentelemetry)
+- [[effect-workers-worker]] — Worker (unstable)
+- [[effect-workers-worker-error]] — WorkerError (unstable)
+- [[effect-workers-worker-runner]] — WorkerRunner (unstable)
+- [[effect-workflow-workflow]] — Workflow (unstable)
+- [[effect-workflow-workflow-engine]] — WorkflowEngine (unstable)
+- [[effect-workflow-workflow-proxy]] — WorkflowProxy (unstable)
+- [[effect-workflow-workflow-proxy-server]] — WorkflowProxyServer (unstable)
+- [[effect-cluster-internal]] — cluster/internal (unstable)
+- [[effect-pkg-tools-utils-commands-codegen]] — commands/codegen (@effect/utils)
+- [[effect-ai]] — effect/unstable/ai (hub)
+- [[effect-cli]] — effect/unstable/cli (hub)
+- [[effect-cluster]] — effect/unstable/cluster (unstable)
+- [[effect-devtools]] — effect/unstable/devtools (hub)
+- [[effect-unstable-encoding]] — effect/unstable/encoding (hub)
+- [[effect-eventlog]] — effect/unstable/eventlog (hub)
+- [[effect-http]] — effect/unstable/http (unstable)
+- [[effect-httpapi]] — effect/unstable/httpapi (unstable)
+- [[effect-observability]] — effect/unstable/observability (hub)
+- [[effect-process]] — effect/unstable/process (hub)
+- [[effect-reactivity]] — effect/unstable/reactivity (hub)
+- [[effect-rpc]] — effect/unstable/rpc (unstable)
+- [[effect-socket]] — effect/unstable/socket (hub)
+- [[effect-workers]] — effect/unstable/workers (hub)
+- [[effect-workflow]] — effect/unstable/workflow (unstable)
+- [[effect-eventlog-internal]] — eventlog/internal (unstable)
+- [[effect-http-internal]] — http/internal (unstable)
+- [[effect-httpapi-internal]] — httpapi/internal (unstable)
+- [[effect-pkg-vitest-index]] — index (@effect/vitest)
+- [[effect-pkg-tools-ai-codegen-main]] — main (@effect/ai-codegen)
+- [[effect-pkg-tools-ai-docgen-main]] — main (@effect/ai-docgen)
+- [[effect-pkg-tools-openapi-generator-main]] — main (@effect/openapi-generator)
+- [[effect-observability-internal]] — observability/internal (unstable)
+- [[effect-pkg-tools-oxc-oxlint]] — oxlint (@effect/oxc)
+- [[effect-pkg-atom]] — packages/atom (@effect/atom-*)
+- [[effect-pkg-vitest-utils]] — utils (@effect/vitest)
+- [[effect-workflow-internal]] — workflow/internal (unstable)
+
+## Sources
+
+- [[source-effect-smol-repo]] — Source: Effect-Smol Repository
