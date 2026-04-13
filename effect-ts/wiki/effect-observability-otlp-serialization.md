@@ -23,4 +23,4 @@ Pluggable serialization service selecting JSON or Protobuf encoding for OTLP tra
 - [[effect-observability]]
 - [[effect-observability-otlp]]
 - [[effect-observability-internal]]
-- [[effect-unstable-http-body]]
+- [[effect-http-http-body]]

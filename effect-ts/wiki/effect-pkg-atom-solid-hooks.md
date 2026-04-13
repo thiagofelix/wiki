@@ -28,5 +28,5 @@ SolidJS composables that adapt Effect's `Atom` reactive system to Solid's fine-g
 ## Related
 - [[effect-pkg-atom]]
 - [[effect-pkg-atom-solid-registrycontext]]
-- [[effect-unstable-reactivity-atom]]
+- [[effect-reactivity-atom]]
 - [[effect-ts-v4]]

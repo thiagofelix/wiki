@@ -24,4 +24,4 @@ SQL-backed `Storage` for `EventLogServerUnencrypted`. Persists plaintext entries
 ## Related
 - [[effect-eventlog]]
 - [[effect-eventlog-event-log-server-unencrypted]]
-- [[effect-unstable-sql-client]]
+- [[effect-sql-sql-client]]

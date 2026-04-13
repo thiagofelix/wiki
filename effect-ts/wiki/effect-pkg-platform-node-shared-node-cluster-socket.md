@@ -20,5 +20,5 @@ Cluster transport helpers that plug the socket-based runner protocol into the Ef
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node-shared]]
-- [[effect-unstable-cluster-runners]]
-- [[effect-unstable-cluster-sharding-config]]
+- [[effect-cluster-runners]]
+- [[effect-cluster-sharding-config]]

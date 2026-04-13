@@ -21,5 +21,5 @@ Wires an Effect cluster runner over HTTP/WebSocket using Node's HTTP server and 
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-cluster-http-runner]]
+- [[effect-cluster-http-runner]]
 - [[effect-pkg-platform-node-node-http-server]]

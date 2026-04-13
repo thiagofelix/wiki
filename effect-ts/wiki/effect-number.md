@@ -29,4 +29,4 @@ Utility functions and type-class instances for the `number` primitive: arithmeti
 ## Related
 - [[effect-ts-v4]]
 - [[effect-order]]
-- [[effect-bigint]]
+- [[effect-big-int]]

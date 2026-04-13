@@ -21,5 +21,5 @@ Entry-point layers that wire `DevToolsClient` to a transport. Exposes a ready-to
 
 ## Related
 - [[effect-devtools]]
-- [[effect-devtools-client]]
+- [[effect-devtools-dev-tools-client]]
 - [[effect-socket]]

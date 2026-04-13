@@ -20,4 +20,4 @@ Re-exports `@effect/platform-node-shared/NodeSocketServer`, providing a TCP `Soc
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
 - [[effect-pkg-platform-node-shared-node-socket-server]]
-- [[effect-unstable-socket-socket-server]]
+- [[effect-socket-socket-server]]

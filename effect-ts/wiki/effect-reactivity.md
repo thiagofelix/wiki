@@ -25,6 +25,6 @@ Reactive primitives powering Effect-based UI state management. Built around `Ato
 
 ## Related
 - [[effect-ts-v4]]
-- [[effect-unstable-http-api]]
-- [[effect-rpc-client]]
+- [[effect-httpapi-http-api]]
+- [[effect-rpc-rpc-client]]
 - [[effect-eventlog]]

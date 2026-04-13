@@ -34,4 +34,4 @@ Event-sourced local-first log with optional end-to-end encryption and remote syn
 - [[effect-ts-v4]]
 - [[effect-reactivity]]
 - [[effect-rpc]]
-- [[effect-unstable-sql]]
+- [[effect-sql]]

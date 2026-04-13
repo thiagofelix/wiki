@@ -21,4 +21,4 @@ Implements `SocketServer` using Node's `net.createServer`. Collects pending conn
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node-shared]]
-- [[effect-unstable-socket-socket-server]]
+- [[effect-socket-socket-server]]

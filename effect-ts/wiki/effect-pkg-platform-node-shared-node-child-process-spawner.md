@@ -20,4 +20,4 @@ Node implementation of the core `ChildProcessSpawner` service. Handles environme
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node-shared]]
-- [[effect-unstable-process-child-process-spawner]]
+- [[effect-process-child-process-spawner]]

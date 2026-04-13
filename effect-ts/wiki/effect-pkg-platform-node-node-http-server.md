@@ -23,4 +23,4 @@ Implements `HttpServer` on top of `node:http`. Handles request and upgrade (WebS
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-http-http-server]]
+- [[effect-http-http-server]]

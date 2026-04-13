@@ -20,4 +20,4 @@ Provides the core `Socket` service backed by the browser `WebSocket` global. Use
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-browser]]
-- [[effect-unstable-socket-socket]]
+- [[effect-socket-socket]]

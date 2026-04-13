@@ -23,4 +23,4 @@ Wires an Effect cluster runner over raw TCP sockets. Re-exports `layerClientProt
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
 - [[effect-pkg-platform-node-shared-node-cluster-socket]]
-- [[effect-unstable-cluster-socket-runner]]
+- [[effect-cluster-socket-runner]]

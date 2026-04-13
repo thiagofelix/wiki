@@ -26,4 +26,4 @@ Browser-side HTTP client implementations. Re-exports the Fetch-based HttpClient 
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-browser]]
-- [[effect-unstable-http-http-client]]
+- [[effect-http-http-client]]

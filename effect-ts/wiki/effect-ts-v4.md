@@ -91,6 +91,4 @@ Use `@effect/vitest` with `it.effect` for all Effect-based tests. Use `assert` m
 - **ChildProcessSpawner** (unstable/process) — Typed child process management
 - **Cluster** (unstable/cluster) — Distributed entity RPCs
 
-## Related
 
-- [[airbyte]] — Another open-source tool in the raw sources

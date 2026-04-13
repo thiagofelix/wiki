@@ -26,4 +26,4 @@ Prometheus exposition-format exporter for Effect's `Metric` registry. Formats th
 ## Related
 - [[effect-observability]]
 - [[effect-metric]]
-- [[effect-unstable-http-router]]
+- [[effect-http-http-router]]

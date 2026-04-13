@@ -21,4 +21,4 @@ Implements `WorkerRunnerPlatform` for code running inside a browser Worker, Shar
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-browser]]
-- [[effect-unstable-workers-worker-runner]]
+- [[effect-workers-worker-runner]]

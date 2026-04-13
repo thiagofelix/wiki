@@ -29,5 +29,5 @@ React hooks for reading, writing, mounting, refreshing, and subscribing to Effec
 ## Related
 - [[effect-pkg-atom]]
 - [[effect-pkg-atom-react-registrycontext]]
-- [[effect-unstable-reactivity-atom]]
+- [[effect-reactivity-atom]]
 - [[effect-ts-v4]]

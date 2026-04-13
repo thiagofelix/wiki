@@ -26,5 +26,5 @@ SolidJS context providing the `AtomRegistry` used by `@effect/atom-solid` compos
 ## Related
 - [[effect-pkg-atom]]
 - [[effect-pkg-atom-solid-hooks]]
-- [[effect-unstable-reactivity-atomregistry]]
+- [[effect-reactivity-atom-registry]]
 - [[effect-ts-v4]]

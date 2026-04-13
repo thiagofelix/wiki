@@ -22,4 +22,4 @@ Implements the core `Socket` service over Node `net` and `ws`. Supports TCP clie
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node-shared]]
-- [[effect-unstable-socket-socket]]
+- [[effect-socket-socket]]

@@ -27,5 +27,5 @@ React context that supplies an `AtomRegistry` to the hooks in `@effect/atom-reac
 ## Related
 - [[effect-pkg-atom]]
 - [[effect-pkg-atom-react-hooks]]
-- [[effect-unstable-reactivity-atomregistry]]
+- [[effect-reactivity-atom-registry]]
 - [[effect-ts-v4]]

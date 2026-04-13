@@ -24,4 +24,4 @@ Server-Sent Events decoder implemented as a `Channel` transform. Parses an incom
 ## Related
 - [[effect-unstable-encoding]]
 - [[effect-channel]]
-- [[effect-unstable-http-client]]
+- [[effect-http-http-client]]

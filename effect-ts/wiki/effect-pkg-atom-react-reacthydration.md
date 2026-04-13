@@ -25,5 +25,5 @@ SSR hydration boundary component that applies dehydrated atom state into the cli
 ## Related
 - [[effect-pkg-atom]]
 - [[effect-pkg-atom-react-registrycontext]]
-- [[effect-unstable-reactivity-hydration]]
+- [[effect-reactivity-hydration]]
 - [[effect-ts-v4]]

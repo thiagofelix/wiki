@@ -24,5 +24,5 @@ HTTP client implementations for Node. Re-exports the Fetch client and adds an `U
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-http-http-client]]
+- [[effect-http-http-client]]
 - [[effect-pkg-platform-node-undici]]

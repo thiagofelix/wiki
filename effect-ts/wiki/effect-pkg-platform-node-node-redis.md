@@ -21,4 +21,4 @@ Wraps `ioredis` as an Effect service and bridges it into the core `Redis` persis
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-persistence-redis]]
+- [[effect-persistence-redis]]

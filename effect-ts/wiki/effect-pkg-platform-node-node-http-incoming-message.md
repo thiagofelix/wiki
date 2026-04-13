@@ -19,4 +19,4 @@ Abstract base class that adapts a Node `http.IncomingMessage` to the core `HttpI
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-http-http-incoming-message]]
+- [[effect-http-http-incoming-message]]

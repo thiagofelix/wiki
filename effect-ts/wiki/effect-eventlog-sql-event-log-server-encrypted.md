@@ -24,4 +24,4 @@ SQL-backed `Storage` for `EventLogServerEncrypted`. Persists per-public-key encr
 ## Related
 - [[effect-eventlog]]
 - [[effect-eventlog-event-log-server-encrypted]]
-- [[effect-unstable-sql-client]]
+- [[effect-sql-sql-client]]

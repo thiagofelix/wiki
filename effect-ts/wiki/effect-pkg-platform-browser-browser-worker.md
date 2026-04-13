@@ -20,4 +20,4 @@ Implements the core `WorkerPlatform` interface for browser `Worker`, `SharedWork
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-browser]]
-- [[effect-unstable-workers-worker]]
+- [[effect-workers-worker]]

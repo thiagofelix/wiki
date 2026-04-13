@@ -20,4 +20,4 @@ Bun-specific multipart body parser. Converts a Web `Request` into an Effect `Str
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-http-multipart]]
+- [[effect-http-multipart]]

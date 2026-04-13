@@ -21,5 +21,5 @@ Wires up an Effect cluster runner over HTTP/WebSocket using Bun's native HTTP se
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-cluster-http-runner]]
-- [[effect-unstable-cluster-sharding]]
+- [[effect-cluster-http-runner]]
+- [[effect-cluster-sharding]]

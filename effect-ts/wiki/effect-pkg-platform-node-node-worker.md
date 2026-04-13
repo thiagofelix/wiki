@@ -20,4 +20,4 @@ Implements `WorkerPlatform` for both `node:worker_threads` Workers and `node:chi
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-workers-worker]]
+- [[effect-workers-worker]]

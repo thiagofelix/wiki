@@ -19,4 +19,4 @@ Implements `WorkerRunnerPlatform` for code running inside a Node `worker_threads
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-workers-worker-runner]]
+- [[effect-workers-worker-runner]]

@@ -26,4 +26,4 @@ Integration between the reactive `Atom` system and `HttpApi`-defined endpoints. 
 - [[effect-reactivity]]
 - [[effect-reactivity-atom]]
 - [[effect-reactivity-atom-rpc]]
-- [[effect-unstable-http-api]]
+- [[effect-httpapi-http-api]]

@@ -30,6 +30,6 @@ Vue 3 bindings for Effect's `Atom` reactive system. Provides composables (`useAt
 
 ## Related
 - [[effect-pkg-atom]]
-- [[effect-unstable-reactivity-atom]]
-- [[effect-unstable-reactivity-atomregistry]]
+- [[effect-reactivity-atom]]
+- [[effect-reactivity-atom-registry]]
 - [[effect-ts-v4]]

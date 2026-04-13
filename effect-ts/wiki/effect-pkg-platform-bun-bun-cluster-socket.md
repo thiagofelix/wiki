@@ -22,4 +22,4 @@ Wires up an Effect cluster runner over raw TCP sockets using the Node shared soc
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
 - [[effect-pkg-platform-node-shared-node-cluster-socket]]
-- [[effect-unstable-cluster-socket-runner]]
+- [[effect-cluster-socket-runner]]

@@ -20,5 +20,5 @@ Implements `HttpPlatform` (file response generation) for Node using `fs.createRe
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-http-http-platform]]
+- [[effect-http-http-platform]]
 - [[effect-pkg-platform-node-mime]]

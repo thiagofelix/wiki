@@ -35,7 +35,7 @@ UI-framework bindings that surface Effect's reactive `Atom` system (defined in `
 
 ## Related
 - [[effect-ts-v4]]
-- [[effect-unstable-reactivity-atom]]
-- [[effect-unstable-reactivity-atomregistry]]
-- [[effect-unstable-reactivity-atomref]]
-- [[effect-unstable-reactivity-hydration]]
+- [[effect-reactivity-atom]]
+- [[effect-reactivity-atom-registry]]
+- [[effect-reactivity-atom-ref]]
+- [[effect-reactivity-hydration]]

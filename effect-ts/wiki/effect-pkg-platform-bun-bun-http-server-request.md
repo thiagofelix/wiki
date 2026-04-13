@@ -19,4 +19,4 @@ Tiny helper to recover the underlying `Bun.BunRequest` from an Effect `HttpServe
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-http-http-server-request]]
+- [[effect-http-http-server-request]]

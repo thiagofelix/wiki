@@ -22,4 +22,4 @@ Re-exports `@effect/platform-node-shared/NodeSocket` for TCP/net.Socket support 
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
 - [[effect-pkg-platform-node-shared-node-socket]]
-- [[effect-unstable-socket-socket]]
+- [[effect-socket-socket]]

@@ -21,4 +21,4 @@ Node-specific multipart body parser. Reads a `Readable` stream plus `IncomingHtt
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-http-multipart]]
+- [[effect-http-multipart]]

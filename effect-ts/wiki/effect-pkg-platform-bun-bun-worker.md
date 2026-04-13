@@ -20,4 +20,4 @@ Implements `WorkerPlatform` for Bun `globalThis.Worker`. Setup acquires a close-
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-workers-worker]]
+- [[effect-workers-worker]]

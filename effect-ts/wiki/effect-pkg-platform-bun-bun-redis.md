@@ -21,4 +21,4 @@ Effect-wrapped adapter around Bun's native `RedisClient`. Provides a `BunRedis` 
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-persistence-redis]]
+- [[effect-persistence-redis]]

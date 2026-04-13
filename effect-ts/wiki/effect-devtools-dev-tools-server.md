@@ -23,4 +23,4 @@ Server-side runner that accepts `Socket` connections from DevTools clients and d
 ## Related
 - [[effect-devtools]]
 - [[effect-devtools-dev-tools-schema]]
-- [[effect-socket-server]]
+- [[effect-socket-socket-server]]

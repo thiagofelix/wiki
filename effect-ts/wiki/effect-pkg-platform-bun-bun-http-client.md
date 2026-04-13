@@ -19,4 +19,4 @@ Re-exports the core `FetchHttpClient` module. Bun provides a native `fetch` impl
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-http-fetch-http-client]]
+- [[effect-http-fetch-http-client]]

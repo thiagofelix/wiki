@@ -23,4 +23,4 @@ Implements `HttpServer` on top of `Bun.serve`, including native WebSocket upgrad
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-http-http-server]]
+- [[effect-http-http-server]]

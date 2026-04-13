@@ -27,5 +27,5 @@ Utility for binding an `Atom` instance to a React context-scoped provider. Usefu
 ## Related
 - [[effect-pkg-atom]]
 - [[effect-pkg-atom-react-hooks]]
-- [[effect-unstable-reactivity-atom]]
+- [[effect-reactivity-atom]]
 - [[effect-ts-v4]]

@@ -22,4 +22,4 @@ Re-exports the shared `NodeSocket` module (TCP clients and generic Duplex adapte
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
 - [[effect-pkg-platform-node-shared-node-socket]]
-- [[effect-unstable-socket-socket]]
+- [[effect-socket-socket]]

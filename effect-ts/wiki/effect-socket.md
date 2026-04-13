@@ -21,4 +21,4 @@ Abstract bidirectional socket primitives. `Socket` represents a client connectio
 - [[effect-ts-v4]]
 - [[effect-channel]]
 - [[effect-devtools]]
-- [[effect-unstable-http-client]]
+- [[effect-http-http-client]]

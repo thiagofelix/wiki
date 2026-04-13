@@ -26,5 +26,5 @@ Shared batching HTTP exporter used by the OTLP logger, metrics, and tracer modul
 ## Related
 - [[effect-observability]]
 - [[effect-observability-otlp]]
-- [[effect-unstable-http-client]]
+- [[effect-http-http-client]]
 - [[effect-ts-v4]]

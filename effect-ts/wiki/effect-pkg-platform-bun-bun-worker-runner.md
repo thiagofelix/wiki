@@ -19,4 +19,4 @@ Implements `WorkerRunnerPlatform` for code running inside a Bun Worker. Posts th
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-workers-worker-runner]]
+- [[effect-workers-worker-runner]]

@@ -25,5 +25,5 @@ Batched `RequestResolver` constructors for SQL queries. Groups multiple request 
 - `raw/effect-smol/packages/effect/src/unstable/sql/SqlResolver.ts`
 
 ## Related
-- [[effect-request]]
+- [[effect-request-resolver]]
 - [[effect-sql-sql-schema]]

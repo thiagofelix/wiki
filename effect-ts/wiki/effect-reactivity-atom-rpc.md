@@ -27,4 +27,4 @@ Integration between the reactive `Atom` system and RPC clients. Generates an `At
 - [[effect-reactivity]]
 - [[effect-reactivity-atom]]
 - [[effect-reactivity-atom-http-api]]
-- [[effect-rpc-client]]
+- [[effect-rpc-rpc-client]]

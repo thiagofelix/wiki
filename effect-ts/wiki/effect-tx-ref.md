@@ -24,7 +24,7 @@ The core Software Transactional Memory primitive in Effect v4 — a mutable refe
 
 ## Related
 - [[effect-ts-v4]]
-- [[effect-ref]]
+- [[effect-mutable-ref]]
 - [[effect-tx-chunk]]
 - [[effect-tx-hash-map]]
 - [[effect-tx-queue]]

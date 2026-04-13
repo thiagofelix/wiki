@@ -24,4 +24,4 @@ SQL-backed implementation of `EventJournal` supporting Postgres, MySQL, MSSQL, a
 ## Related
 - [[effect-eventlog]]
 - [[effect-eventlog-event-journal]]
-- [[effect-unstable-sql-client]]
+- [[effect-sql-sql-client]]

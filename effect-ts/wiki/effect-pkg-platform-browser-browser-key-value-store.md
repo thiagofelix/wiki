@@ -20,4 +20,4 @@ Implements the core `KeyValueStore` interface on top of the browser Web Storage 
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-browser]]
-- [[effect-unstable-persistence-key-value-store]]
+- [[effect-persistence-key-value-store]]

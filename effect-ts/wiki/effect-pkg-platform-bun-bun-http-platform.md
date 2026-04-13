@@ -19,4 +19,4 @@ Implements the `HttpPlatform` service (file response generation) for Bun. Uses `
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-bun]]
-- [[effect-unstable-http-http-platform]]
+- [[effect-http-http-platform]]

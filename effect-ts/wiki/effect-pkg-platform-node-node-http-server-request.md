@@ -20,4 +20,4 @@ Escape-hatch helpers to recover the underlying Node `IncomingMessage` or `Server
 ## Related
 - [[effect-ts-v4]]
 - [[effect-pkg-platform-node]]
-- [[effect-unstable-http-http-server-request]]
+- [[effect-http-http-server-request]]
