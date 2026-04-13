@@ -1,0 +1,63 @@
+/* Obsidian-style properties panel */
+
+/* Properties admonition — compact, muted, top-of-page */
+.md-typeset details.info {
+  font-size: 0.82rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  box-shadow: none;
+  background: var(--md-default-bg-color);
+  margin-bottom: 1.2em;
+}
+
+.md-typeset details.info > summary {
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--md-default-fg-color--light);
+  padding: 0.4em 0.8em;
+  min-height: unset;
+  background: var(--md-code-bg-color);
+  border-radius: 8px 8px 0 0;
+}
+
+.md-typeset details.info[open] > summary {
+  border-radius: 8px 8px 0 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Definition list rows inside properties */
+.md-typeset details.info dl {
+  margin: 0;
+  padding: 0.3em 0;
+}
+
+.md-typeset details.info dt {
+  font-weight: 600;
+  font-size: 0.78rem;
+  color: var(--md-default-fg-color--light);
+  padding: 0.25em 0.8em 0;
+  margin: 0;
+  min-width: 5em;
+}
+
+.md-typeset details.info dd {
+  font-size: 0.82rem;
+  padding: 0 0.8em 0.35em;
+  margin-left: 0;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset details.info dd:last-child {
+  border-bottom: none;
+  padding-bottom: 0.5em;
+}
+
+/* Source tags */
+.md-typeset details.info code {
+  font-size: 0.72rem;
+  padding: 0.1em 0.35em;
+  background: var(--md-code-bg-color);
+  border-radius: 3px;
+}

@@ -1,0 +1,5 @@
+docs/
+site/
+_nav.yml
+__pycache__/
+*.pyc
