@@ -1,0 +1,977 @@
+Surprise.
+All right. Um, I think it's time to
+open a new chapter.
+It's time to close a chapter and open a
+new chapter.
+Right about a year ago now, back in
+February, I discovered something called
+the Z80.
+I'm going to break apart the Z80 and
+explain why it spooked the ever living
+[ __ ] out of me.
+It was misunderstood back then.
+I hope now people can come to an
+understanding
+why the Z80 scared me back in February.
+The Z80 was essentially a proof of
+concept on how you could essentially
+clone companies or products.
+And how you can drive LLMs as
+essentially crypto
+mixers of intellectual property.
+I took a application that was in
+uh, C. I generated application in C.
+And then I compiled it.
+>> [clears throat and snorts]
+>> I then threw away the application that
+was in C.
+And then I decompiled it
+to assembly.
+Then I throw threw away both those two
+things and I just had assembly.
+From there I was in the inner workings
+of discovering of Ralph.
+I had kind of refined the technique and
+I was just on the a break of like
+running in a loop.
+And I issued the prompt.
+Hey, can you study the assembly here?
+Keep in mind there's nothing else in the
+project folder. It's just the assembly.
+Can you just study the assembly and you
+can you create me some specifications of
+exactly what this application is?
+What is this application?
+And it did its thing. I think this was
+like Sonic 3.5 at the time.
+And it built me the specifications of
+the application.
+So, the application was essentially a
+very basic
+sales ca- uh, sales tax calculator.
+Just a toy. Just a toy.
+I mean, like if it could do this, it
+could it do something bigger.
+So, I've generated this sales tax
+calculator. I've taken it through the
+full hog.
+Down to assembly, threw away any
+artifacts so there was no cheating, and
+I took it up to specs.
+I had a look at those specs and the
+specs looked pretty good.
+So, I I threw away the assembly.
+And now I had All I had was specs,
+folks. All I had was specs.
+It was at that point on a brand new
+project with just the specs,
+I did Ralph by hand.
+And I issued a prompt.
+Can you convert this Intel application
+that's in specs and make it run on
+the Sinclair Z80.
+Now, it took a lot of time because it uh
+it wasn't really the time wasn't on the
+coding agent side.
+It was me. I was trying to remember how
+do I actually create a a Sinclair Z80
+floppy? And how do I get loop backs
+going? How do I close the loop so I can
+introspect? It was a painful manual
+process. But there was no- the pain
+wasn't on the AI side. The pain was
+essentially creating a devops loop for
+a Sinclair Z80 from 1980 to 1984. I
+forget when it is. Like like
+old technology.
+And I went through and I kept chugging
+on up through.
+And the answer is yes.
+Yes, I was able to convert an
+application
+from
+uh,
+Intel
+to the Sinclair Z80 from specs. I was
+able to code generate from specs. And
+that was just for me, that was my
+proving point that wow, things aren't
+going back and it really spooked me.
+Because I was on the verge of
+discovering Ralph.
+And uh, I guess what I'll share about
+Ralph, um,
+is
+my son. We're playing Factorio and we we
+we were deep in playing Factorio. I'm
+having so much fun. And he wanted to go
+watch a movie. He's like, "Dad." He's
+watching me.
+"You seem to be doing the same thing
+again and again and again.
+How about you just put it in a loop?"
+So, I put it in a loop.
+And that is how Ralph was born.
+My son told me to put it in a loop.
+He's uh, he was nine at that stage.
+So, what where where I got really to
+close off this story arc, where I got
+really spooked because I realized that
+you could port from one language to
+another language, from one CPU
+architecture to another CPU
+architecture.
+And that was the proving point.
+I ran Ralph in a loop and the first
+thing I do was like, "Okay, well this is
+the toy that's on my mind.
+Can I clone a company or the feature set
+of a company?"
+Now, a company is normally uh, made up
+of people and people say the people are
+the asset.
+Um, this is true. But how many at what
+percentage of the people are the asset
+in the company?
+I'm sure you know someone who isn't
+lifting their weight in your current
+workplace.
+Anyway,
+so um, what does it mean to be in
+business if uh,
+you like
+let's say you're a 5,000 person company
+and you're a SaaS company.
+What does it mean if someone can just
+run a Ralph loop to effectively clone
+your product feature set
+and enter into market and it's just two
+two people sitting on a beach in Bali
+having the time of their lives living
+like kings? And they go into competition
+with that other company that with that
+many people. What happens to all those
+people? What happens to profit margins?
+So, I set out to prove this theory.
+So, I I I took the Z80 with Ralph.
+The first thing I did
+was I took uh, HashiCorp Nomad.
+HashiCorp Nomad has the BSL license or
+AGPL, whatever it is.
+And I'm like, "Ooh."
+The way we came to have Intel
+and AMD CPUs is because of the what was
+called a clean room design technique.
+What happened was AMD hired an engineer.
+The engineer generates some specs
+by reverse engineering the Intel CPU.
+That engineer is now dirty.
+They can never work at AMD again. They
+get some golden handcuffs and they're
+out.
+Done. A golden parachute and they're
+out.
+However,
+they created specifications.
+And these specifications are classified
+as
+brand new
+intellectual property that AMD uses. So,
+what does AMD do? They hire a a team of
+engineers to implement the
+specifications.
+And now we got the AMD CPU.
+So, I know this story cuz I've been
+around
+tech for a very long time now.
+And then you have a look at and you're
+thinking, "Wait a second, I've got some
+specs.
+Could I clean room a company?"
+So, I I took down HashiCorp Nomad.
+Pulled down the source code, ignored the
+license,
+and ran it ran it in a Ralph loop
+to generate specifications.
+You see, you can run Ralph in forward
+mode to build. You can also run Ralph in
+reverse mode. I don't know how many
+people picked up on this. You can run
+Ralph in reverse to automate reverse
+engineering existing intellectual
+property to clean room that intellectual
+property.
+And uh, the models weren't as great
+uh, back then,
+but it was able to do it. It took a high
+degree of skill.
+I was able to like essentially build out
+the product feature set for HashiCorp
+Nomad.
+But it was only 80% because HashiCorp
+didn't release all of the intellectual
+property. The enterprise stuff wasn't
+there. So, I'm like, "Huh, how am I
+going to fix this? How am I going to fix
+this, folks? I've got a 80% there and
+I've just All I've done is essentially
+replicated the product feature set of
+the open source or the source available
+side of things.
+I know.
+Let's run Ralph in reverse over the user
+guides, the enterprise user guides, the
+admin guides, the product feature sets,
+the marketing data. Anything goes.
+And I got the remaining 20%.
+And then I ran Ralph in forward mode.
+And uh, the rest is history. It left me
+pretty spooked thinking about what is to
+come. So, I did a lot of like conference
+talks focusing on juniors to invest in
+themselves.
+Ralph was released in
+July-ish after like catching up with
+people in San Francisco. Maybe I
+shouldn't held onto it a little bit, but
+what is done is done.
+And uh, the end result now is uh, if you
+run Sonnet 4.5, which is a damn good
+model,
+in a loop for 24 hours,
+and then you divide it by 24, you get an
+hourly cost of $10.42 an hour.
+Software development
+is now cheaper
+than a burger flipper at Macca's.
+Yep, and it can be done whilst you
+sleep.
+This is Ralph.
+This is Ralph.
+So, that was really scary. So, it led to
+the idea that like, "Oh, wow.
+What is a moat in open source in SaaS
+now? What is a moat in SaaS now?
+What is the like what are software
+licenses now? Like if you can literally
+just
+create some plausible deniability, what
+about all these companies that raised
+these massive rounds
+uh a massive rounds.
+And they've got so many people working
+for them to be able to like that's the
+old world. The new world is you run a
+Ralph loop and then you chill on a beach
+in Bali.
+It's called Clayton Christensen
+disruptive innovation.
+This is going to be coming. If you don't
+think this is not going to be coming,
+well, one, you should be the one doing
+it because the opportunity it's the
+opportunity of a lifetime right now. Go
+do it.
+Two, you should speak with a founder.
+Right now, founders are [ __ ] scared.
+Absolutely [ __ ] scared.
+Like get out of your bubble, software
+developers, because the unit economics
+have changed in software development
+forever.
+Absolutely forever.
+So, I guess
+this is not the first time these things
+have happened in society.
+There was a time when like before we had
+the box or the shipping container.
+What happened was people used to carry
+cargo on and off the ships by hand,
+dockworkers.
+Maybe dockworkers are actually software
+developers
+because the box just arrived, a way to
+automate software development.
+So, now we got the box.
+And like I'll use BS numbers here, but I
+assume it was like a $100 a ton
+and then it went down to cents a ton now
+that you could just get some cranes and
+lift the cargo off the box. It forever
+changed the shipping industry.
+I think very similar for what's to come
+and what comes after Ralph will do
+exactly the same. But as we are now, if
+you run Sonnet
+in a loop,
+it is cheaper than
+minimum wage.
+Ouch.
+So, it comes into the question if there
+is no moat anymore in open in SaaS.
+What like maybe that's taken a little
+bit too far, but I I'm I'm trying to
+figure out what the moats are. For the
+last year, I'm thinking, "What is a
+moat?" And the only thing I could really
+think of
+is infrastructure.
+Maybe infrastructure is the only moat
+left for a founder.
+So, I think the employment market is
+going to get really, really tight. If
+you think it's tight now,
+you ain't seen nothing yet.
+You're coming across this video, I hope
+from this point I'm just going to be
+like accessible things
+for knowledge that you must know going
+forward cuz I've been thinking about it.
+I've been thinking about it for a damn
+long time.
+If you're new to the entire thing in
+this type thing, this is the story arc
+or chapter that I'm closing out. I did a
+whole bunch of public talks
+around the world, keynotes, locknotes,
+essentially talking about, "Oh, crap,
+it's on. It's on like Donkey Kong. It's
+It's happening, folks." And it was a big
+plea for people to invest in themselves
+because
+I knew
+some things.
+Like please invest in yourselves.
+And it's interesting now, it's we're now
+a year in, there is now a cohort
+of people who really get it.
+They've been practicing for a year. If
+you think that you can just pick up the
+latest model
+and like
+get good at it, yeah, you can.
+Understand there is a cohort of juniors
+at least six months of juniors before
+you who got syndi- where my my post got
+syndicated by the Prime Gen
+and they paid attention.
+They have been Ralphing. If you're a
+senior at software engineer right now
+and you're just picking up the tools
+now,
+uh how much is your paycheck? How much
+is a junior's paycheck?
+They've got six months advantage on you
+and it's not about the models. They've
+learned tricks. They know how to tune
+the guitar. They know how to do all
+these really cool things. A year in,
+myself I I'm able to just I know about
+loopbacks and what type of tricks work
+and don't work. And it's sad that other
+people don't know this as well. I'll be
+sharing sharing these in time.
+Um so, it's important you don't don't
+just wait for the models to get get good
+cuz when the models get good,
+it's it's game over if you haven't been
+paying attention.
+And this is a lot of the motivations
+behind
+this blog post. What do you mean that
+some some software developers are not
+going to get it?
+In here, I explain a natural evolution
+where
+a software developer
+just doesn't make it in their current
+company
+due to employee performance bell curves
+of like the gradings that happen. In a
+high performance company, they're
+normally six months, sometimes they're
+12 months.
+This is not going to happen at all
+industries all at once.
+But this was me, this was the steps that
+I personally went through and I went
+through other engineers.
+And I was like, "Huh."
+Like I'm I was originally up on the top
+left.
+And I'm like, "It's not good enough.
+Prove it to me it's not hype."
+You start experimenting with it. And
+then you get this like, "Oh, fuck."
+And what just happened in December is a
+whole bunch of people finally picked up
+the guitar and played and they
+discovered the "Oh, fuck."
+Because I'm just going to draw something
+here that should be painfully obvious to
+people.
+If I draw a line down here,
+I no longer hire people
+on the left side of the equation
+unless they're damn exceptional. I'm
+looking for AI first engineers who have
+six months to a year's worth of
+knowledge. Unless you got some
+spectacular skills or you're very close
+to getting there,
+you're not in the hiring pool, folks.
+What you do is you pay this person here
+pretty well and the person who is
+automating their job function, you pay
+them exceptionally.
+And then I'm speaking with founders and
+in group chats with other founders and
+yeah, that it's it's
+it's
+it's matching their mental model as
+well.
+Um I remember
+a couple days ago, someone shared
+something with me. They did a commit
+graph of all the commits done in the
+company.
+And what it was what it was
+is out of all the engineers in the
+company,
+out of all the engineers in the company,
+you imagine that it was this for a
+select few of people and everyone else
+was like that cuz like this was
+Ralphing. It was all leadership. They're
+all back on the tools.
+And it's kind of crude to say, but like
+you somewhat joke like like
+keep those fire the rest.
+Really crude. Cuz they're they're
+they're they're they're they're doing
+that and everyone else is doing that.
+Um
+and we probably a little bit more it's
+like we can't. Well,
+who are those people? Well, they're the
+leadership team.
+The leadership team are on the tools and
+this is established engineering org.
+They're all technical, technical
+founders.
+Folks, this is coming. This is This is
+coming.
+Go speak with founders. There is no
+moat.
+Business model has changed.
+And the problem with I guess why would
+you like if this person understands
+that this is coming, why would you not
+put them in the consideration pool?
+It's because the person could run back
+up the hill. This is a psychological
+distress area. We got this right now in
+mass in the industry.
+You never know if what someone would do
+if they're deer in the headlights and in
+distress. Do they lean into it and get
+good?
+Um do you put for a ladder down and you
+rescue them? You rescue them.
+But they might run back up the hill and
+say that like AI is fascism.
+There are people out there right now
+saying, "I will never use AI because
+it's fascism."
+Meanwhile,
+the line's coming, folks.
+There's a cohort of people who got
+exceptionally good at this in the last
+year cuz they've been investing in
+themselves. There is a cohort There's
+half a cohort of juniors
+who have been applying themselves.
+Pay attention, folks.
+Cool.
+Enough
+fear
+type things. It's just it's a it's a
+cold hard brutal topic.
+And um
+I just like to not be able to say it
+anymore.
+Um
+I said I'm saying this with care, real
+absolute care.
+It's coming, folks.
+Anyway,
+so I'm going to close this out
+and quickly talk about why you may not
+be seeing it.
+May not be seeing it.
+If you're in corporate, expect to see a
+three to four-year transformation a
+transformation program. Kind of like how
+we had agile coaches type stuff.
+You see in corporate, what happens is
+corporate has all these
+standards and all the things and they're
+trying to bend
+LLMs
+to do corporate
+with corporate data sets and like coding
+standards and all this stuff.
+And my grave concern is by the time
+these corporates actually do these
+transformation programs, that's enough
+time on a Clayton Christensen scale for
+disruptive innovation for a couple
+people in Bali building a model first
+company.
+Go find people if you're not sure what
+your next job is, find a model first
+company. Otherwise, you're going to be
+going through some crazy
+times.
+Going to be going through crazy times
+and I suspect it's going to be kind of
+like Titanic.
+Sorry, this lifeboat is full. Get the
+next lifeboat.
+So, either go be those two people in
+Bali like use the knowledge of Z 80, go
+clone a company and go live a great
+life.
+Props if you do that and you make
+millions, go buy me a beer or something
+later in life.
+Um but for everyone else,
+uh
+let's get to skills.
+Let's get to skills.
+In this over here,
+over in this talk,
+I uh talked about here we go.
+Black and white.
+There's not going to be mass layoffs due
+to AI. What we'll see is a natural
+attrition. Well, I think the natural
+attrition is going to be sped up and
+it's sped up cuz AI is getting really
+good and there's now a
+pull
+like everyone's going to be going after
+that that one year experience, six
+months experience pull.
+And then if I look at this,
+if I look at this,
+I remember this.
+I remember my co-workers thinking I was
+goddamn mad when I said IDEs are going
+away. Like
+you know, and like
+well,
+they're gone. Like I don't really use
+them. I use them as like a explorer.exe
+or a finder.app now.
+Like I use them as a crash cart to
+connect and diagnose what's going I'm an
+agent.
+Um I know that's not universally true in
+all disciplines, but
+it's it's coming.
+And I remember people equally saying
+that
+if people equally saying that Boris were
+Boris and then uh Dario were bonkers for
+saying that AI would generate all the
+code and this would happen. We're here.
+We're here.
+When you start building AI products
+with these concepts I'm going to get
+into now,
+it gets recursive. You start building a
+product with AI that can self-improve
+itself and the speed that it happens at
+is shockingly
+terrifying.
+Shockingly terrifying. So,
+it's so easy to dismiss something if you
+don't see it happening. Doesn't mean
+it's not happening. There are model
+first companies right now like Y
+Combinator companies have been ralphing
+for the last six months. That's why I
+had to publish the blog post because
+like the word would get out and someone
+put the name on the technique, yada yada
+yada.
+So, let's quickly dig into this.
+If I was to ask you what a linked list
+is, what was I ask you what a linked
+list linked list is? You should know
+what a linked list is. Cool.
+But how many of you actually
+can pull out a whiteboard and build me
+an agent?
+Can you show me the inferencing loop?
+If you don't know this, your career is
+in jeopardy.
+Your career is in jeopardy.
+You need to know the inferencing loop.
+You need to know that the server has
+no memory.
+It's just an array.
+It's an array that's continually
+appended to. A tool call automatically
+appends to that array. What is a tool
+call? If you don't know what that is,
+you need to learn what it is.
+And all these basic fundamentals. So,
+now I now look for candidates and I
+preference candidates if they know
+what a tool call is, how the inferencing
+loop works. Pull out a whiteboard the
+same way we used to like show me a
+linked list, reverse me this data
+structure, that type of stuff. This is
+now baseline knowledge because
+we're getting candidates in that can
+answer this stuff.
+That's what you're competing against,
+people who have been curious.
+Okay, so what what really should close
+off this deep topic is someone can be
+highly experienced as a software
+engineer in 2024, but it does not mean
+they're skilled as a software engineer
+in 2026 or 2025 when I first gave this
+talk because the baseline knowledge you
+need to get a job has changed.
+And it's changing really fast, but these
+fundamentals never go away.
+So, let's do something here.
+I put
+to uh
+try to send some letters down to juniors
+and other people who are curious, I made
+a workshop.
+And this workshop is called how to build
+an agent.
+We're going to critic critically look at
+Cursor, Windswept, Amp, Claude Code, and
+all these other coding agents.
+And I want you to like understand that
+they uh
+300 lines of code running a loop.
+That's all it is.
+It's really simple. There are so many
+companies out there and people they're
+hoping like like open code's better.
+Uh antigravity antigravity's better.
+This is better. That is better. That is
+better. That is better.
+It's just noise. It's just noise.
+They're all the same this the freaking
+same. The models do all the work. The
+models do all the work, not the harness.
+The harness just put out the strong
+brand marketing game, folks, and they
+they take a different stab at design on
+how to particularly solve problems. It's
+the models that do all the work. Stop
+flapping around with the model drop down
+selector
+unless you're like me and you actually
+want to add a more biased a model or you
+have particular needs that you want for
+this type of domain or problem, you want
+to use a thinking model. For this domain
+or problem, you want an agentic model.
+So, a thinking model is more open AI-ish
+03 and agentic model is more like Sonnet
+or Opus.
+Cool. So, I built this workshop.
+And I really stressed that it was not
+hard to build a coding agent. And we
+went through and done it. I've never
+actually done a recording of this of
+this talk and it's kind of late, so I'm
+going to watch this up.
+Um hopefully at another conference, I'll
+give this because it's basically this
+will transform you from being a
+consumer.
+If I come back to
+this very crude MS Paint,
+consumer is this one here, someone just
+using MS Paint. If you want edge, you
+got to know these fundamentals. You got
+to know how to program
+AI.
+Cool. So, transforms you from being a
+consumer to someone who can actually
+automate things.
+So, let's pull it up.
+Here.
+Surprise, surprise, Ralph is is a bash
+loop
+that uh system calls the tool calls.
+Well, I like to see it as a malleting
+orchestrator.
+Um it's meant to be crude. It's meant to
+be simple
+because it makes it easy for it to be
+taught.
+Well, Cursor is it is a similar a tool
+call. There was a time when we were
+using GPT 3.5
+where uh GPT 3, you used to have to like
+have an IDE open and you have
+uh you had to have the web browser open
+and you ask I want a Python program.
+And it would generate a Python program.
+Cool. And then you would copy and paste
+it
+over into the IDE, press compile, and
+then you copy and paste the compilation
+errors. And you put it back and back and
+forth, you're just copying and pasting.
+Tool calling was essentially the
+automation of copying and pasting.
+So, first off, most fundamental is
+AI is really you ask for the for the
+user input, their prompt. You get the
+response. It's an array and there's some
+structure to it. I'm not going to get
+into here. It's easy for you to learn
+that stuff.
+Um so much documentation out there. And
+it's sent off inferencing. Cool. And
+then you print the response.
+So, let's say that I was to say, "Hey,
+what's the weather today?"
+Well, it would send it off
+and it and it would come back and goes,
+"Well, I don't know. I'm an AI."
+Well, to actually get the weather going,
+you actually need to register a tool.
+You need to register a tool, folks.
+So, let's have a look.
+How do you register a tool?
+You do a tool registration.
+You do a tool registration. You also
+remember to provision a Anthropic API
+key before you go live and stream. So,
+give me a moment.
+>> All right, welcome back. Sorry about
+amateur hour. This is I'm not a
+professional YouTuber.
+Um I'm sorry about audio levels. I've
+got a new microphone arriving tomorrow,
+hopefully. So, that's going to be a
+Shure SM57B and a microphone stand. So,
+audio quality is going to be better in
+the next ones.
+So, enough of that. Let's bring in our
+API key.
+And if I accidentally show the API key,
+have fun. It's only got 20 bucks in the
+account.
+Cool.
+If I go go run chat.go.
+This is the workshop.
+It's about GitHub.
+Uh ghuntley.com/agents
+or just search how to build an agent on
+GitHub. It's got
+5.5 or 6K of stars, whatever it is. Like
+it's it's a lot of people who have built
+an agent. You are competing against
+those people who have built an agent.
+I look for this skill and this knowledge
+cuz it's a sign of curiosity. It's
+signal.
+If you're interviewing people, you
+should be looking for this signal right
+now.
+And quickly, cuz I almost showed the API
+key.
+Knew that would happen.
+Okay. So, before we got on that side
+track,
+we're talking about what's tool
+registration. Like tell me the weather.
+Tell me the weather in Sydney.
+Authentication error. Yay, it's going to
+be one of those streams. Anyway, so the
+main point that I want to make is I'm
+going to just talk through it. What you
+can do is you can just give it a prompt.
+This is a tool registration. And what
+happens is it will when it comes back
+from the inferencing turn,
+it will go, well,
+uh
+I need to execute the
+the tool that's been advertised me cuz
+it's in the array and it's going to do
+inferencing. It's going to come back.
+The tool has been executed on the local
+computer.
+And uh the results are automatically
+copied and pasted back and sent back for
+more inferencing.
+And at that point it comes back again,
+that's another turn.
+And it displays what the weather is. It
+goes, hey, the weather today in
+Melbourne is grand or Sydney is grand.
+From that point forward, you've got your
+tools, you've got your tool
+registrations, and this is the flow.
+You've got your original chat and you've
+you've in in your harness, you've
+advertised the functionality, which is
+just a method, which could be an API to
+get the weather, and a billboard on top
+that says, hey, I've got a capability. I
+can like tell you of the weather if you
+ask me.
+If the model asks me. So, you get the
+user input, what is the weather? And
+then you send it off to the server for
+inferencing and it comes back. It goes,
+I really want to execute that capability
+that you advertised.
+I want to execute that capability that
+you advertised.
+And then you go, if it wants the tool,
+then you execute the tool, then you add
+it back into the array, you send it off
+for more inferencing.
+And uh it's a shame that the workshop
+isn't properly working cuz I half-assed
+this.
+But uh all all coding tools uh
+essentially a collection of the
+following tools. You advertise a
+capability to read files from the local
+file system.
+So, the user says, hey, uh study spec
+star.
+And then it will call the read tool and
+the read tool automatically copy and
+paste the contents of
+all of that files that it discovers.
+Um
+back and put it back for inferencing and
+yada yada yada, we're done. The next
+thing from there is
+a list tool. A list tool is like kind of
+like this is the files in my file
+system.
+These are the files in my file system.
+So, it makes the model awareness. So,
+what normally what would happen is you
+got the list tool. It's like find me uh
+if I go study prompt uh spec/star.
+And I've got a read tool and a list tool
+registered, what will happen is it goes,
+well, I don't know what star is, so I'm
+going to execute the list tool to look
+at what files are in the
+in the uh in that folder. And then I'm
+going to invoke the read tool to read
+the read the files that I desire. This
+is Notice that this is there's so much
+inefficiency here. It's like a
+multi-turn step. It's not like I'm going
+to discover it all myself locally and
+then send it to the server. No, there's
+so many turns going backwards and
+forwards on each request. There's so
+much here that can be optimized.
+And if you're thinking like an engineer,
+you'd be not liking this inefficiency.
+There's so much more that we can do.
+And then like likewise, you'd be like,
+okay, cool. I now have
+a ability to read a file, look look look
+what files are in a folder.
+Um I guess uh the next thing from there
+is like I give it a prompt. Can I you
+run
+uh PS on my computer or run sudo on my
+computer?
+Well, you need a bash tool. So, it does
+it does the turns backwards and forwards
+and executes the bash tool and then
+sends it back for more inferencing.
+And why this matters is
+if you add in a edit tool,
+you now have a full-blown coding
+harness. You can do this workshop in
+under 30 minutes, folks.
+You can do this workshop in under 30
+minutes and this is baseline knowledge
+to be hired
+in 2026.
+And I speak with other founders and
+we're like, yeah, this is this is the
+bar now because there is a pool that we
+can hire from that has this knowledge.
+And if they have this knowledge, they're
+not a consumer. They're a builder.
+People want builders. People want
+builders.
+And why this gets why this is really
+interesting is and why Cursor is really
+cool and why Ralph is really cool, it's
+really just a loop.
+If you take these four five simple
+primitives, run in a loop, you've you've
+built your own Cursor.
+If you understand these primitives and
+you understand like context windows and
+how to allocate them and how these tools
+work,
+then you're basically on your way to
+becoming a mechanic who doesn't just
+doesn't do engine swaps.
+You're a mechanic that actually
+uh knows how to rebuild an engine and
+has rebuilt a couple of carburetors
+before in life. This is the line
+difference now.
+This is some baseline fundamental
+knowledge that isn't really being
+taught. However, I did notice uh
+I think it's Stanford is now teaching
+this.
+Uh this knowledge. So, yeah. Um it's
+getting late.
+Um sorry for such a dark uh talk, but
+like please go build your agent. There
+is a goddamn
+line coming.
+You might not be feeling it yet
+cuz maybe your company is going to be
+going for a multi-year transformation
+program. So, you have a choice.
+Do you hang around for a multi-chance
+transportation platform when you're the
+one one or two that in the company that
+get it?
+Or do you just go hang around people who
+do get it because they are concerned of
+all what is coming?
+Folks, please invest in yourself. Until
+next time and I hope
+next time I'll actually do some prep
+with the thing so that the workshop
+actually works. Until then, I'm going to
+be doing a live stream
+podcast in the morning. So, I'll see you
+in the morning. I'm going to get to bed.
+Until next time.

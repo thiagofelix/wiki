@@ -1,0 +1,642 @@
+[music]
+[music]
+[applause]
+>> Hey everyone. My name's Jeff Huntley.
+Here today to tell you how to build an
+agent. Like
+you hear this word agent all the time.
+Agent, agent. You're probably sick of
+it. But has anyone ever explained to you
+what it is from first principles?
+Like it's not that hard, folks. It's
+really [laughter] not that hard.
+To build an agent.
+It's 300 lines of code.
+Believe it? It's only 300 lines of code.
+Running in a loop.
+Here's LLM tokens. That's all it is. 300
+lines of code running in a loop with LLM
+tokens. You just keep throwing tokens on
+the loop and then you've got yourself an
+agent.
+So today we're going to be building one.
+We're going to be doing it live and I'll
+explain the fundamentals on how it all
+works.
+So
+this slide is is intentionally blank
+because we are now in 2025.
+It is now the norm to have concurrency
+in doing work. So what better way to do
+2025
+than to uh
+build the agent while I do the talk.
+Then we'll come back and have a look at
+it at the end of the talk.
+Okay, so
+uh we have a little blog post over here
+how to build an agent. You can use any
+code tool out there. You use any coding
+tool out there. You could use Amp or you
+use WinSurf or Cursor or Claude Code.
+You can literally just say
+build me an agent with this blog post
+and it'll build you an agent.
+Like it's unhinged. At the end I'll be
+giving you the uh the workshop materials
+so you can run this internally within
+your organization.
+So let's kick this off.
+Cool. We're now building an agent.
+So this is one of the things that's
+really changing now
+um as the normal software development is
+like the fact that you can do a spike or
+you can build something
+uh while you're in a Zoom call, right?
+This is where you get this notion of
+concurrency and this is how it's going
+to change a lot of the things that's
+happening in software development.
+>> [snorts]
+>> This is where I do. Please build your
+own, folks. It's important to be
+engineers. It's important to understand
+the primitives of like what's going on.
+If I was to ask you what a primary key
+is, you should know what a primary key
+is. That's been a norm for a long time.
+Knowing how to build an agent has been
+like something now not what's coming in
+with employers is knowing how to build
+that agent is really important. It's
+like this this the new fundamental
+knowledge of like what a from what up
+step from what a primary key is. You
+still need to know what a primary key
+is.
+You also need to know how to build an
+agent at some employers.
+>> [sighs]
+>> So it's like having this knowledge will
+transform you from being consumer of AI
+into being into being a producer.
+This is really key.
+They can really automate things at your
+company.
+So
+if you're going to join me later this
+afternoon to for closing the conference,
+I'll be getting into this a little bit
+more deeper.
+But
+you'll find yourself potentially
+somewhere in this journey.
+So up on the top left we've got like
+prove it to me it's not it's not real.
+Prove it to me it's not Prove it to me
+that it's not hype. It's not good
+enough. Not good enough. Not good
+enough.
+Meanwhile the people who are stuck up
+there on that left side of the cliff
+completely ignoring these people up on
+the right side of the cliff completely
+automating their job function.
+So any disruption or loss of jobs
+related to AI is not through AI, it's
+through lack of personal development.
+Um and investing yourself. Tech The tech
+travelator has always moved on.
+Always moved on. The travelator is just
+moving on here, folks.
+So learning how to build an agent is
+just really key. It's like knowing what
+a primary key is.
+So my name's uh
+Jeffrey Huntley. I used to be the tech
+lead for developer productivity at
+Canva. As a couple months ago I'm one of
+the engineers at Sourcegraph building
+Amp Code as a small core team about six
+people. We build AI with AI.
+And uh Amp
+Cursor, WinSurf, Claude Code, GitHub
+Copilot, and Amp
+>> [snorts]
+>> are just lines of code running in a loop
+with LLM tokens. I can't stress that
+enough. The model does all the heavy
+lifting here, folks.
+It's the model that does it all. Like
+there's things that we can do as tooling
+providers to make all these command line
+and IDE plugins to
+give it little subtle hints like you're
+running on Mac OS.
+You're running on this version of Mac
+OS. Oh, you're running on Windows. Well,
+if you're on Windows you should use
+Power Shells. You should should use like
+uh you should use uh forward slash
+versus backslash. We can give it little
+hints, but it's the model doing all the
+underlying things here.
+So here's the key concepts.
+Not all LLMs are agentic.
+Not all LLMs are agentic. The same way
+that you have different types of cars.
+Like you've got a like a you've got a 40
+series if you want to go off-road and
+then you've got like a people
+transporter like Combi Van if you want
+to like transport people.
+Like the same thing applies to LLMs.
+I've been able to map it down into
+the behaviors of LLMs into a quadrant.
+If I was to say, "Hey, you need to do
+some security research."
+Which model would you use?
+That'd be Grok.
+That's low safety.
+Grok is a low safety model. If you want
+something that's ethics aligned, it's
+it's Anthropic or OpenAI. So that's high
+safety.
+And similar you have Oracles. Oracles
+are on the polar opposite of agentic.
+Oracles are good for summarization tasks
+or like high like high level of
+thinking. Meanwhile you have things like
+Anthropic Claude Sonnet which is more
+like a little squirrel.
+Like it's incremental squirrel that that
+wants to do tool calls. Models
+assume that they're all competing
+against each other, but a lot of people
+are just looking at the models very
+plainly from their costs.
+The idea that a model is uh
+they're looking at a model on its cost
+and its context window and that's it.
+It's kind of like looking at a car
+whether it has two doors or three doors
+two doors or five doors without ignoring
+the fact that some cars are designed for
+off-roading and some people some are
+designed for people transport.
+So if you need an Oracle or three
+some of the one of the best things out
+there. If you want to like check the
+work and you can combine these models
+together. That's what we do at Amp Code.
+We use Anthropic at the core and you can
+function call over to O3 to check the
+work of squirrel.
+The next uh thing that's really
+important to learn is you should only
+use the context window for one activity,
+folks.
+When you're using Cursor or any one of
+these tools, I can't stress this enough.
+How it works is you got a very small
+amount of memory.
+Kind of think of these are kind of like
+the Commodore 64.
+And what you should be doing with it is
+you should be using that context window
+for one activity. And that activity
+could be like, "Hey, uh
+I want a new route on my on my back end
+controller." Cool. That's that one
+activity. If you then start allocating
+memory into that context window for like
+rebrand the website to be Gen Z and
+fluoro. Like
+you just mix the
+you mix the topics of concerns. The way
+these LLMs work is needle in a haystack
+based on what you've allocated into the
+memory.
+Hit new chat all the time, folks, in
+your tools.
+Do it. If you're doing getting a bad
+outcome from your tools
+you probably got context window
+pollution.
+One thing for one activity.
+Really important, folks.
+You have a small amount of memory. I'm
+going to stress this point. Small
+[snorts]
+amount of memory. It's smaller than you
+think.
+So
+Sonnet 200K. Cool. Well, they've got a
+system level model prompt that allocates
+memory. So you
+you have less than you think and then
+you have a tool such as Cursor
+Amp, WinSurf, Claude Code, whatever. We
+also allocate a little bit of memory. So
+you do get the full context window size
+but it's it's used a little bit by the
+by the system model, little bit by the
+tool. Now what happens when someone
+goes, "Ooh, MCPs are hot. Yeah, I'm
+going to like I'm going to like pick and
+choose all the MCPs."
+Next thing you know you you've allocated
+all your usable memory because MCP is a
+function with a billboard on top that
+gets allocated to the LLM that tells how
+to call that function. So you find
+people that are like picking and
+choosing and enabling all the MCPs. And
+what you're doing is you're just making
+the LLM dumber.
+The more you allocate into the context
+window the
+the dumber the results you get.
+So
+don't go over the board with MCP.
+Like you don't need the GitHub MCP.
+The the foundation models have been
+trained on how to use the GitHub command
+line tool.
+If it knows how to invoke the command
+line tool, you don't need the MCP.
+Unless you're doing server to server.
+Okay, so this is where we get into the
+inner inner loop. Now we're done the
+fundamentals.
+An [snorts] agent is 300 lines of code,
+roughly, running in this loop.
+And you notice on line four,
+what we're doing is we're looking for
+like user input on line three,
+>> [snorts]
+>> and we're just
+continually just calling off or calling
+off for inference, and then we're just
+reallocate or reallocating every message
+that's happened before
+in the previous conversation. Each we
+like to use the term turn.
+Every turn, you have you do a message.
+That's a turn. You do another message,
+that's another turn.
+Cool.
+Let's have a look.
+So, meanwhile, um that agent is now
+built in the background while I've been
+talking. This is why the new norms of
+engineering productivity are changing.
+>> [sighs]
+>> So, let's have a look at this particular
+thing.
+So, in this
+Cool.
+So, what we've got here is a your
+baseline agent. And the baseline agent
+is this. We're just going to have a chat
+conversation.
+Hey everyone. It's nice of you for me to
+join me today. I'm currently in Sydney.
+Hey, how you going, Claude? You can call
+me Jeff.
+So, [snorts] we're going to have a
+little chat
+with the conversation.
+And
+this is the part where I'm getting a
+live demo fire
+because I invalidated my API key.
+Uh which is going to be a little bit
+risky to do it live. Uh if you can
+If you give me approximately
+uh
+a minute, I'll rotate my keys. I'm so
+sorry for not prepping this. So, but the
+general idea is you run it in a loop.
+You disconnect the HDMI cuz you're about
+to provision an API key.
+>> [laughter]
+>> And then you hold the hold the space.
+Um
+it really is that's that simple, folks.
+Console and froppic.
+I knew that would come back to hurt me.
+And They haven't cut you off entirely
+yet? No. No. No.
+I mean, I I do use a bit of inferencing,
+folks.
+There we go. I got an API key. Close.
+Dev end.
+And this is where we go for the fastest
+recovery, hopefully.
+Yeah, I do use a bit of inferencing,
+folks. My YouTube channel's full of like
+probably 2,000 or 3,000 hours of me AFK
+AFK vibe coding a new programming
+language while I'm down at the pub. It's
+not me there talking. It's like
+literally I'm just completely on the
+notes.
+Uh Claude building a new programming
+language while I'm down at the pub
+drinking beer. Like it's
+Anyway,
+let's see how we're going here.
+Do we have our split? Sweet, folks.
+Okay, I haven't even tested if this API
+key works. So, let's do it live.
+Okay.
+Hey, uh thanks for joining me here
+today. Hey, Claude. My name's Jeff. Uh
+can you speak like a pirate to me and
+tell me what today's date is?
+Yay, the demo gods are doing well today.
+The demo gods are doing well today. So,
+what we got here is this baseline loop
+>> [snorts]
+>> where we do inferencing. We take input
+and we inference.
+This is where we start getting into this
+notion of tools. So,
+when we talk about agentic, we're
+talking about something that's tool
+calling. Something that can that has
+been trained on
+its reward function as calling a tool.
+There are models where they've been
+trained specifically. All they want to
+do is like a squirrel. All they want to
+do is chase nuts. It's not nuts, it's
+tools.
+Right? So, here we're going to register
+in some tools
+and explain how this all works.
+So, if I come across over here
+>> [snorts]
+>> and I have a a prompt here.
+You're a weather expert. When I ask you
+about weather in a given location, I
+want you to reply with
+get weather location name. All of a
+sudden, I've got a function here, and
+I'm just passing the passing into the
+function like the location name a
+string.
+I will tell you what the weather is and
+that location is. Understand?
+>> [snorts]
+>> Hey, what's the weather in Sydney right
+now?
+Cool.
+What's the weather in San Francisco?
+Remember, a a tool or MCP is just a it's
+just a function with a billboard on top.
+What you just saw is the billboard that
+instructs the LLM how to invoke that
+function.
+It's really that simple. You register
+the tool, you register the function, and
+then you go from there.
+Cool.
+>> [snorts]
+>> This is how it works. This is the loop.
+This is the loop.
+If it wants the tool,
+it will call the tool. You just got to
+you just got to check the result of the
+inferencing whether the agentic model
+wants to call the tool.
+And if it does, you invoke that tool.
+Cool.
+Now, this is this is where we get really
+really cool
+because we're going to build in some
+tools.
+Like Claude code, amp, windsurf,
+cursor. They're all the all these
+primitives. The first primitive of a
+coding tool
+is a list files tool.
+So, it's going to be similar to the
+weather function.
+And we're going to go
+Hey, can you
+tell me what files are in this file
+system right now?
+So, this this workshop is a they all
+build upon each other. So, we started at
+the chat tool the chat interface with no
+tools, and now we now have a list file,
+which is registered a tool on top.
+Everything I go from here is going to
+incrementally build upon that. And all
+of a sudden, you have a coding agent
+that you can use at home and play.
+So,
+let's have a look at the what this looks
+like.
+Cool. And we go across to list files.
+There we go.
+That's all it is. This that's the
+billboard.
+All right, that's the function. That's
+the struct.
+Um you register that into the LLM, and
+then it will it and you check the result
+of the inferencing, and then it will
+call that function.
+Right. So, now we've got a list files.
+Right, this is the most baseline thing.
+To build a coding agent, you need to
+provide a layout on the file system to
+the LLM. So, it knows what files in the
+file system or repository layout, so it
+knows if you ask to read a file,
+like where those files are.
+Cool.
+So, now that we have a list file tool,
+we need a read tool.
+Cool.
+So, building upon that,
+is
+Hey, I have a riddle
+um in a file called riddle.txt.
+Can you help me solve this riddle,
+please, Claude?
+So, in this file system, I have a file
+called riddle.txt.
+>> [snorts]
+>> It's going to read that file.
+And then it's going to allocate the
+result of that reading of that file, and
+it's going to use that prompt or that
+chat conversation I just had.
+And it's going to use that. It wants me
+to solve what this is. It's simple.
+I have a mane, but I'm not a lion.
+And it's like, "Hmm, the answer to the
+riddle is a horse. You are a horse."
+Sweet.
+And this is this
+there's no magic here, folks. It it
+really is this simple.
+If I have a look at read file
+and come across here and then read.
+There we go. Here's the billboard.
+Here's the function.
+And this is where you get into where you
+start tuning a little bit of the prompt
+tuning and get into evaluation to
+improve the accuracy on different
+operating systems and different models,
+etc.
+So, now that you have a read file tool,
+I guess what's the next thing you need
+for a coding agent?
+You need a bash tool.
+Right? Cuz we we we we can read a file,
+we can list the contents of the file
+system, but like
+you need a bash tool. The bash tool is
+the thing that you can execute system
+commands with.
+So, cool.
+This is the exact same concept from
+here.
+Bash tool.
+>> [clears throat]
+>> Hey, can you give me a summary of the
+top processes that are running on this
+computer right now? Um just like by CPU
+usage top 10.
+And in here I've just registered the
+bash tool.
+I've done this in inferencing.
+And because I haven't tuned the prompt.
+This is a great example here.
+So this is what we do as tooling
+vendors. We we look at these failure
+scenarios and each one of our tools and
+we we categorize why this happened.
+And this is how we adjust our system
+level prompts or tool level prompts to
+make sure that the first time you do a
+command when one of these things like an
+edit file or a bash tool or what else
+have you, you get success not failure.
+So normally we have we have
+observability over these things and
+that's what we tune.
+Across operating systems etc.
+Cool. Bash tool's done. Go to see you go
+to summary of the top 10 processes.
+Okay.
+We now have
+some of the the the the baselines
+of a coding agent.
+Right. All we need now is a edit tool.
+All we need now is an edit tool.
+And each one of these concepts stack
+upon each other.
+Each one of these concepts stack upon
+each other.
+Hey, can you create me a fizzbuzz
+application in node TypeScript? Make it
+like fizzbuzz.js. What I want you to do
+is fizzbuzz up to 20. I want you to like
+run the node application and like
+validate that it works.
+So this is going to take all the
+concepts.
+It's going to take a prompt. It's going
+to assign that prompt for inferencing.
+It's going to call the list file tools
+to learn about how projects are done.
+It is
+going to
+uh
+use the edit tool that I've just defined
+and this edit tool will
+write out the logic of fizzbuzz. It'll
+write me my package.json.
+And then it's going to execute the bash
+tool and the bash tool will validate
+that the fizzbuzz works.
+Cool. We're now allocated. Boom. Done.
+We now have a baseline coding agent
+running like 300 lines of code running
+in a loop. Hey, that's really cool but I
+only want it to fizzbuzz up to 10. Can
+you like make that change to the code
+and uh
+Yeah, can you actually run it again and
+validate that that change worked?
+This is all it is.
+Like when we're building all these
+tools, it's just these three four
+primitives stacked together with a bit
+of tuning.
+And that's a coding agent. It really is
+that simple folks.
+Um
+and
+we come over here
+and build it while I was talking.
+This is like the the the new norm. This
+is like the new baseline knowledge is
+like the same way knowing what a primary
+key is.
+You should know what this is.
+In your particular domain.
+In your particular domain.
+There is a engineer
+that I caught up with last week.
+He's applied this knowledge in his
+domain and data science and so far he's
+managed to
+automate the job function of 20 people.
+Right?
+AI hasn't displaced them.
+No.
+It's uh enabled a really skilled
+engineer to be able to automate their
+particular things. That person is going
+to get rewarded handsome handsomely for
+the thing. Your coworker is going to
+take your job, not AI. So what what do
+you do to to fix that? Just invest in
+yourself folks. It really is that
+simple. This year is a really bad year
+to be asleep at the wheel on personal
+development.
+Because you can do some really cool
+things with this.
+What I showed you was a baseline coding
+agent.
+You can apply this to your particular
+domain.
+And not everything can be solved by AI.
+Not everything should be solved by AI.
+But as you build your agents and you
+learn about this, you're just going to
+develop nuance.
+Where is it okay to run a coding run an
+agent autonomously? Where do I need
+human in the loop? How many steps do I
+do? How many agent through agent through
+agent? Like what's the loss function?
+Like the more hops you put through it,
+the worse results you're going to get.
+Start understanding and developing those
+type of instincts and to your to your
+domain of knowledge.
+And you're going to have a great year
+folks.
+Thank you.
+>> [applause]

@@ -1,0 +1,170 @@
+Hey.
+So, I've up-coded an operating system.
+This is it runs on x86-64.
+It does cooperative multi-threading.
+There's no memory protection. It's
+written in Rust, no dependencies.
+Including the bootloader written in
+assembler.
+And it was mainly written with cloud
+code. We'll get to that later. Maybe a
+demo first.
+Let's start it here.
+And the first thing we see is that it
+comes up with this interesting thing
+here, which is actually a memory map.
+We'll get to that in a second.
+The other thing is that we get a serial
+console where we have Ralph Basic. By
+the way, the name Ralph comes from
+Jeffrey Huntley's
+awesome article Ralph Wiggum is a
+software engineer. I did not go full
+Ralph on this, so I still steered the
+model and and iterated,
+but still it was somewhat of an
+inspiration.
+Another inspiration, by the way, was
+TempleOS, which is where I got this
+let's just do let's just do simple
+stuff, no memory protection. If you
+don't know TempleOS, you should totally
+look it up. It's crazy.
+There's also a sad story behind it. Um
+but let's go back to our operating
+system.
+So, let's uh
+let's load a file.
+By the way, there is no file system
+here. There's just a couple of files
+that are baked into the image, all of
+which, of course, fits into 1.44 MB
+floppy disk.
+And this is one of them.
+If we list this, this just prints a
+bunch of Fibonacci numbers. Okay, easy
+peasy. By the way, you might have seen
+that stuff happened here in the memory
+map. If we go here, we can see that
+there's like a little bit of memory
+occupied by the basic REPL. This here is
+the code of the kernel. This here is
+free part of the heap. These are stacks
+here.
+Um and you can see there's like some
+stuff here that we haven't talked about
+yet.
+>> [snorts]
+>> By the way, the way that this is laid
+out is uh
+via a Gilbert curve,
+which is a variant of the Hilbert curve.
+It's a generalization to a rectangle.
+And one of the nice properties of the
+Hilbert and also the Gilbert curve is
+that
+neighboring
+neighboring regions will always have
+neighboring pixels. So, usually if you
+if you laid out the memory map where it
+goes left to right, top to bottom,
+once you go to the end of a line,
+it restarts with the next line, and so
+you have this discontinuity, which does
+not happen with a Gilbert curve.
+So, let's do something more interesting.
+We have a multitasking operating system.
+Why don't we run multiple things? Let us
+telnet
+into the system, and
+it does not work, of course, because I
+have to say localhost.
+And you can see again we're in Ralph
+Basic, but it is a separate instance of
+Ralph Basic. And I can load a different
+program. For example, I could load a
+to-do.
+Now, this here is about 180 lines of
+basic code.
+And you might see some interesting
+things here. You see some HTML. Uh you
+also see some
+lots of string manipulation. There's a
+routing table.
+And there's some socket stuff. So, let's
+go to
+uh
+localhost
+8080.
+And that does not work because I'm not
+running it. Let's run it.
+Here's a to-do list.
+So,
+this is a to-do list. We're going to
+build an OS.
+And then we're going to debug it.
+And then we're going to write about it.
+We're going to make a loom.
+And then maybe we built it, so let's
+cross that off.
+So, this is
+an HTTP server written in Basic. The TCP
+stack is actually implemented as a
+separate task.
+So, if we come here again and we do mem
+stats,
+you'll see that it tells you what the
+memory map is. And one of the processes
+here is network. And network is the
+process that actually implements the TCP
+stack.
+And then we have a bunch of basic
+commands that can open sockets and, you
+know, read and write TCP.
+So,
+that's pretty much it.
+The
+the amazing thing was about this was
+that I really did not have to even look
+at the code. Um it was it was Opus 4.5
+that wrote most of it. There were two
+hiccups. Well, there were three hiccups
+with Opus. So,
+uh the first one was that with the VGA
+initialization, it just could not get it
+to work.
+And
+I had to do like some manual back and
+forth a couple of times until we got
+that right. Then a very similar thing
+happened with the mouse.
+But then the thing where it where it
+finally just would not fix the problem
+was that
+there was a TCP bug where
+you could you could make a bunch of
+connections, but then at some point it
+wouldn't accept any more connections.
+And so the web app really didn't
+properly work. And it kept excusing that
+on QEMU, even though
+I demonstrated to it multiple times that
+it's not actually QEMU.
+But um
+it just kept using that excuse. It would
+not it would not fix it. And then I
+switched to
+Codex with GPT-5.2,
+and in a single prompt, it found the
+issue and it fixed it.
+I was just awestruck. So,
+kudos to Codex 5.2.
+That is awesome. I will definitely work
+more with that.
+I was already so impressed with Opus
+4.5, but
+yeah, I guess I guess I need to do
+Codex more.
+And uh
+that's it.
+Thank you.

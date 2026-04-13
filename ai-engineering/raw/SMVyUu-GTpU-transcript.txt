@@ -1,0 +1,290 @@
+[music]
+Well, hi viewers. Uh, we are today at
+Sonama district at Frontier Tubbers and
+for the AI people, we have the pleasure
+of interviewing Jeff. Jeff is a pioneer
+in the software industry, he has some
+strong point of view on the future of
+software and he's been driving a lot of
+innovation around agent AI. Jeff, why
+don't you introduce yourself and we can
+get right in.
+>> Hey folks, um, I'm Jeff Huntley. I've
+been in San Fran now for the last 5
+days. Tomorrow I'm over to New York.
+Some people might know me as the guy who
+created the Ralph Wigum loop which is a
+memory management technique when if you
+put it in a bash loop it can get some
+pretty disruptive outcomes. Uh we
+measured it uh to be around about $1042
+an hour uh is the cost of software
+development. Now now there's a big
+difference between software development
+and software engineering.
+>> Okay. So software development you are
+saying uh is getting accelerated but
+there is a lot of scope for software
+engineering uh to make sure that all
+this accelerated software development
+sees the light of the day
+>> practical outcome let's get to
+definition or terms
+>> okay
+>> um engineering has always been different
+to software development
+>> now there are a lot of people who have
+their identity functions of being a
+software developer
+now if you have your identity as a
+software developer. Well, guess what?
+The hairdresser down the street using
+cursor is now a software developer.
+>> So, there's some real questions to what
+it means when we've gone from a
+knowledge scarcity
+>> economy to where it's ubiquitous. Anyone
+can just prompt for the right outcomes.
+There's going to be people out there
+like writing courses or teaching or like
+what the right things to prompt into LM
+to get really good outcomes. So, if
+you're still there typing on a keyboard,
+uh it's pretty
+not a good time to be still typing on
+the keyboard. Now, there's a difference
+between typing on the keyboard and being
+a software developer and being an
+engineer.
+>> Mhm.
+>> So, I'd like to put forward an argument
+that there we're locomotive engineers
+now.
+>> Mhm.
+>> And it's our job to keep the train on
+the train tracks. So we should be
+working on the we should be working on
+the business not in the business.
+>> Meaning we should be designing these
+loops and automations
+and engineering
+the safety like to keep the train from
+derailing. You can go into security
+incidents. You can talk about making
+sure that you don't provision the right
+you do sandboxing the credentials
+figuring out how that we get rid how do
+we get rid of code review? Do we get rid
+of code review? Should we like really
+engineering thinking along the ways that
+we've got this brand new
+way of doing things really fast? What is
+the responsible way to utilize this?
+>> Mhm.
+>> Because the old typing software on a
+keyboard is gone.
+>> Great. Um, I guess for anyone watching
+this, if your employer has banned usage
+of AI, you should leave your employer
+right now. There is a big difference
+between There's a big difference between
+uh business suicide and uh employability
+suicide. Okay, big big difference. You
+trade time and skill for money.
+Uh and the market for people who just
+type on a keyboard is rapidly
+diminishing really fast.
+>> Mhm.
+>> So you should go to somewhere where you
+can keep your skills current.
+>> Okay.
+>> So software engineering in your opinion
+is it more of a people skill or is it
+more of a raw technical skill?
+>> Raw technical cognitive skill. Like if
+the idea of running no code review in
+your codebase makes you want a Ralph to
+vomit, you should listen to that. What
+you should do instead is engineer away
+all your concerns
+like like what happens if it if it was
+to automatically do a migration like
+type thing. Oh, cool. Engineer that
+away. Maybe code review can be solved by
+not being a binary tickbox. Yes. No. But
+you can have a implement a riskbased
+approach. You can auto ship things into
+production
+>> if it doesn't involve a database schema
+change or maybe it automatically does
+that because you've engineed in in
+feature flags automatically. So the
+blast radius is constrained like
+actually engineering around risk and new
+practices around these new new
+technologies.
+>> Gotcha. Okay. And I I know I heard you
+say open source is dead. So I want to
+double click on that and uh learn more
+about it.
+>> Yeah, sure. Um I wrote something about
+eight months ago saying what's the point
+of software open source software if you
+can just generate it.
+>> Um and it's becoming true and truer
+every day. Uh the reason that we had
+libraries, open source libraries was
+essentially it made hiring easier. The
+reason we got React and uh React and all
+these other things was to expedite
+hiring of people. But I would like to
+put forward that uh who here has been
+with open source and like a maintainer
+has been on holidays
+and there's a bug on GitHub. So you got
+to open a GitHub issue and you got a
+nag, next thing you know get cancelled
+whatever open source maintainer burns
+out. All these things open source is
+being put up on this pedestal and
+consumed by businesses and under
+supported by businesses for a very long
+time. This is called the open source
+funding crisis.
+Now I put forward that uh potentially a
+solve for this if you want to really get
+into software automation.
+Well, what you can do is just generate
+the software. You can literally just
+generate the software. There are
+boundaries of acceptability where it's
+not appropriate to generate software.
+Think about topics like PKI and SSL.
+Well, if you're a PKI SSL person,
+completely responsible to do you know
+what is true. But like think about how
+much time is consumed from dependabot
+updates. Think about all the supply
+chain attacks that happen through
+MPM bad packages takeovers yada yada all
+the rest. Think of all the time that's
+taken. So we've been pleading for for
+people to take control of the supply
+chain for the longest time. For the
+longest longest time and uh the the
+fangs have always just they third
+partied software. They take the open
+source software and they take complete
+control of their source their their
+uh supply chain by vendoring it.
+>> Well, how about you just generate it?
+>> Yeah,
+>> how about you just generate it? So, I've
+been generating all my source code now
+for around about a year and a half. And
+then I found a commonality that people
+who are really getting in on this stuff,
+they've come to the realization that
+there's open source there is no real
+point because if you have to open a
+GitHub issue or what else have you,
+you're tool calling a human and anytime
+you need a tool call a human that's not
+AGI. Yeah. And if you have the source
+code first party, then you can
+continually evolve it at a pace that is
+much faster than your competition that's
+waiting for some person who's on holiday
+who might be burnt out or maybe
+abandoned the project to actually
+respond to GitHub issue.
+>> Yeah. So we we live in a era where it's
+a it's an abandoned era and all these
+software companies make money out of
+scarcity. Yep.
+>> Something differentiating that they
+offer to the market. So how do you see
+abundance and scarcity uh play together
+in in the coming few years and where do
+you see the software industry heading?
+>> I would say uh folks uh have a look at
+my uh blog post on guntley.com
+for uh software development now cost $10
+an hour. It gets into this in a very
+deep level. Uh I think the most pressing
+issue is is software still investable?
+Is there actually a market for investing
+in software now?
+>> Yeah.
+>> What are the modes? The
+>> VCs are all like
+>> and all these like it started around
+about December for me. I I started
+having GPS at VCs give me a call and go,
+"Hey, I'm not even sure what to tell my
+illpiece. Like, is there actually a moat
+in this anymore?"
+>> What is your moat? Is that a question
+that is relevant anymore? with that's
+that's an upstream like fundraising
+question not a downstream like when it's
+the money's in an invested company
+>> and I've fortunate to have been here for
+the last week and in that I've
+conversation is going all around the
+valley right now
+>> and that's an upstream thing about
+funding like can you raise funding and
+can you just responsibly deploy that
+funding and that's not even getting into
+the meta of like once you've received
+funding like what is your moat? It's a
+it's a bigger upstream problem that
+needs to be figured out. So I've divided
+the world really now into
+uh two categories. Something is either a
+utility like water, electricity, gas,
+>> petrol
+and it's hyper commodity. You got many
+choices of electricity companies to go
+to to get electricity. Hyper commodity
+web hosting hyper commodity, right?
+and things I can take screenshots of and
+ask Claude code to reimplement for me.
+It's is that brutal. I'm not saying that
+everyone is going to do this, but we're
+enter into into an era of
+hyperpersonalized software.
+So, it is
+what is a moat that the idea that it was
+very hard to transition from one
+technology to the next a database. I ran
+a loop that migrated me from Cloudflare
+D1 over to planet scale Postgress
+automatically including data migrations.
+When have you ever heard of like tech
+like an application been like from that
+to that and fully auto? What the hell?
+Like like so any form of this notion of
+coupling and vendor lock in being a
+thing isn't a thing anymore.
+>> Makes sense.
+>> So what is a mo it's it's contracts.
+It's stakes and it's stakes and
+handshakes. It's the relationships. It's
+all the hard things of business.
+Um but it's everything has fundamentally
+changed cuz the unit economics of
+software is forever changed.
+>> Great. So yeah, we live in a brave new
+world and uh the only way to stay
+relevant is uh to keep running and uh be
+curious and um do um listen into some of
+the the podcast resources that Jeff is
+making available. And um on behalf of
+the AI people, I thank thank you very
+much Jeff for spending some time with
+us.
+>> No problem. Thanks for having me.
+>> Thank you. [music]
+>> [music]

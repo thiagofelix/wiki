@@ -1,0 +1,1445 @@
+Hey there and welcome back to Dev
+Interrupted. I'm your host Andrew
+Ziggler
+>> and I'm your host Ben Lloyd Pearson and
+I'm excited to announce that we're doing
+something a little different this week
+and starting this week actually and
+moving forward. First of all, all these
+long form interviews that we publish
+every Tuesday, they're not going
+anywhere. We have a really wonderful
+guest, multiple guests lined up for
+upcoming episodes and we've got another
+really fantastic one today that we'll
+get into in just a moment. However, we
+are going to split off our normal news
+segment into its own show every week
+that'll come out on Friday. So, this
+Friday will be the very first iteration
+of uh this new show. So, tune in this
+Friday to get news updates from us.
+We'll even try to bring in some experts
+from the field to share really cool
+things about what's happening in the
+world of AI and engineering
+productivity. Those are the changes.
+Andrew, what do we have coming up today?
+>> If you're an engineer and you've been
+online at some point in the last week,
+there's a good chance you've seen Ralph
+Wiggum take the industry by storm. And
+what is Ralph? In its creator's own
+words, Ralph is a bash loop. And that
+creator is Jeffrey Huntley. Jeffrey has
+been pushing one of the simplest, most
+provocative ideas and autonomous AI
+assisted coding. And Ralph, it turns any
+iterative work into something that keeps
+fixing, refining, and re-evaluating
+until tests pass or succeed. And the
+really the brute force effort of this
+can't be understated. The amount of work
+that Huntley can do with this type of
+loop is truly profound. And this work,
+it sits at the intersection of practical
+workflows, philosophical insights, a
+little bit of contrarianism,
+and a very bright glimpse about how the
+future is going to be built with simple
+loops, clear goals, and letting feedback
+drive the convergence towards done. And
+we've been covering Jeffrey's work here
+on Dev Interrupted for the past year.
+Today, he's joining us to dive into
+Ralph's origin story and what that means
+for you now that the cat is out of the
+bag. Yeah, and we we discussed quite a
+few deep topics. We'll have links to all
+this stuff in the the show notes because
+there's a lot of reading that I think
+goes along with this episode. And one of
+the concepts we'll talk about is this uh
+new new article from Steve Yaggi called
+Gas Town uh which just describes a very
+complex system of of effectively
+applying the Ralph concept to much
+larger challenges. So, I think this is
+one of the most interesting discussions
+we've ever had at Dev Interrupted and
+there's a lot of things for for our
+audience to dig into on this one.
+>> And of course, all of this content will
+be our newsletter and Substack and
+LinkedIn. So, be sure to find it, join
+the conversation, as well as your fellow
+developers as you figure out what all of
+this means for us. Now, let's dive into
+the interview.
+This is so exciting. I'm actually kind
+of excited that we also have those lost
+tapes because those that was some really
+good [ __ ] that you were putting out
+there a second ago about
+>> those are our secrets now we get
+>> Yeah. And now those are like, "Wow,
+those are now now only I only I heard
+that." Uh, that was a closed room. That
+was great. But I So this is just like
+overwhelmingly cool, Jeffrey, like to
+have you here. To give you some context,
+we've been talking about you a lot on
+Dev Interrupted for the past year. I
+would attribute really what I know about
+starting to work with these tools and
+even using cursor to you. All of what
+I've learned in the last year started
+with reading your articles as like the
+nucleus of that thought. And so to be
+here and be able to kind of chat about
+your ideas and how they've evolved is
+really exciting for me and because I
+watched you bring the the now very
+well-known Ralph into the world. Um, and
+that's what we want to talk about today
+and what it means for developers that
+are maybe using their own Ralphs because
+I think there's a a huge revolution
+happening right now at the top of the
+year with all the engineers coming back
+from the break with new ideas, Opus 4.5
+under their belt and just a lot of
+insight from folks like you um out in
+the field that are experimenting. So,
+we're really stoked to have you here,
+but I I want to just also frame the Bash
+Loop itself and kind of take a step back
+because I want to start there and just
+ask you when you brought Ralph into the
+world and you named it Ralph, why why
+give it that name?
+>> Yeah. So, it's February last year,
+almost a year ago, and I was doing
+specbased uh development. a mate of mine
+at GitHub next published actually uh
+some research there about two years
+prior to that and I remembered that on
+like specbas based workflows or LLMs
+generating apps this is like the Jupiter
+3 days. So I started applying it and
+then I started realizing that like I
+could probably this could be quite
+mechanical like if I take specs and what
+how I'm I'm doing things and then I I
+got to the point where I was really like
+wow there's some pure first principles
+thinking here of like I could
+deterministically allocate the array
+and the first thing I was like okay what
+can I do with this and this was the Z80
+blog post and I started the path of
+essentially
+uh using LLMs to essentially clone
+product features and of existing
+companies.
+>> Yes. and
+uh like taking source code that was like
+BSL licensed source code and like clean
+rooming it into specs very similar to
+how the Intel and AMD CPU came into
+and I reimplemented like Hashi Corp
+Nomad. I cloned the company Tail Scale.
+I did all these random things.
+>> I remember Ro. We read rovo. You did you
+did several of them.
+>> Yeah, this is
+>> it was it was really interesting to
+watch how you use the LLM to do this
+like binary analysis and then you would
+pull out this information and rebuild
+what they had put in it and it really
+kind of took away uh it like it drained
+any moat that you could find like you
+could go to any moat and drain it with
+that and be like I can build this in a
+day or with this loop and figure out how
+this works. Nothing can stop me if it's
+on my computer
+>> pretty much. So for developers, you go
+speak with other founders and how
+they're they're feeling about this
+because that it's it's pretty gloom out
+there for founders. Like we can focus on
+the developers and developers side of
+things, but go speaking founders. Now to
+answer your question, when I discovered
+this in February, it literally made me
+want a Ralph. Ralph is a a term for
+vomiting. And it wasn't name it wasn't
+named like it wasn't a technique was not
+named but it made me want to vomit
+because I could actually see where we're
+going. I could see where we were going.
+Like I was building software in my
+sleep. And then I started publishing a
+lot more. Um I focused heavily in on
+like dear juniors you're screwed if you
+don't pay attention. Got that
+distributed to prime gen. So the Gen Z
+popped off in that area and that was
+like real guidance explaining the cycles
+of our industry
+and I really focused on some of you not
+going to make it. You need to be
+curious, you need to be curious. There
+was reasons behind the order of my
+publishing because I was spooked. I was
+feeling like really sick in the stomach
+knowing what I essentially discovered.
+Uh that if you drove it in the right
+way, you allocated the context window
+deterministically in a loop and it was
+all so simple
+that I could see where it could go in
+the in the future belongs to everything
+talk I do. And I say like I walk around
+I see dead people like the six sense
+like it's not like they're literally
+dead just they just don't know that that
+they don't have a job yet and I'm like
+wake up wake up please wake up please be
+curious like play with the LLMs like
+they're good enough now play please play
+please play and then I went across to
+San Fran um went to a meetup ran into
+Dex Horty and we had a very similar
+moment So that I had that moment in
+February to my with myself and then in
+July I just rocked up to a meet up in
+San Fran 2 hours late presented like
+presented last and it would just kept
+going all night and it was like 15
+people in there. We spent an hour
+afterwards going oh my god they could
+see it. they could see it.
+And because it's San Fran, I decided,
+hey, look, this the word's going to get
+out about this thing because I just
+essentially showed the technique for the
+first time. And
+I decided, well, it needs a name. It's
+kind of dumb. It's kind of lovable,
+and it never gives up. And it made me
+want a Ralph. So, I called it Ralph as
+in Ralph Wigum. And thus if forever is
+now stuck in meme folklore.
+Um but it also has an alternative
+meaning. It also has an alternative
+meaning which comes into the future of
+software engineering.
+What Dex and I have calculated is
+the software development as a profession
+is dead
+but software engineering is very much
+alive. Okay. If your if your value to a
+business is that you type things on the
+keyboard,
+would you believe oper sorry set 4.5 on
+a loop with with a bash loop? Ralph, the
+it costs $1042 US an hour. Now, what's
+the minimum wage law? What's the minimum
+wage laws in your state? I'm pretty sure
+that's why the discussion in San Fran
+was going on so long was we realized
+that a fast food worker will get paid
+more than a software developer. Now, I
+don't mean to be inflammatory in saying
+that, but that the unit economics
+changed. It changed 6 months ago.
+There's been a batch of Y cominator
+companies raling. You folks were early.
+You're reading. You're growing. Like
+there there now exists people who are
+year a year in or 6 months to a year in
+even applying it. And that that the rift
+on this is becoming huge huge huge. So
+so unfoundly huge. It is un unbelievable
+the difference someone who's been
+curious for the last year and invested
+in themselves has as an advantage
+because all the Frontier Labs were
+giving away inferencing for almost free.
+Now we've got these quotas and caps. So
+we were able to burn tokens and do
+absolutely crazy stuff with this space
+dust.
+Now software software engineering
+however is alive.
+Software engineering is alive.
+If you if you're just doing development
+or typing the keyboard, yeah, it's
+predictable what's about to transpire.
+Autonomous worker can do your job. A PM
+can drive autonomous worker to do your
+job. Now, software engineering is a
+different discipline. This is the the
+like actually engineering.
+If the idea of autonomous loop within
+your codebase makes you want to Ralph,
+listen to that feeling,
+right? Autonomous loops. Just it's like
+the it's like the shipping container.
+Like you look at the cost of freight per
+ton before the shipping container was
+invented and it was skyhigh and then it
+was like cents to the ton after the
+shipping container. The raft loop is
+that same type of equivalence of the
+change in the unit economics. It's not
+going back. So if you're you're if
+you're the software dev or or the uh
+sailor like carrying cargo on and off
+the ship manually, please understand the
+doc like the the the container the box
+just got invented. Now engineering is
+different to software development and
+engineering is now the game because
+let's say running an autonomous loop
+you're like oh what happens it drops the
+database sweet you're an engineer right
+what are you going to do to stop it from
+dropping the database don't provision uh
+write secrets maybe you introduce some
+tests and you enable uh change data
+capture and then you you expect the
+audit log like engineer your way out out
+of the failure scenarios and the more
+you do that the more you capture the
+back pressure which allows uh more
+autonomy for the new unit economics
+that's the game now like pre-commit
+hooks property based tests snapshot
+tests
+and eventually you'll come to where I am
+um where I don't even use CI and my
+agents run
+full
+with pseudo on a machine uh bare metal
+box running Nyx OS
+and I don't review the code the agents
+autonomously push to master no branches
+and
+the deployment happens in under 30
+seconds
+and then if something goes wrong I've
+got feedback loops which feed back into
+the active session and then it just
+self-repairs. So, we're starting to get
+into when you start to get into some
+what I'm researching. I call this Loom
+and Steve Joerger calls this gas town.
+We're exploring what it means for to be
+self-evolutionary software. Now, you
+don't have to yolo commit into
+production.
+There's no reason why agents can't be in
+control of feature flag experiments
+and add in the branch and then they they
+connect us to some other data source and
+then they make the cut over and they
+they roll it all out again. So this is
+this is engineering now folks.
+It's all an engineering game now.
+you know, you're you're you're talking
+early on about the importance of that
+curiosity, you know, and I and I agree
+with you and I and I feel like it's
+right now feels like the best time in my
+career to be curious. Like there's so
+much opportunity when you when you know
+where to look. And I feel like a lot of
+people their perception of this
+technology is a little bit tarnished by
+what may have been early experiences
+with it. like, you know, we we've all
+been using these tools since the the
+days of GPT3.5
+or whatever it was. And and and I know
+that that the things that it failed on
+back then w were obvious. Often they
+often I felt like it it really did not
+seem like a very effective tool. But,
+you know, here we are. We we've had
+multiple generations of models come out.
+The models have gotten substantially
+better in uh in the last year in
+particular, I think. And and I feel like
+there's the because the reputation of AI
+has been tarnished so much by the early
+phases of it that people are struggling
+a little bit to see like what the next
+version of this all looks like. Um,
+>> yeah, I've got some
+>> I'm actually kind of curious if if you
+felt like if you felt something similar
+even even with the like these autonomous
+loops that you're building that you're
+raling, are you seeing like the the
+changes to the models even like resonate
+into like improvements for that method
+of doing things as well?
+>> Oh, absolutely. So the start of when I
+really started publishing like from my
+oh [ __ ] moment was like Boxing Day I
+guess two years ago now or 12 months ago
+really. That was like Sonnet 35 and I
+was able to generate like a Haskell
+audio library. It was so stupid. It
+wasn't like regurgitating Stack
+Overflow. That was my mindset and my
+frame. Oh, it just regurgitates Stack
+Overflow. I tried this in Jupit 3. It's
+not anything. and and I I came back cuz
+I ran it in a loop like by hand in
+cursor. I wasn't quite yet at the very
+like
+novel idea of just running in a bash
+loop. It was just very mechanical like I
+was just doing the motions of specs and
+everything else.
+And
+that just shook me. And then when I got
+to February, this was at Jupiter 3. Uh,
+so this was that that shook me. My
+previous frame of reference was like
+GPT3ish.
+So that was like it took a call with a a
+founder to say, "Jeff, you need to get
+on the tools. Like you need to start
+writing. Do you see what I see? You I'm
+going to hang up the now and you go play
+and you call me back." 24 hours later, I
+was just in Boxing Day. I was just
+completely shook cuz I could see the the
+I could see the slope, right? It's slope
+on slope here, folks. It's it's a
+derivative of the slope. And then
+February, I kind of really mechanic like
+made it very mechanical and that was the
+Z80 cloning and realizing what was going
+on. That was like Sonet 35. The way I
+described Sonet 35 was
+it's it's weird when you start really
+playing with the models, you start
+anamorphizing the models. And this is
+how I came up with the idea of quadrants
+of behavior like high ethics, low
+ethics, an oracle, a deep thinker that
+doesn't take action. And then highly
+highly agentic. So I called uh Sonnet 35
+a squirrel on cocaine with a chef's
+knife.
+>> You did? I remember that.
+>> Yeah. It it I I I called it that because
+it it could cook you a meal and it was
+so highly agentic, but it had a squirrel
+brain. If you took your eyes off it, it
+would murder your it murder your your
+code base and it would do it.
+>> Wanted to use every tool it could touch.
+It was tool hungry, tool happy. It was
+trigger trigger friendly. It was a
+different kind of model.
+>> It was a different type. It really was
+this like hyperactive squirrel that
+would stab you if you took your eye off
+it. So you had different techniques to
+really control it etc. And now like all
+if you look at like cursed and all those
+things and like why it looks like chaos,
+it's because of the damn squirrel.
+>> It's because of the damn squirrel. And
+now you don't need to do all that stuff
+because
+>> like Opus didn't suddenly get better
+over Christmas. Just people played.
+>> Um
+>> and now you it's it's good. But the way
+I describe opus is it's high it's highly
+agentic. It produces great outcomes but
+it's a little bit forgetful. So you have
+to nudge it and remind it on like if you
+give it too many goals it might forget a
+goal. So Ralph and the idea of one loop
+uh just doing one thing means it's going
+to be less forgetful. When GPT5 first
+came out, it was in San Fran and we
+couldn't figure out what was going on
+because we were was just in the office
+and we were like we're tuning a harness
+and we're like this thing feels like
+it's low testosterone
+like cuz there was this big webcast etc.
+what's going on and we're like this
+thing feels low tea and we couldn't
+figure out why. So
+went down,
+crossed the road, spoke with uh
+essentially a competitor that's playing
+with this and we're like, why is it like
+why is it low testosterone? And they go,
+oh, this is San Fran. You can't say low
+testosterone, Jeff. We prefer the words
+timid.
+And then and then you start riffing like
+what what's going with the model? Like
+the the the harness community is really
+small. They might might seem like
+enemies, but we're all trying to figure
+this out and we anamorphize these
+behaviors and then we see what we can do
+to get rid once we've identified a
+commonality of behavior. What can we do
+to get rid of it?
+>> Now, it turns out GPT5 doesn't like you
+using uppercase if it considers it
+yelling at it and it gets timid. This is
+in the open AI model cards.
+Like if you yell at it, it it become it
+won't do its task. It actually does. So,
+we stop yelling at it in our harness
+prompts and all our tooling. But this is
+where it gets really weird because if
+you got a code base with cursor rules
+and you got a model selector drop down
+in and out and you've designed all your
+cursor rules around anthropic models
+which encourage yelling at the model
+that you want they want you to hurl
+abuse at the model. But if you do it at
+two, you did the model selector, all of
+a sudden, is it really GPT5 that's bad
+or are you yelling at the model? Because
+all these cursor rules now are yelling
+at the model. The harness is now yelling
+at the model. And the official published
+guide on how to tune GPT5 by OpenAI says
+don't yell at the model.
+Um,
+>> isn't it funny to think that they're not
+compatible on an API level, but then
+also on a behavioral level, the types of
+things you'd put in the prompts on the
+like the human created parts that go
+into it or the text based parts that go
+into it, like it's even those they're
+they're not compatible. They're not
+compatible.
+>> My understanding is the MCP
+specification still doesn't have a user
+agent sniffic.
+So it could switch out the the prompts
+uh based on what the consumer is to take
+this type of nuance and all the MCP
+servers you download and run, they're
+they're the same story here.
+>> They've been built around entropic and
+then you use them in a different model
+and it's not so good. It's not that
+model's no good. Like it just hasn't
+been tuned.
+>> That's right.
+And how do you know if you're tuning is
+because you start anamorphizing the
+models and you start noticing these
+weird things and you're around other
+people who start thinking along these
+lines and you just try things. It's a
+very different skill to building
+software uh with the tools like tuning
+is a very different skill.
+>> Yeah, there's definitely times that I've
+taken the same problem and taken it to a
+different model and gotten the result I
+wanted when I didn't get it from the the
+first model. And and I'm and I'm kind of
+I'm curious, you know, because so so
+Ralph is like it's there's there's two
+sorts of sides to this. There's this
+like brilliant simplicity that just
+takes a very simple concept and and uses
+it to iteratively improve on on an
+output, but it's also like incredibly
+inefficient, isn't it? Like it is. Is is
+is is this how we're going to like tune
+these models or make them better or is
+it are we making up for a failure of the
+capabilities that will get addressed at
+some point in the future?
+>> The game is always changing. The game is
+always changing. Like the the the
+prompts I use for Curse and from
+February and all that stuff to try to
+keep the squirrel on the on rails, no
+longer apply. The game always changes.
+Like I still see people doing
+>> like GPT3 big UR
+you are a QA developer persona and all
+that stuff. That stuff's dead folks.
+Gone. Gone. It doesn't matter. Like stop
+treating it like it's GPU3. Persona
+based is dead. Now to your question
+that doesn't mean you shouldn't adopt
+and start playing. Now just because the
+knowledge is disposable like you need to
+actually learn what it is and is not
+possible. It's the capabilities and
+knowing on how you do loop backs and all
+this and you learn all these tricks. The
+tricks for me in the last year I haven't
+lost but the approaches how I get them
+have changed. The approaches how I get
+them have changed. So Ralph is
+incredibly inefficient
+because what you're doing is essentially
+malicking an array
+every loop and then telling it to only
+do one thing
+and then you have to remal this big
+thing at the top again the
+specifications each time each time. So
+there is waste there. But if you think
+about that Ralph enables a path for
+founders to get software development at
+$1042 an hour, any types of talks of
+efficiencies is just going to going to
+drive that price down. So I mentioned
+the word array and this is maybe some
+advice to for developers in this space.
+Context windows or tokens are these
+weird MLE terms.
+I want people to think about this as an
+array and memory management, malicking
+an array because that's all a context
+window is. There's no memory on the
+server API. There's none. What you're
+doing is you're when you do a prompt,
+you're allocing or malicking your prompt
+to that array. It literally gets sent
+off as a standard REST request
+and it gets churned on some GPUs and it
+might go
+you advertise a capability that you
+could run a program. So it response
+comes back your harness says
+the LLM wants to run a program. Okay,
+I'm going to run ls and then it
+autoallocates the ls to the array and
+then it sends it back for more
+inferencing. You're just malicking
+arrays here folks.
+So, and that's one of the been the
+biggest turn of inventions that that
+caused from my like oh god moment was I
+used to copy and paste code uh from GPT3
+into
+like an editor press compile and back
+forward copy and paste manually. All
+tool calling is the automation of that.
+Okay. All Ralph is is the automation of
+tool calling for a system.
+in treating the entire thing as a system
+and taking a systemsbased approach from
+first principles. So if you got this
+array that you're malicking and then
+there's some hints in the name of a
+context window, software engineers
+should know what a sliding window is.
+So you got an array, you got a sliding
+window, the window is only so big, the
+array is much bigger. So the less that
+you allocate then then the more the
+window is going to be able to see. So
+thus the the thought that you should
+only pick one in the loop. And this is
+really wild because a lot of engineers
+right now are using multi-stage planning
+and they they're treating it like a
+child. They're breaking it down to the
+steps they should do and they're in this
+high control thing.
+Invert that thinking. LMS are fantastic
+at prioritization. If you're building a
+brand new application up from specs, it
+will do the logging module first. It
+will do the the the telemetry next. It
+will do repository patterns for
+databases.
+It will it will do the right things in
+the right order. So by just telling it
+to just pick the best like the most
+important item and only do one, you're
+you're malicking less into the context
+window. Because what happens with uh a
+context window is you got an advertised
+number of 200K.
+That's a marketing number, folks. the
+same way you get a hard drive and it
+like it says it's uh 20 terabytes but
+it's only 18 terabytes usable like the
+same thing here in thinking because
+there's a harness over overhead
+uh there's a harness overhead and then
+there's a model overhead. So a model
+overhead would be like the the the
+actual programming of uh opus for
+example you can't get rid of that. So
+all of a sudden you can crudely say that
+you lose 16k tokens to the model
+overhead and then when you're using
+cursor or any other clawed code or what
+else have you you also get a 16k
+overhead. So the real number is like in
+the 176 but if you put in MCP servers in
+there all of a sudden the real number
+gets down to like 120 and then you throw
+in some cursor rules in there. I've seen
+people operating with like they've only
+this is like a Commodore 64 worth of
+memory and they they've allocated over
+80% of their memory before they even be
+able to get a loop going.
+And because this is a sliding window,
+right? It's so easy for it to get
+forgetful and all these other things.
+The more you allocate, the the more
+you're going to get bad outcomes. So
+Ralph is a deliberate attempt to
+minimize allocation. So I never get a
+compaction event. Compaction is the
+equivalent of imagine you got a you got
+this beautiful context window a
+beautiful array getting you really good
+outcomes and you oh my god there's been
+so you've seen them that you're like I
+want
+>> and then it compacts like I'm so sad.
+Yeah. And then and then it compacts and
+you're you're
+>> or even if it doesn't compact it gets
+anxiety that it's going to have to
+compact it and then it starts making bad
+decisions as a result.
+>> Correct. So
+>> that is true.
+>> Sonnet 4 had the was we just we actually
+described it as when we're treating
+harnesses as it had context anxiety.
+Opus doesn't really have some of those
+attributes. But what would happen when
+it had context anxiety, it would go in a
+simple implementation,
+I'm running out of time. I'm just going
+to like comment out this thing and
+cheat.
+>> Like there's all these little meta
+things. So,
+so the idea of I want people to think
+about compaction because this is a new
+term for folks is really simple. Imagine
+that you've got this array and this
+array says this is your specifications.
+This is your goal. Compaction is just
+literally imagine a Jenga tower, right?
+And if you pull up the wrong bricks at
+the bottom that the tower falls over.
+Compaction is is essentially this
+equivalence of it like a Jenga tower and
+visualization of outcomes. But also if
+you download a video on YouTube and
+upload it a thousand times download
+upload download upload it's actually a
+loss it's a lossy function folks
+>> right? So what happens if the the
+compaction
+removes
+the thing that was giving you this juicy
+golden window which could be your
+specifications and if the specifications
+get compacted out next thing you know
+the end result is it starts making stuff
+up. So avoiding compaction and then
+using that array with a singular goal to
+get stuff done.
+Now if we go away from Ralph really
+quickly and let's just say someone as
+Steve Yaggis one or two
+>> what I a failure mode I see is software
+developers they click new chat they get
+they they like make my website pink and
+then they reuse the array and they set
+another goal that's completely nothing
+to do with the website being pink and
+then they say make me an API and all of
+a sudden they've got this backend API
+controller with pink rest end points
+like you you need to be thinking about a
+new chat is a new array each array
+>> chat hygiene
+>> chat hygiene and before we go past that
+and I just rewind a bit there is proven
+scientific research of the notion of
+context rot and the existence of a dumb
+zone. So if you think that you've got
+like a 200k and like once once you go
+like 60 70% over that like the LM starts
+getting dumber actually dumber. So you
+want to like minimize the amount of time
+in your dumb zone is what uh Dex Horty
+would say and it it is true. And so
+Ralph deliberately is you don't want to
+get in the dumb zone and you don't want
+a compaction, but you want to
+deterministically
+allocate. It's an orchestrator pattern
+>> for for a gas town or for what is to
+come next or someone can use to build
+their own gas town.
+>> AI has changed how we build software,
+but faster code doesn't always mean
+faster delivery. That's why LinearB is
+launching the essentials plan, your
+toolkit for measuring and improving AI
+productivity. You get the new LinearB
+MCP server, AI insights dashboard, and
+developer surveys, all designed to
+reveal how AI tools impact delivery
+speed, code quality, and developer
+experience. Stop guessing which AI tools
+work and start leading with data. Visit
+linearb.io to learn more and unlock the
+next chapter of AI productivity.
+You know, let's let's talk for a minute
+about about Gas Town. You bring up Steve
+and and and maybe how Gas Town is uh
+something that's building on the idea of
+Ralph maybe is something totally
+different from Ralph. I'm curious to
+know from your perspective like what
+you're teaching all of us to do right
+now and embracing, you know, the slope
+on the slope. There's an exponential
+curve of learning and opportunity here
+for folks. And I think the real takeaway
+from this is that the simplicity of this
+loop, the simplicity of all of these
+parts that you have to bring in to keep
+context small, to be lightweight, and to
+be interchangeable. I think all of that
+plays into people building their own
+types of rafts, their own loops. And
+maybe Gas Town is an example of one of
+those coming into fruition. But, you
+know, I I personally, as someone uh
+who's building and using these tools
+too, I see it as an inspiration to go
+and maybe craft my own gas town. I've
+definitely borrowed a lot of concepts
+from it. So I'm curious like how you
+think about the evolutions of your
+concept like Ralph and how you see them
+out in the world.
+>> Yeah. I used to work with Yagi over at
+Source Graph. I spent a bit of time
+traveling around Apac telling people pay
+please pay attention, pay attention, pay
+attention because I was sitting on Ralph
+and Yagi was out doing much more
+worldwide big tours cuz he is Yagi and
+he's just saying folks pay attention the
+orchestrators coming and he'd already
+done like his rant saying this is going
+to happen and I don't think people took
+him seriously. So on New Year's Eve, he
+dropped a blog post said, "Welcome to
+Gas Town. Do not use Gas Town. Gas Town
+is not for you. But by the way, here's
+this beautiful chart that allows you to
+measure where you are on skill level."
+>> Mhm.
+>> And in the figure five is the notion
+where you start deterministically
+allocating
+a agent and Ralphing. And when you get
+to like six and seven, six and seven,
+six is when you're
+starting to like learn to run multiple
+these at the same time and then you
+experience failure domains when you're
+running two at the same time and then
+you realize it's you got to do some
+engineering. So like the two spinning
+plates you got going don't fail in the
+same way. By the time you get to like
+figure seven, you got like 10 plates
+spinning at the same time. It's just
+different windows on a widescreen
+monitor.
+Um, and it starts feeling really
+chaotic. It feels like a spaghetti base
+in Factorio.
+>> It feels like a spaghetti base in
+Factori. Where did I put my iron? Where
+did I put my or
+>> Yeah. Where is it? Where is it? It's all
+at home, but where the hell is it? Yeah.
+>> Where the hell is it? Right. And the
+reason you shouldn't go to Gas Town is
+it's it's like use Gas Town is you need
+to go through the motions of a per
+yourself development as as a developer
+to learn why Gastown needs to exist and
+why it's coming and that's from like
+learning to allocate the array in figure
+five and then also changing your
+software engineering practices because
+by the time you're doing figure five
+which is Ralph like a singular Ralph
+What happens is your you start
+questioning things like code review, why
+do we do code review? I think that what
+you get that you start thinking like why
+do we have agile? Why do we do daily
+standups? It's our job as engineers to
+potentially falsify the last 40 years of
+software engineering practices and
+engineering magnet management practices
+for our new power tools that now exist.
+Everything is now different, but we're
+still an engineer. We don't want
+failures. We don't want people like
+things getting hacked and all the rest.
+So like at figure five, like you you're
+generating a 40,000 line pull request in
+a couple hours and your coworkers doing
+the same and like you it starts to be
+transparent in your face like I think
+the industry is going to spend the next
+year going how do we fix the code review
+dilemma? The answer is you don't for
+classes depending on the domain
+especially in product you just don't do
+the code review instead you uh you you
+work on safe release practices you
+engineer if you see fail domains such
+you put them as pre-commit hooks maybe
+you run other Ralph loops after the
+Ralph loop is done that's when you start
+thinking into
+when you start getting the mega base in
+Factorio and that's Gas Town and that's
+through the lessons learned at five 6 7
+8 is the full application of all that
+learning that came before. You can't
+just skip the learning and just go
+straight to Gas Town. Like maybe you
+can, but you're not going to have any
+edge. Like we're meant to be curious as
+engineers. Go for and earn your stripes.
+It's not that not that complicated.
+Now at seven, you're seven, you you
+create eight because it's just too
+chaotic. It's so draining. Like trying
+to find resources in in your base or
+spaghetti town is just so damn
+ridiculous. You like stuff it. I'm going
+to rebuild my base
+>> from all the knowledge. And then you
+whatever your domain is, if you're a
+software engineer, you're an accountant,
+you're
+like legal, whatever, you will build
+your own gas town.
+>> I've I've got my own gas town. Uh it's
+called Loom.
+I've cloned GitHub
+uh AMP code uh Daytona.
+I have my own source code called JJ. I
+have the ability of a source code host.
+Like I'm basically on the idea if I want
+to explore the the space of
+invalidation,
+I essentially need to be able to control
+everything from source to be able to
+change what it is. And now it's so
+simple to clone product features in
+companies. Like the next thing I'll do
+is like launch darkly. I'll have feature
+flags in there. So I can play around
+with safe engineer. You can literally
+clone platforms now folks. The models
+are getting so good. It's getting so
+simple. So, I have my own gas town, but
+my gas town is like a hard fork
+from uh everything that's been done
+today. I'm I want to build an autonomous
+evolutionary software loom. Yagi is
+within the realms of what exists today.
+That's a differentiator.
+Like I I'm prepared to like fork like
+source control. I've got my own file
+system that I've built for the agents.
+Like, if you think it's unhinged, I'm
+doing it.
+Trying to find the answer of what the
+right thing to build and not build is.
+And what do agents need? Like,
+>> I don't think it's unhinged. I'm
+inspired. It's amazing.
+>> I I'll give you something to think
+about. Uh, Unix is essentially 40 years
+of design for humans. Think about it.
+We have we have the TTY which was on the
+idea of the humans interacting it. We
+got bash because it was for the humans.
+We got a shell for humans.
+>> All programming languages just
+evolutions of a base language for the
+computer but those were all variables.
+>> All for humans. Environmental variables
+for humans.
+>> Why do we humans? For humans for humans.
+>> For humans. Yeah.
+>> Humans. And then you start thinking wow
+what happens if I start cutting down the
+stack like I'm I'm familiar with like
+uni kernel domain knowledge of research
+etc but I'm like what if user space
+didn't exist anymore that's where I'm
+going to explore like what is agent
+space what if we took the last 40 years
+of Unix design
+>> and we made figured out what agent space
+what if in what if it's just SIS calls
+to a kernel
+and that's all an agent needs. Like we
+need to rethink about what engineering
+is. We've got this magic like we got
+this magic space dust machine that can
+do crazy things. And I guess when people
+first do their wrath loops, they're
+going to feel like I did. You feel like
+you're robbing your future,
+but not in the sense that you you you're
+putting yourself out of a job. I've done
+all the things I wanted to do in
+retirement.
+It's it's idea to execution. Like I want
+to build a file system. Oh yeah, I built
+one last year. I want to build a
+program. Oh yeah, I built one last year.
+like you start doing all it's like and
+then you realize there's this mass like
+dopamine that you can just do anything
+now and you start just doing it and
+we're going to see this mass explosion
+of creativity of people just doing it.
+It's going to be like geio cities. It's
+going to be really pretty. It's going to
+be scary for founders. go speak with
+founders how they feel about this
+because you know it is pretty unhinged
+that one person in three days just live
+streaming
+uh essentially
+I don't know three four companies of a
+thousand employees each over six years
+worth of work that they would have put
+in in those three companies and got the
+core feature set in three days this is
+what we're looking at here folks but
+this is when I said the rift is getting
+massive
+And if people are just still sitting
+there with cursor going why no why no
+know that there are people out there
+doing laps like the they're doing laps
+on laps right now
+>> and something that Angie and I have
+actually talked about just on our own
+over the last year is how like it does
+feel like it's never been easier to get
+ahead of everything as quickly as
+possible. like you can just go you you
+you learn a new technology in this space
+and then suddenly you're operating a
+hundred times faster than anyone else
+around you. But it's also never been
+easier for everyone else than to catch
+up and figure it out and get right back
+to where you are. You know I mean Ralph
+has been a thing for
+>> for you know six months or so seven
+>> and suddenly everyone wakes up and is
+like oh my gosh I should also be doing
+this thing and now suddenly everyone
+like sort of is. And I and I and I hate
+this phrase because it gets way
+overplayed, but like a lot of people are
+saying like AI won't replace you.
+Someone using AI will replace you. And
+I'm I'm almost kind of getting the sense
+out of this that like, you know, Gas
+Town isn't going to replace engineers,
+but engineers who are using Gas Town or
+who are building their own Gas Town,
+those are the ones that are going to
+like replace the the other engineers.
+And so in that when you frame it that
+way, it's like learning how to build a
+gas town and how to do this Ralph
+technique. This is actually just the new
+domain of of fundamental skills that
+engineers need to have and it's you know
+just like learning a programming
+language. It's something that you you
+have to you have to build that skill and
+refine it.
+>> Um this is the hard this is the hardest
+send and agreement. We understand we've
+got a birth of a new
+discipline of compsai here like it it's
+being invented every day every every
+day.
+>> If you're not hanging around people who
+don't see this then you need to plug
+yourself into people like uh there's
+some good communities on blue sky but
+most of the AI activity for devs is
+happening on X. Like go plug yourself in
+and be really curious. So, one of the
+first fundamentals every developer
+should learn is how to build your first
+coding agent because a coding agent is
+your tool. We spend hours and hours and
+days configuring NeoVim and all our dot
+files etc. If it's just 300 lines of
+code, why would you not want to have
+your own coding harness? Then you can
+exercise your taste, your discipline,
+all that high control you used to do on
+like on code, you can now do it on your
+printing press of code. So go build your
+agent because like cursor, wind surf and
+all these like harness companies are
+building coding agents. There's nothing
+different between them. There's pretty
+much nothing different between them.
+It's 300 lines of code allocating array
+with some tools like read file, read
+file, edit file, bash tool, and a search
+tool. The search tool is just executing
+the bash tool and executing the command
+rip grip. That's all they're doing. And
+they're trying to differentiate
+themselves as being like
+like the Gucci or the Louis Vuitton and
+we we're different or or we we we make
+software.
+>> I'm a cursor user. I'm a wind surf user.
+Like camps,
+>> putting everyone into camps. But you
+don't have to be in a camp.
+>> You don't have to be in a camp. Like
+honestly, I trust a a car mechanic
+that's rebuilt a few carburetors
+a whole lot more than someone just
+orders the new part and slaps it on. I
+want software
+software engineers that are curious that
+are being mechanics. They go rebuild the
+carburetor. Understand? Exactly. Cuz
+once you understand what curse is doing,
+you go you understand the prestige. You
+realize it's not magic. It's not scary.
+It's like I'm scared of a while true
+loop that with a REST API. Yeah, you
+are.
+>> And you realize just how how dumb that
+is,
+>> right?
+>> So you and then you go build your own
+and then you you start thinking, well,
+okay,
+I'm going to automate workflows in my
+life. I'm going to automate like a
+producing of software and then you
+eventually end up at Gas Town. So I
+spent the last year really encouraging
+people go build your own agent. I've got
+a workshop. It's on GitHub. It's free.
+It take you 30 minutes and it's
+unlocking people's brains. Now, where
+that gets interesting is because once
+you realize the magic trick of AI
+and why every company is doing AI is
+because it's just those 300 lines of
+code with like a prompt on top, GPT
+rapper stuff, you realize there's no
+moes.
+>> So, this is something that devs should
+have a conversation with founders and
+business leaders. What is a moat? Now,
+if some person in Sydney is able to
+basically rip a fart into a voice prompt
+and like clone huge product features in
+companies that would have taken thousand
+2,000 over 10 years and just not do it
+at one and do it at many and if I come
+into the market type topics or someone
+comes into the market if there's like
+10,000
+uh employees or heads to be fed like
+like outgoing expenses and at a singular
+company and then it's just three chill
+dudes in barley like living like kings
+and they coming in at a different unit
+economics. Guess what's going to happen?
+So,
+uh we started on this story arc of like
+like AI is going to take your job etc.
+No, this is I was this is one of my
+things like some software developers not
+going to make it. And I framed it really
+around the idea of employee performance
+bell curves. Some companies do
+performance reviews at 6 months, some do
+it 12 months, high performance 6 months.
+It's very aggressive. Fang, etc. And
+what's happening is you're going to come
+across fang etc.
+Let's say that you're a high performer
+at Fang like last year. This year when
+you do performance reviews, you're the
+high performance is now low performance
+because the high performers are gas
+towning
+>> or they built their own gas town and
+that's why you won't make it.
+It's not AI. You just you weren't
+curious. You didn't invest in yourself.
+You were asleep at the wheel and the
+inevitable happened. And business
+leaders need to actually make
+adjustments
+because there's a couple people having
+couple people having the time of their
+lives coming into their market at a
+cheaper price point and they're never
+going to raise money. They've had to
+raise money. They got valuations got
+stakeholders and investors.
+This is Clayton Christensen disruptive
+innovation
+textbook.
+So if you want to be a developer, don't
+be don't be don't be a waiter. Don't be
+a jur ticket monkey. Be a doctor that
+diagnoses the problems. So, like you
+want to get yourself as close as
+possible to a PM or
+in front of customers and you want to
+like
+you you don't want to be downstream
+because when you're at figure five agile
+fractures
+at figure 8 like you're like yeah I'm
+just going to be on barley and I've got
+my loom that's automating software
+development and I can do anything I
+like. I just got to like throw some
+tokens on on the campfire. And this is
+the evolution of where software is.
+We're still engineering. We're still
+software engineers, but it's critically
+important to be around people who get
+it. And I'd like to add the following
+note.
+Just because AI is not working in a
+company does not mean AI does not work.
+It means the company has a problem with
+AI because they've got a whole bunch of
+corporate dogma. Maybe they're doing
+have to do a lot of context engineering
+to try and get it to the right coding
+standards and patterns. But the reason
+we had coding standards and patterns was
+for legibility for humans. Getting back
+to the full humans thing. So I've seen
+people trying to like they in
+woodworking there's a notion of working
+with the grain or against the grain. I
+see a lot of corporates working against
+the grain and then the employees using
+AI there. They're not using it at home
+and experiencing working with the grain.
+And my biggest concern is those people
+don't when someone says, "Hi, I'm a
+software developer." And they say, "AI
+doesn't work for me." I go, "Sweet. What
+identity are you coming from? Are you
+coming from as a software developer
+where your identity is that you you're a
+net developer? Cuz that doesn't matter
+anymore. Are you coming from that you're
+you're coming from like Deutsche Bank?
+Well, that that really doesn't matter
+anymore. Like if AI is not working at
+Deutsche Bank, that's a Dutch bank
+problem. I'm speaking to the developers
+like are you playing with it at home?
+Are you engineering and learning the
+way? Because we've got a year now. We've
+got model first companies like working
+with the wood where they've captured the
+back pressure. They've they've
+engineered ways so Ralph can keep on
+working
+understand there's a completely
+different mental model on how software
+should be built now different unit
+economics
+and if your company doesn't get it you
+have a choice. You can either go to a
+company that gets it. There are plenty
+out there now. you can go capture the
+opportunity and live like a king in Bali
+uh and build your own gas town and just
+like smash your previous employer or you
+can suffer through a probably three or
+four year AI transformation program. If
+any developer remembers when all the
+essential consultants that ran through
+and we got agile coaches that's coming
+baby
+>> I think it's already here for a lot of
+people. Yeah, I'm pretty sure that's
+already like more or less happening a
+lot of places.
+>> Like I'm just I have so much I want to
+follow up on, but at the same time,
+we've been chatting now for a bit, so I
+want to be mindful of time. Jeffrey, and
+this conversation, we've taken a wild
+tour through loops and into towns, way
+out in the distance, and you've really
+kind of painted a picture about where
+this is all going. And and that's why we
+were really excited to tune in today
+because, you know, on Dev Interrupted,
+we've constantly, you know, been
+following the stuff that you've been
+talking about, how the moes are gone,
+how the walls are gone, how people need
+to be running, hill climbing, and and
+building their own Ralphs. And it's just
+been an amazing opportunity to kind of
+dig deeper into where you're thinking
+about all this, especially capitalizing
+on this amazing zeitgeist of activity
+happening right now post holiday break
+where everyone's emerging freshly
+experimented with these tools. Maybe
+they had put it down years ago and
+didn't pick it back up, but now they
+did. Like there's an elucidation in the
+air and you can smell it when you talk
+to people about how they talking about
+how they're working in engineering right
+now. And so we're going to keep having
+these conversations. You know, you're a
+friend of the show. Uh we want to
+continue understanding where this is all
+going and I think you're the perfect
+person to guide us and our audience. And
+so just, you know, keep that in mind
+that we're going to be having you back
+here in the hot seat very soon. But
+before uh we do start to close out here,
+I just want to turn it back to you cuz
+everything all all good things are a
+loop, Jeff. So I'm going to turn it back
+to you one one last time and say where
+do you want to leave this on? Where
+should folks go uh to go learn more
+about you and what you're building and
+where this is uh how they can start get
+getting advantage of this themselves?
+>> Yeah, sure. U my website uh
+guntuntley.com.
+You'll link it in the show notes. Uh
+it's all there. It's all free. Just an
+email address. That's my ask. If you
+want to pay, you'll get access to some
+of my ideas maybe 48 hours early. San
+Fran Crowd likes the notion of alpha.
+They like to frontr run and like have
+the ideas first. So if they want to pay
+for that, you can pay for it, but you
+don't have to. You just like put your
+email and you can see it all. Been
+publishing for the last year. Uh, it's
+all about the loops. Now, when I say
+engineering, you should be engineering
+feedback loops. So, that's all Ralph is
+is like forcing the feedback loop back
+on itself to actually get something to
+done. And that's all that tool calling
+was. And it's your job now to actually
+start looking at data sources that you
+can engineer to feed back into the loop.
+So, to to get the outcomes. Now, if this
+is all new to you and it's really
+startling like that there's people a
+year ahead and they're doing absurd
+things, you're like, "I can never catch
+up." That's [ __ ] Would you believe
+if you're watching this, you're early.
+Only 10,000 people have installed the
+Claude Code plugin. You're early.
+There's still time. There's still time.
+Strap yourself in. Just know that the
+official cord code plugin uh does takes
+you on a path where you uh where you get
+compaction etc. They did really good job
+of accessibility but you need to
+approach this like an engineer. Just go
+do it like build it up step by step like
+Kubernetes the hard way but like context
+engineering. Um, I have another video
+where I with Dex Horty on my YouTube
+that says why the enthropic plugin isn't
+it and maybe you should go look at that
+as well. It gets in into really detail
+of context engineering and some other
+tips. Go check it out and I can't wait
+to come back.
+>> Amazing. Well, thank you again Jeeoff.
+I'm so happy we made it to the end of
+the call before a compaction event
+occurred. Even though I think that
+between our conversation, we definitely
+filled the whole window with a lot of
+ideas for people to be digesting. So
+folks, you know, definitely be
+processing that we're all going to be
+coming back in this hot seat and talking
+about this more soon. Uh 2026 is going
+to be a fascinating year where
+orchestrators emerge and and and you and
+your team, they're already full of them.
+So let's take advantage of that
+opportunity. Jeff, thank you again for
+coming. Uh and uh we'll see y'all at the
+next one.
+>> To the next one. See you soon.

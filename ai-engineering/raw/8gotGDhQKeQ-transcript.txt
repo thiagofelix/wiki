@@ -1,0 +1,485 @@
+Well, uh hello everyone. Um it seems
+that the uh video from a couple of days
+ago explaining Ralph Wigum from
+fundamentals and taking a really
+educational approach landed really well
+and people really liked it. So maybe
+this becomes an ongoing thing. There's
+so much my mind. There's so much writing
+I need to do. I'm a year in playing with
+these tools and playing with Ralph and
+uh sometimes the best way to really
+learn something is be able to
+communicate it clearly. So, let's try
+communicating something really clearly.
+Here
+we are going to go into the go into the
+realm of agents.mmd.
+We're going to go into the history of
+agents MD, how it came to be. We're
+going to look into the problems of
+agents MD. There are problems of agents
+MD.
+We're going to look at allocations and
+Malo again because it's really important
+that we think about context windows as a
+common 64 with a small amount of memory.
+Really important. And then we're going
+to go have a look to see what uh makes a
+good one. I'm going to show you the one
+that I use in Loom.
+So, let's go from the top. How did
+agents MD come into existence?
+Uh the story started with essentially it
+was
+all the different coding tools out there
+in the world. They were going for all
+these different things. So there was
+like
+Jules MD, there was like Claude MD. They
+were just getting littered. The repos
+are just getting littered and I was just
+getting really pissed off with it to be
+frank. And um Source Scrap purchased the
+domain
+agent.mmd because they were also annoyed
+with this. Um I put together an informal
+kind of like mimi RFC that really popped
+off online saying, "Hey, look this.
+We've got to stop littering our repos.
+It's trash. It's garbage. Let's not do
+this. This is stupid." It's just a text
+file that gets malicked to the array.
+It's just a text file. So I put together
+this RSC. It pops off on Y combinator
+and all the rest. And uh it was the
+response was really warm.
+The problem is uh OpenAI and Google had
+standardized on agents not agent.mmd.
+Agents.md
+was uh being parked by a domain parker.
+I remember correctly it was going to a
+porn site. So if you type agents.mmd
+into Slack, you got porn. Obviously,
+this no good. So that's why we went lent
+heavily into the idea of standardizing
+the industry on agent.mmd
+because at least it was neutral and it
+wasn't like putting offensive content
+into Slack. I forget the details. It's
+like eight months ago, which is like
+forever in AI land. Anyway, so that pops
+off. That pops off really hard. Um and
+uh little bit of backwards and forwards
+trying to purchase the agents. MD domain
+whoever held it uh just kept on jacking
+the price and it it became impossible to
+actually get it and secure it because
+the idea was to standardize the industry
+on a singular file name at least.
+We thought hope was all lost. Um then
+OpenAI opened up their money bags. Thank
+you very much, OpenAI. And they
+purchased agents.mmd,
+which is lovely. So that aligned, we got
+two big heavy hitters. We've got OpenAI
+and Google using agents. And here I am
+with this kind of meme RFC that was
+popping off saying that, hey, let's just
+anodize an agent. So we took the L. We
+took the L. We redirected agent MD to
+agents.mmd.
+Provided instructions for people how to
+do sim links to basically sim link
+claude.md to a agentmd to claude md vice
+versa. And just with sim links it was
+enough to do some migration. So that was
+great. I guess if I look back, I'd much
+prefer agent MD than dot and then
+agents.mmd.
+But that is I guess that's history now.
+But it's not without its problems. It's
+not without its problems. Perhaps it's
+too soon to standardize on a singular
+file name.
+Perhaps it's too soon to sing
+standardize a singular file name. What I
+would have loved to have seen is a a
+file name per model. So think of agent
+slash and then there's a file there's a
+model uh MD like the model name MD.
+There's a reason for this.
+All your cursor rules and all your
+agents MD and claude MD are slowly
+getting encodified for a particular LLM
+model.
+And the behavior and how these models
+react to human language is very
+different, incredibly different. So it
+creates a lot of noise when people like
+switch to the latest every couple days
+when the latest comes out. They go, "Oh,
+it's amazing. Oh, it's crap." Well, uh,
+it's probably your agents MD or your
+cursor rules causing chaos and creating
+noise in the community. I'll expand.
+I will expand.
+When um
+when Juby 5 came out,
+I remember just sitting down there with
+the boys and San Fran. We're like,
+we couldn't really explain it. We
+couldn't really explain it. For some
+reason, GPT5 was like, my description,
+you start anamorphizing these model
+behaviors. My description, it was like
+low testosterone. It just didn't make
+sense. It seemed like unconfident.
+And I got quickly told I'm in San Fran
+now, not Australia, Jeff. And in San
+Fran, we call it timid. So, uh, yes, we
+had consensus that it was timid and then
+we went around,
+uh, went around to different competitors
+because we're all like call kind of
+mates trying to figure these models out,
+no matter what the the lines of
+companies are. Um, it's a very small
+community of people who actually are
+model whisperers in the harness
+community.
+And they also agreed
+the model was timid and we couldn't
+figure out why. So let's connect the
+story. I've had this on the screen for a
+little bit. Have a look right here. GPT5
+for coding. The model says do not
+use firm language.
+With other models, you might have used
+firm language like yelling be thorough
+when g gathering information.
+And I guess this uppercase is all
+through your like cursor rules or for
+your agents MD, claude MD, whatever.
+This tonality
+causes GPT GPT5
+to uh become timid or it send it it
+makes it it changes its behavior. So
+here we have a model by open AI that
+says don't yell at it. Meanwhile
+anthropics models are saying yell at it.
+And now can you see the issue of having
+a single agents
+MD. Maybe we needed per model agents MD.
+Maybe it's too it's not too late to
+actually undo this, but uh maybe it's
+maybe it is too late, but maybe maybe
+the boys
+get together and we fix this stuff. All
+right, so we're on to the next part,
+folks. We're on to the next part of the
+chapter. We've done the history. We've
+done the problems.
+Now we talk about allocations.
+The way a coding agent works or a coding
+harness works is brutally simple.
+Brutally simple. You have an array
+and the first entry into that array
+position zero is the essentially the
+harness prompt which is like for cursor
+it's their prompt for claude code it's
+theirs etc.
+And um pretty much the almost guaranteed
+that the next slot after that is the
+harnesses automatically inject the
+agents MD or claw MD. So that's
+typically slot one
+and that's always allocated.
+That's always allocated unless there's a
+compaction event and compaction is evil.
+see my previous video about why Ralph
+Wigam is more of an approach and a
+thinking type thing. Let's get out of
+that pit hole. So, it's something that's
+allocated all the time.
+So, what makes a good agent MD is around
+about 70 lines of code or 70 lines of
+like text.
+Um, I've seen way too many agents.mmd
+out there in the wild and like all this
+gets tokenized. You should go to the
+open AI tokenizer and have a look at how
+many tokens your agent.MD is because if
+it's constantly allocated
+when you open the agent and it's
+massive, it's huge, the end result is uh
+you've got less room to actually do work
+and increases your likelihood of
+operating in the dumb zone. That's
+everything what Ralph Wigum the
+technique and the bash loop is about
+minimizing context rot or time in the
+dumb zone. So, you want to have your
+agents MD super super tiny, folks. Like
+tiny. Just enough. You might be
+thinking, what is just enough? Um, we'll
+get there, but look at your agents MD or
+call MD thoroughly like clean it out.
+Clean it out. It it doesn't matter if
+you delete it. You can regenerate it by
+a series of prompts to regenerate it,
+etc. What will happen in most code bases
+is
+people PR or update the agents MD or C
+MD and the end result is it becomes this
+hidden like forget knowledge. Why was
+that added in there? So what happens is
+it just it keeps getting it just keeps
+growing just keeps growing in teams and
+in projects. So don't be afraid to get
+like the harvester out and just like
+just lop it off just go mow it get a
+little m just mow it destroy it and
+create it again. and uh approach it from
+a first principles point of view.
+So let's have a look at Loom's agent MD.
+Now I'm doing this live and I haven't
+actually even prepped for this. So let's
+have a look.
+Okay, the first thing first um I
+typically like honestly if I'm looking
+at this because I've co-generate this I
+would delete the specifications
+completely because when I'm routing I
+essentially malic those specifications
+myself I want high control of that
+malicking
+here I have essentially two different
+ways to build the application
+uh one for the RAS one for the web uh I
+don't like this to be honest. Like I
+haven't actually cleaned this up. Like I
+don't want it actually to do do cargo
+builds. I want it to use nyx builds
+because if it does nick builds I get
+binary based cing. So when I deploy it's
+just instant deploy. So I'm just going
+to clean that out.
+Here is a cargo to Nick workflow. Maybe
+I keep it. I put this in here because I
+saw Ralph failing. This is a sign. But
+maybe the correct thing to do is to
+actually get rid of this allocation and
+instead when Ralph finishes you kick off
+another route with just this prompt
+maloc mallet. This is where you get into
+essentially recursive loops on loops on
+loops. You want to really minimize your
+allocations that you do. Honestly, this
+is actually a bit of a dumpster fire.
+I'm actually kind of embarrassed. Um,
+this is what happened. So, let's pull up
+agents MD.
+Cool.
+We look here. Normally, all you really
+want to have in agents MD
+is just enough information on how to run
+the tests, how to build the agent. Um,
+where uh maybe a little bit of a layout,
+but most coding agents do a layout as
+such for the agents MD.
+um
+make test etc etc it's just really
+enough uh the probably the most succinct
+way I can define what is enough and what
+is not because it's I haven't been as
+concrete
+it's just enough to run Ralph in a loop
+if you feel that you have to intervene
+because you see the bash tool failing
+when it's trying to do tests
+well that means your agent MD needs
+updating
+when you see a tool call like it's
+failing, failing, failing, failing.
+That's a sign that you need to tune the
+guitar. You need to tune it. It just
+needs to be just enough. But it doesn't
+have it shouldn't be necessarily
+completely concrete.
+Let me get into this. Let me get into
+this. Let's just do it live.
+Let's just do it live, folks.
+Let's just do it live.
+to build
+you have access to pseudo
+on this computer.
+So, so let's go to check web server
+use journal Diagnose
+Okay. Stage a set. Stage a set.
+Um, a lot of people
+treat the the LLMs as as if they're
+Gypsies 3. They're not. They're really
+not. They're incredibly smart. It's
+freaking brilliant. What you need to do
+instead is just do just enough to
+create
+uh tickle the latent space and create a
+behavior or make a call to do a behavior
+but not not be
+not be too hyper specific. I'll get into
+that now.
+Let's assume this is like a build test
+loop whatever. But I'm just going to use
+this as a raw example for check the web
+server. Notice that I don't mention that
+if I use engine X or caddy here. I just
+said look if you want to check the web
+server you should look at journal D. So
+I'm I'm saying straight up you should
+look at journal D for information what
+it is. The latent space knows that
+journal D is related to systemd.
+So within a Theo it should
+actually it should actually
+use system control to check the status
+of the server then it will do general D.
+I don't know. We're about to find out.
+This is what I mean. You got to play
+with these things and these are very
+less is more. Just enough to get the
+latest behavior but not anything more.
+Cool. Let's try this Claude.
+Let's bring into Claude. Let's give me
+Give me my Claude.
+Check the web server.
+Let's see what it does. Let's see what
+the latent space does.
+What do you know?
+It went for system control. I didn't
+mention system control.
+I mentioned journal control. It's within
+the realms of the same latent space
+and it's used sudo because I I told it
+to check the web server you should check
+it on the local machine. It's on local
+machine. See I was able to pull out that
+latent behavior.
+See I was able to pull out that latent
+behavior. What if we restart this
+session?
+Resize it. Check the engine X web
+server. Now this is interesting. I don't
+actually. No, let's do caddy web server
+because I I've I've got engineext on
+this machine.
+Check the caddy web server.
+So all of a sudden it's going to
+immediately go for caddy because I've
+done system control or I said journal
+control. So journal control has
+triggered the latent space for system
+control and it's
+from there because I specified the
+argument essentially almost an argument
+of caddy it immediately goes to system
+control patty and it fails as we
+expected to because I use engine x and
+then you have a look here and let's go
+for journal control and it goes well
+it's not there so it starts hill
+climbing like it starts searching and
+discovering it's got all these behavior
+behaviors. This is start thinking things
+along the lines of like case hits and
+cash misses. When you see this type of
+behavior,
+it's a sign that something needs tuning
+in your prompts. Consider the each one
+of these things is a cash miss. In this
+case, it's not a cash miss because I've
+just provided incorrect information. But
+if it was doing this for engine X, if it
+was doing this for engine X, the well
+you need to tune your prompts. But
+everyone wants clarity of like what is
+the right prompt. There is no really
+right prompt. You just got to pick up
+the guitar and play with it. You got to
+find what the right thing is. And so
+each for each one of your concerns in
+your application, you got to do this
+little bit of a dance. You got to do
+this little bit of a dance and uh figure
+out what the right thing is for
+building your application
+for testing your application
+for linting and formatting about 70
+lines. You can do more. You can do more.
+I do more. But I it comes with a
+trade-off. I know that I'm risking going
+into the downside.
+So,
+with that, that's pretty much it. But I
+want you to I want to leave you with one
+thing. I want to leave you with one
+thing extra.
+Let's go into Loom.
+This one here, deployments happen
+automatically via get push to the trunk
+branch. The production servers run Nyx
+OS with auto update enabled. The update
+service runs every 10 seconds. Check for
+new commits and rebuilds if need be.
+This is kind of this is kind of cool. I
+don't necessarily need to have this
+deter determinist deterministically
+mallet to the array, but I use it so
+often and I always want it to be there.
+I want to pin this here. But this could
+be like a skill. skills are just
+literally just markdown files that are
+lazily loaded. They're just lazily
+loaded CSS or images or like
+that's a wrong thing. They're just
+lazily loaded strings. the l so they
+think of the idea of lazy loading
+um and this this type of thinking
+this little bit of distraction allows me
+to just go yo is my server deployed
+if so moo
+and I actually put a bit of effort on
+this one for tuning it because I would
+like continually I'd be running Ralph
+loops
+and it auto deploys into production for
+Loom and what I want to do or how I
+drive it for Loom because there's no
+code review is
+uh it deploys automatically and then I
+give a little prompt check if it's
+deployed and then look at the logs.
+So here it's like check if it's
+deployed. I'm not being hyper specific
+as such on how the deployment all works
+etc in this prompt because something
+pinning that latent behavior because
+I've observed and I've tuned that latent
+behavior to happen. So now I can like
+start thinking in higher and higher
+levels of abstraction to drive these
+types of behaviors. So I go
+uh give me errors from server
+from loom server.
+This
+should
+and it does go for journal control.
+Cool. It's really that simple, folks.
+Um, there is no real right way or wrong
+way if you're just getting all these
+random things from GitHub
+hoping that it's a it is the magic
+thing.
+No, the magic thing is the discoveries
+you find by tuning the guitar. Until
+next time.
