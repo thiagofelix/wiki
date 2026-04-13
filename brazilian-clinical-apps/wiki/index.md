@@ -5,7 +5,7 @@
 - [[iclinic]] — Brazil's leading cloud EHR for independent physicians; acquired by Afya (NASDAQ: AFYA) in 2021 for €27.9M
 - [[easy-health]] — Clinical management SaaS by Essentia Technologies, focused on integrative medicine and nutrition
 - [[shosp]] — Cloud clinic/hospital management from Rio de Janeiro with a free-tier model (R$0–R$229/prestador)
-- [[doctoralia]] — Global health marketplace and SaaS by DocPlanner Group; unicorn ($1B+); 700K+ professionals in Brazil
+- [[doctoralia]] — Global health marketplace and SaaS by DocPlanner Group; unicorn ($1B+); 950K+ professionals in Brazil
 - [[clinica-nas-nuvens]] — Cloud clinic management for medium-to-large clinics; acquired by Bionexo for R$28.5M (2021)
 - [[pixeon]] — Brazil's leading integrated RIS/PACS/LIS/HIS/CIS stack; 4× KLAS Best in PACS Latin America
 - [[mv-sistemas]] — Brazil's dominant hospital IT company; 5th largest hospital software provider globally (2025)
@@ -17,7 +17,7 @@
 - [[medicina-direta]] — SBIS Level 3 certified; serves both private and SUS public sector with accreditation support
 - [[prodoctor]] — Founded 1993; 65K+ clients; AWS global case study; NPS 97
 - [[prontmed]] — Clinical data platform since 1996; Series B from Fleury (18%) + Sabin (12%); Hospital das Clínicas client
-- [[consultorio-live]] — Budget-friendly cloud EHR from R$59/mo; VBB Software since 2004; Memed integration
+- [[consultorio-live]] — Budget-friendly cloud EHR from R$73/mo; VBB Software since 2004; Memed integration
 - [[simdoctor]] — AI voice-to-EHR and predictive analytics; R$49–89/mo per professional
 - [[conclinica]] — 30+ year heritage (founded 1991) by Tecnoarte; transparent R$79/user/mo pricing
 
@@ -29,12 +29,20 @@
 - [[sbis-certification]] — SBIS/CFM EHR certification: NGS1 vs NGS2 levels, requirements, and certified platforms
 - [[sus-integration]] — SUS integration requirements: RNDS, HL7 FHIR R4, CNES, ICP-Brasil
 - [[anvisa-samd]] — ANVISA Software as Medical Device (SaMD) regulatory framework: classification and compliance
+- [[cfm-ai-regulation]] — CFM Resolution 2.454/2026: AI in medicine risk tiers, governance, liability, and compliance (deadline Aug 2026)
 
 ## Sources
+
+### Research Documents
+
 
 - [major-platforms-research](raw/major-platforms-research.md) — Deep-dive on 7 major platforms: iClinic, Easy Health, Shosp, Doctoralia, Clínica nas Nuvens, Pixeon, MV Sistemas
 - [additional-platforms-research](raw/additional-platforms-research.md) — Research on 11 additional platforms: Amplimed, Feegow, Ninsaúde, TuoTempo, HiDoctor, Medicina Direta, ProDoctor, Prontmed, Consultório Live, SimDoctor, Conclínica
 - [market-landscape-research](raw/market-landscape-research.md) — Market size, regulations (CFM, LGPD, TISS, ANS, ANVISA), M&A, investors, competitive dynamics
+
+### Primary Sources (175 files in raw/sources/)
+
+See [raw/sources/_manifest.json](raw/sources/_manifest.json) for the complete catalog of 175 fetched web pages, PDFs, and media sources with URLs, titles, and file mappings. Sources span platform homepages, press releases, investor announcements, regulatory documents, market reports, law firm analyses, app store listings, LinkedIn profiles, and YouTube channels. All were ingested on 2026-04-12 to enrich entity and concept pages with primary-source citations.
 
 ## Syntheses
 

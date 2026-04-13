@@ -3,6 +3,9 @@ title: Medicina Direta
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/medicinadireta-com-br-index.md
+  - raw/sources/apps-apple-com-medicina-direta.md
+  - raw/sources/play-google-com-medicina-direta.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -19,6 +22,8 @@ Medicina Direta is a Brazilian electronic health record (EHR) and clinic managem
 | **Parent / Owner** | Neodel Tecnologia e Software LTDA EPP (independent) |
 | **Website** | https://medicinadireta.com.br |
 | **Contact** | atendimento@medicinadireta.com.br · +55 11 99888-4818 |
+| **Main phone** | (11) 5184-4700 |
+| **WhatsApp** | (11) 5184-4714 |
 
 ## Founders
 
@@ -41,6 +46,10 @@ No publicly disclosed funding rounds. Appears to be a bootstrapped SME, operatin
 | **Formulários SUS** | APAC, BPA, eSUS, RAC, Notificação de Agravos, Formulário de Medicamento de Alto Custo, Controle de Vacinas |
 | **Migração de Dados** | Free data migration offered (promoted as 100% free) |
 | **Accreditation Support** | Records and processes compliant with ONA, Joint Commission, AACI, ACSA, Qmentum |
+| **SOAP Documentation** | SOAP note format supported as clinical documentation standard |
+| **Clinical Decision Support** | Clinical decision support tool included in the platform |
+| **API de Integração** | Integration API available as a solution category |
+| **Website** | Website creation/management listed as a solution category |
 
 ## Target Market
 
@@ -78,12 +87,28 @@ Not publicly listed. A Black Friday promotion of R$ 949,00 bonus credit for new 
 | **ICP-Brasil digital signature** | Digital signature for records and prescriptions |
 | **SUS integrations** | APAC, BPA, eSUS, RAC, Notificação de Agravos, Controle de Vacinas |
 | **ONA / Joint Commission / AACI / ACSA / Qmentum** | Accreditation-ready records and processes |
+| **Microsoft Azure** | Cloud infrastructure provider |
+| **HIPAA / ITAR / ISO/IEC / IRS 1075 / CJIS** | US and international compliance standards met at infrastructure level |
 
 ## Tech Stack
 
 - **Cloud-based** (100% online; no local hard-drive installation)
+- **Server infrastructure:** Microsoft Azure
+- **Backup:** every 15 minutes
+- **Encryption:** SSL 256-bit
+- **Compliance standards:** HIPAA Compliant, ITAR, ISO/IEC, IRS 1075, CJIS (infrastructure level)
 - Mobile apps: iOS and Android
 - SBIS Level 3 certified infrastructure
+
+### Mobile App Details
+
+**iOS (App Store):**
+- Version: 4.3.2
+- Size: 140 MB
+- Requires: iOS 13+, iPadOS 13+, macOS 11.0+, Apple Vision (visionOS 1.0+)
+
+**Android (Google Play):**
+- Installs: 5,000+
 
 ## Notable News / Timeline
 
@@ -93,6 +118,7 @@ Not publicly listed. A Black Friday promotion of R$ 949,00 bonus credit for new 
 | Ongoing | SBIS Level 3 certification — one of very few Brazilian clinic platforms at this level |
 | Ongoing | Serves SUS municipalities alongside private clinics |
 | Ongoing | 100% free data migration promoted as an acquisition incentive |
+| Ongoing | Infrastructure hosted on Microsoft Azure with 15-minute backup cadence and HIPAA/ITAR/ISO/IEC/IRS 1075/CJIS compliance |
 
 Medicina Direta's SBIS Level 3 certification makes it particularly suitable for public sector procurement and private institutions seeking ONA or Joint Commission accreditation — a niche not served by most competitors in this segment.
 

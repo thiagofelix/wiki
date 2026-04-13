@@ -3,6 +3,8 @@ title: HiDoctor
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/hidoctor-com-br-index.md
+  - raw/sources/selecthub-com-p-medical-software-hidoctor.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -41,6 +43,7 @@ HiDoctor is distinguished by its multi-platform architecture and an unusually br
 | **Telemedicina** | Full teleconsultation with integrated EHR and legally valid digital prescription |
 | **Assinatura Digital** | ICP-Brasil batch digital signing of records |
 | **MedBook** | Patient relationship platform: send medical documents, enable online scheduling, patient app |
+| **MiniPACS** | Integrated mini-PACS module: prontuários can receive and store Excel, Word, and PDF files synchronized across all devices in real time |
 | **HiDoctor GS (Financial)** | Integrated billing, procedure/materials tracking, automatic repasse calculation, inventory, [[tiss]] |
 | **Marketing Module** | WhatsApp/email/SMS automated messages with sophisticated patient filters |
 | **Confirmação Automática** | WhatsApp/SMS appointment reminders; patient can confirm/cancel directly |
@@ -87,13 +90,27 @@ No SBIS certification is mentioned in available sources (contrast with [[feegow]
 - Offline capability via the installed desktop client — key differentiator over pure SaaS competitors
 - Centralx.com proprietary infrastructure
 
+## Current Branding
+
+The platform is currently marketed as **HiDoctor 10** — indicating active version iteration.
+
+## Security & Independence Messaging
+
+HiDoctor explicitly markets "total independence from the internet" as a security feature — a direct appeal to physicians concerned about connectivity reliability or data sovereignty. This underpins its offline-capable desktop architecture as a trust differentiator, not merely a technical footnote.
+
+## Content & Community
+
+Centralx produces:
+- **HiDoctor News** — a magazine covering the product and the broader medical software market
+- **HiDoctor Podcast** — audio content produced by Centralx for its user community
+
 ## Notable News / Timeline
 
 | Date | Event |
 |---|---|
 | Pre-2000 | Centralx established; 35+ years of medical software development |
 | 2003 | Earliest documented client testimonials |
-| 2025 | Named #11 medical software on SelectHub rankings |
+| 2025 | Named #11 medical software on SelectHub rankings; current version branded HiDoctor 10 |
 
 Appvizer describes HiDoctor as "the only multiplatform system for clinics and practices and the most widely used software by doctors and clinics in Brazil."
 

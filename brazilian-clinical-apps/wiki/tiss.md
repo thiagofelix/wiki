@@ -3,15 +3,21 @@ title: TISS — Troca de Informação em Saúde Suplementar
 type: concept
 sources:
   - raw/market-landscape-research.md
+  - raw/sources/maislaudo-com-br-blog-tabela-tuss.md
+  - raw/sources/blendus-com-br-blog-normas-ans-para-operadoras-de-saude.md
+  - raw/sources/bvsms-saude-gov-br-bvs-saudelegis-ans-2025-res_0630_07_04_2025-html.md
+  - raw/sources/ans-gov-br-prestadores-tiss-troca-de-informacao-de-saude-suplementar.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
 
 TISS (Troca de Informações na Saúde Suplementar) is the **mandatory electronic data exchange standard** for health plan beneficiary care data in Brazil's supplementary health sector. Every clinical software that interfaces with private health insurers must be TISS-compliant. Non-compliance prevents electronic claims submission to the 668 ANS-registered insurers covering ~51 million Brazilians.
 
-**Established by:** ANS (Agência Nacional de Saúde Suplementar)  
-**Governing resolution:** RN nº 501 (and subsequent updates)  
+**Established by:** ANS (Agência Nacional de Saúde Suplementar)
+**Governing resolution:** RN nº 501 (and subsequent updates)
 **Current version:** March 2024 ([ANS — Padrão TISS Março/2024](https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss/marco-2024))
+
+**Non-compliance penalty:** R$35,000 fine per infraction under Art. 44 of RN 124.
 
 ---
 
@@ -40,6 +46,8 @@ The key rule: insurers cannot request paper copies of information already transm
 
 ([ANS TISS March 2024](https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss/marco-2024))
 
+**Note on Component 2:** Version 202211 (Content & Structure) was NOT updated in the March 2024 release cycle; it remains at the November 2022 version while the other components advanced.
+
 ---
 
 ## Covered Transactions
@@ -56,9 +64,10 @@ TISS standardizes electronic exchanges for:
 
 TUSS is the **standardized procedure code and nomenclature system** that constitutes Component 3 (Concepts Representation) of TISS. It defines the codes used in all TISS electronic messages.
 
-**Full name:** Terminologia Unificada da Saúde Suplementar  
-**Created by:** ANS + AMB (Associação Médica Brasileira) + COPISS (Comitê de Padronização das Informações em Saúde Suplementar)  
-**Based on:** CBHPM 6th Edition (Classificação Brasileira Hierarquizada de Procedimentos Médicos)
+**Full name:** Terminologia Unificada da Saúde Suplementar
+**Created by:** ANS + AMB (Associação Médica Brasileira) + COPISS (Comitê de Padronização das Informações em Saúde Suplementar)
+**Based on:** CBHPM 6th Edition (Classificação Brasileira Hierarquizada de Procedimentos Médicos) — TUSS was built on top of CBHPM 6th Edition but is **not identical** to it; it extends and reorganizes that base.
+**Mandatory adoption date:** October 15, 2010, established by RN 190/2009. RN 305/2012 subsequently replaced RN 190/2009 as the governing mandate.
 
 ([ANS — TUSS](https://www.ans.gov.br/a-ans/sala-de-noticias-ans/operadoras-e-servicos-de-saude/2010-rol-de-procedimentos-e-terminologia-unificada-da-saude-suplementar))
 
@@ -72,6 +81,18 @@ TUSS is the **standardized procedure code and nomenclature system** that constit
 
 ([Mais Laudo](https://maislaudo.com.br/blog/tabela-tuss/))
 
+### Three Distinct ANS Tables — Important Distinctions
+
+These three ANS instruments are frequently confused but serve entirely different purposes:
+
+| Table | Full Name | Purpose |
+|---|---|---|
+| **CBHPM** | Classificação Brasileira Hierarquizada de Procedimentos Médicos | Fee schedule / relative value units (RVU) for physician billing. Published by AMB. Used as a pricing reference. |
+| **TUSS** | Terminologia Unificada da Saúde Suplementar | Universal **procedure coding** system. The code set used in all TISS electronic messages. Mandatory since Oct 15, 2010. |
+| **Rol de Procedimentos** | Rol de Procedimentos e Eventos em Saúde | **Mandatory minimum coverage list** — defines which procedures every health plan must cover. Has no pricing function. |
+
+TUSS was built on CBHPM 6th Edition but diverges from it. CBHPM provides pricing; TUSS provides coding identity; the Rol mandates coverage scope. All three may reference the same procedure but for different regulatory purposes.
+
 ### Five TUSS Categories
 
 1. Medical procedures and other assistive services
@@ -80,6 +101,8 @@ TUSS is the **standardized procedure code and nomenclature system** that constit
 4. Orthotics, prosthetics, and special materials (OPME)
 5. Items not in CBHPM but recognized by ANS
 
+**Domain tables:** TUSS comprises **63 domain tables** distributed across these five categories.
+
 ([Mais Laudo](https://maislaudo.com.br/blog/tabela-tuss/))
 
 ### TUSS Governance
@@ -87,7 +110,12 @@ TUSS is the **standardized procedure code and nomenclature system** that constit
 - ANS maintains and updates TUSS; COPISS proposes additions and reviews codes.
 - For unlisted procedures, an insurer can create a temporary proprietary code until COPISS approves inclusion.
 
-([Mais Laudo](https://maislaudo.com.br/blog/tabela-tuss/))
+**COPISS expanded role:** COPISS (Comitê de Padronização das Informações em Saúde Suplementar) does more than maintain TUSS. It:
+- Proposes updates to all five TISS components (not just Component 3/TUSS)
+- **Arbitrates disputes** between providers and insurers on coding questions
+- Coordinates with AMB and medical specialty societies on procedure definitions
+
+([Mais Laudo](https://maislaudo.com.br/blog/tabela-tuss/); [ANS TISS portal](https://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar))
 
 ---
 
@@ -98,12 +126,28 @@ Beyond TISS itself, ANS imposes several obligations on stakeholders:
 | Obligation | Description | Reference |
 |---|---|---|
 | **TISS compliance** | All electronic data exchanges between providers and insurers must use TISS (XML guias) | RN 501 |
+| **Non-compliance fine** | R$35,000 per infraction for TISS violations | Art. 44 of RN 124 |
 | **DIOPS reporting** | Insurers submit quarterly/annual financial data via DIOPS-DOCS (XML). Relevant for insurer-facing software | RN 527 ([Blendus Blog](https://blendus.com.br/blog/normas-ans-para-operadoras-de-saude/)) |
 | **Corporate portal** | Each insurer must maintain an internet-facing portal for TISS data exchange | RN 501 |
-| **Coordenador TISS** | Each insurer must designate a TISS Coordinator — a technical professional responsible for compliance | [ANS](https://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar) |
-| **IDSS performance index** | ANS scores insurers on Índice de Desempenho da Saúde Suplementar; affects regulatory eligibility | [BVS](https://bvsms.saude.gov.br/bvs/saudelegis/ans/2025/res_0630_07_04_2025.html) |
+| **Coordenador TISS** | Each insurer must designate a TISS Coordinator — a technical professional responsible for compliance. RN 359/2014 removed the obligation to report the portal address and coordinator contact to ANS. | [ANS](https://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar); RN 359/2014 |
+| **IDSS performance index** | ANS scores insurers on Índice de Desempenho da Saúde Suplementar; affects regulatory eligibility. See thresholds below. | RN 630/2025 ([BVS](https://bvsms.saude.gov.br/bvs/saudelegis/ans/2025/res_0630_07_04_2025.html)) |
+| **Appointment wait times** | Maximum 7 business days for basic consultations | RN 566 (replaced RN 259) |
+| **Premium reajuste** | Annual premium adjustments indexed to IPCA | RN 512 |
 | **APS Certification** | Optional primary care certification (RN 572/2023); requires specific software capabilities | RN 572/2023 |
 | **Rol de Procedimentos** | Mandatory minimum coverage list; billing modules must map against Rol codes | ANS |
+
+### IDSS Numerical Thresholds (RN 630/2025)
+
+RN 630/2025 was signed March 31, 2025 and published April 7, 2025. It establishes the following IDSS thresholds for accreditation eligibility:
+
+| Plan Type | Minimum for Accreditation Eligibility | Excellence Threshold |
+|---|---|---|
+| Medical-hospital plans | IDSS ≥ 0.6 | IDSS > 0.8 |
+| Dental-only plans | IDSS ≥ 0.5 | IDSS > 0.7 |
+
+**30-day notification rule:** Insurers must notify ANS at least 30 days before changes that would affect their accreditation status under these thresholds.
+
+([BVS — RN 630/2025](https://bvsms.saude.gov.br/bvs/saudelegis/ans/2025/res_0630_07_04_2025.html))
 
 ---
 

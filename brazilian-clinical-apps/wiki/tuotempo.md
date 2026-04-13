@@ -3,6 +3,10 @@ title: TuoTempo
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/tuotempo-com-index.md
+  - raw/sources/prospeo-io-c-tuotempo-revenue.md
+  - raw/sources/softwareadvice-com-appointment-scheduling-tuotempo-patient-crm-profile.md
+  - raw/sources/workingnomads-com-jobs-backend-engineer-docplanner-1528935.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -15,10 +19,23 @@ TuoTempo is an enterprise healthcare CRM and patient engagement platform founded
 |---|---|
 | **Founded** | 2005–2006 (sources vary; Prospeo: 2006; Slashdot: 2005; Preqin: 2006) |
 | **HQ** | Bologna, Emilia-Romagna, Italy (Via Garibaldi 1, Bologna 40123) |
-| **Additional hub** | Barcelona, Spain |
+| **Additional office** | Barcelona, Spain |
 | **Parent / Owner** | DocPlanner Group (acquired 2019) |
 | **Website** | https://www.tuotempo.com |
 | **Employees** | 101–200 (as of 2025) |
+| **Revenue estimate** | ~$5M USD/year (Prospeo estimate) |
+| **Valuation estimate** | ~$16M USD (derived) |
+
+## Scale Metrics
+
+From the TuoTempo website (as of 2025):
+
+| Metric | Value |
+|---|---|
+| Years of experience | 18 |
+| Clients worldwide | 500+ |
+| Patients managed via CRM | 25M+ |
+| Clinics with online agenda | 250+ |
 
 ## Founders
 
@@ -53,6 +70,16 @@ TuoTempo specializes in patient relationship management and operational automati
 | **Predictive Analytics** | Forecasting patient behavior and cancellation risk |
 | **Multi-Location** | Full support for hospital networks and polyclinics with multiple locations |
 | **API** | Open API for integration with HIS/EMR systems |
+| **Voice Assistant** | AI-powered voice assistant module for patient interactions |
+| **Self Check-in** | Patient self-service check-in module |
+| **WhatsApp Channel** | Dedicated WhatsApp communication channel for patient engagement |
+| **Leadflow** | Lead capture and management workflow |
+| **Satisfaction & Clinical Outcome** | Combined satisfaction survey and clinical outcome tracking module |
+| **EDI** | Electronic data interchange |
+| **No-Show Tracking** | Tracking and analytics for patient no-shows |
+| **On-Call Scheduling** | Scheduling support for on-call physicians |
+| **Physician Management** | Physician-level management and reporting |
+| **Lead Management** | Patient acquisition lead management |
 
 ## Target Market
 
@@ -82,9 +109,13 @@ Note: TuoTempo operates primarily in European and Latin American markets. Brazil
 
 ## Tech Stack
 
-- Cloud-based SaaS
+- Cloud-based SaaS (primary deployment)
+- **On-premise deployment option available** — not exclusively cloud; institutions can host on-site
 - Available on: Web, iOS, Android, Windows, Mac, Linux
-- Remote-first team culture; staff based in Italy and Spain
+- Infrastructure: Cloudflare CDN, AWS, Google Workspace
+- Business tools: HubSpot (CRM/marketing), Atlassian Statuspage (uptime monitoring)
+- AI voice and chat product stack: **Twilio**, **WhatsApp**, **ElevenLabs**, **OpenAI**, **LangChain / LangGraph**
+- Remote-first team culture; staff based in Bologna (Italy) and Barcelona (Spain)
 
 ## Notable News / Timeline
 
@@ -95,7 +126,9 @@ Note: TuoTempo operates primarily in European and Latin American markets. Brazil
 | September 2021 | DocPlanner Group valued at USD 1B+ in Goldman Sachs-led round |
 | 2025 | TuoTempo has 101–200 employees; team based in Italy and Spain; positioned as serving "Europe and Latin America's leading healthcare institutions" |
 
-Key contact (as of 2025): Alessandro Bianco (Head of Product Management).
+Key contacts (as of 2025):
+- **Alessandro Bianco** — Head of Product Management
+- **Corrado Calvo** — Head of Sales and Customer Success
 
 ## See Also
 

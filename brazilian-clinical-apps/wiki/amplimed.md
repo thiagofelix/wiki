@@ -3,6 +3,9 @@ title: Amplimed
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/cbinsights-com-company-amplimedcombr.md
+  - raw/sources/prospeo-io-c-amplimed.md
+  - raw/sources/linkedin-com-company-amplimed.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -14,7 +17,7 @@ Amplimed is a Brazilian clinic and consultório management platform that describ
 | Field | Detail |
 |---|---|
 | **Founded** | 2014 (LinkedIn/Prospeo); 2015 cited by CBInsights (likely incorporation or product launch) |
-| **HQ** | Chapecó, SC, Brazil |
+| **HQ** | 12th floor, Av. Getúlio Dorneles Vargas, 1183n, Chapecó, SC 89802-002 |
 | **Parent / Owner** | Raia Drogasil (RD Group) — 100% acquisition, December 2021 |
 | **Legal name** | Amplisoftware Tecnologia |
 | **Website** | https://www.amplimed.com.br |
@@ -22,28 +25,42 @@ Amplimed is a Brazilian clinic and consultório management platform that describ
 
 ## Founders
 
-No individual founders are publicly identified in available sources. Pre-acquisition, the company was supported by **Startup SC** and **Endeavor Scale-Up Brazil** at the accelerator/seed stage.
+| Name | Role |
+|---|---|
+| **Darlan Segalin** | Co-Founder |
+| **Liandro Segalin** | Co-Founder |
+| **Fernando Bevilacqua** | Co-Founder, CTO; PhD in Human–Computer Interaction / AI |
+| **Dr. Marcos André Sonagli** | Co-Founder (orthopedic surgeon); Senior Medical Director |
+
+The Segalin surname for two of the co-founders suggests a family-founded company, consistent with Chapecó, SC origins. Fernando Bevilacqua's academic background in HCI/AI likely underpins the platform's early emphasis on usability and the Amélia AI suite.
 
 ## Funding & Ownership
 
 | Stage | Investor / Event | Notes |
 |---|---|---|
 | Seed / Accelerator | Startup SC, Endeavor Scale-Up Brazil | Early-stage support |
+| Accelerator | Oxigênio Aceleradora (Porto Seguro + Plug and Play Tech Center) | Selected from 200+ startups |
+| Program | Conexão Vitall (Unimed FESP / Hub Vitall / Liga Ventures) | Health plan accelerator |
 | **Acquisition** | Raia Drogasil (RD Group) | 100% of capital acquired December 2021; price undisclosed |
 
-Raia Drogasil (revenue > R$ 30.9 billion in 2022, ~2,697 stores) acquired Amplimed as part of its digital health ecosystem strategy, alongside Vitat, Healthbit, and Cuco Health. The deal was described by RD's General Counsel as an acquisition of "a leading healthtech company in medical records software."
+**Raia Drogasil** is an independent pharmaceutical retail and health platform company (not a health plan or insurer). Key RD Group stats at time of acquisition: annual sales ~R$24B (2021), 51,000+ employees, 2,600+ pharmacies. RD acquired Amplimed as part of its digital health ecosystem strategy; other RD health tech acquisitions include Vitat (ex-Tech.fit), Healthbit, and Dr. Cuco. The deal was described by RD's General Counsel as an acquisition of "a leading healthtech company in medical records software."
+
+Post-acquisition revenue (RD Group overall) exceeded R$30.9 billion in 2022 (~2,697 stores).
 
 Pre-acquisition revenue was estimated at ~USD 8.2M (ZoomInfo estimate).
 
 ## Key Features
 
-The platform's flagship differentiator is the **Amélia** AI suite:
+The platform's flagship AI differentiator is branded as both **Amélia** (AI suite name) and **Ampli IA** (product brand, possibly a rebranding or parallel commercial label). Ampli IA claims a **40% reduction in record-filling time**. The named prescription product is **Ampli Prescreve**.
+
+### Amélia / Ampli IA Suite
 
 - **Amélia Agendamento** — 24/7 virtual assistant that books appointments, syncs with the clinic agenda, and reduces inbound calls
 - **Amélia Transcrição** — Real-time AI transcription of in-person and video consultations; auto-fills structured EHR fields
 - **Amélia Copilot** — Locates, summarizes, and organizes patient information; clinical decision support during consultations
+- **Ampli Prescreve** — Named prescription product (digital prescriptions with legal validity)
 - **Agenda Inteligente** — Smart scheduling claiming a 38% reduction in no-shows; multi-room and multi-resource management
-- **Prontuário Eletrônico** — Specialty-specific EHR templates; image insertion; before/after comparison; pediatric growth charts
+- **Prontuário Eletrônico** — Specialty-specific EHR templates; image insertion; before/after comparison; pediatric growth charts. Specialty modules include gynecology, pediatrics, rheumatology, oncology, ophthalmology, and dermatology. Also supports TEA/ABA therapy management (autism spectrum disorder workflows).
 - **Teleatendimento** — Encrypted video consultation with integrated EHR; digital prescription with legal validity
 - **Faturamento TISS** — [[tiss]]-standard billing with claimed 99% reduction in glosas (claim denials); automated guide organization
 - **NFS-e** — Automated electronic service invoice issuance integrated with the financial module
@@ -53,14 +70,16 @@ The platform's flagship differentiator is the **Amélia** AI suite:
 - **Estoque** — Inventory management with expiry alerts, consumption tracking, and audit trail
 - **Certificado Digital** — ICP-Brasil digital signature; compatible with Soluti, Valid, and Certisign
 - **Indicadores** — KPI dashboards covering revenue, productivity, and patient satisfaction
+- **Support** — 99% support satisfaction metric (self-reported)
 - **Painel de Chamados** — Patient call display panel for clinic TV screens
 - **Data Migration** — Transfers records from 30+ other systems; 18 million EHRs migrated to date
 
 ## Target Market
 
 - General and specialty clinics (clínicas) and individual medical practices (consultórios)
-- Health plan operators (operadoras de saúde)
-- All medical specialties; testimonials from psychiatry, dermatology, neonatology, and pediatrics
+- Health plan operators (operadoras de saúde) — confirmed major clients include **Unimed FESP** (16th largest health plan in Brazil; 500,000+ beneficiaries in São Paulo state), **Unimed Cuiabá**, and **Unimed Blumenau**
+- All medical specialties; dedicated modules for gynecology, pediatrics, rheumatology, oncology, ophthalmology, dermatology
+- TEA/ABA therapy providers (autism spectrum disorder management)
 - Dental clinics (referenced in RD Group acquisition description)
 
 ## Pricing
@@ -94,6 +113,9 @@ No SBIS certification is mentioned in available sources (contrast with [[feegow]
 |---|---|
 | 2014 | Founded (as Amplisoftware Tecnologia) |
 | Early stage | Supported by Startup SC and Endeavor Scale-Up Brazil |
+| Pre-2021 | Selected from 200+ startups for Oxigênio Aceleradora (Porto Seguro + Plug and Play Tech Center) |
+| Pre-2021 | Selected for Conexão Vitall program (Unimed FESP / Hub Vitall / Liga Ventures) |
+| **2020** | Platform served 670+ clinics and 8,500+ health professionals |
 | **December 2021** | Acquired 100% by Raia Drogasil (RD Group) for an undisclosed amount |
 | Post-acquisition | Scale grew from ~26,000 professionals / 12 million patients to 70,000+ professionals / 51 million patients |
 

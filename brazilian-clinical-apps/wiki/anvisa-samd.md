@@ -3,6 +3,12 @@ title: ANVISA SaMD — Software as Medical Device Framework
 type: concept
 sources:
   - raw/market-landscape-research.md
+  - raw/sources/gov-br-anvisa-pt-br-assuntos-noticias-anvisa-2025-anvisa-publica-nova-versao-de-manual-para-regularizacao-de-e-544b1e9a.md
+  - raw/sources/cgmlaw-com-br-en-anvisa-resolution-no-657-2022-standard-for-registration-and-notification-of-software-as-a-med-adafcfc0.md
+  - raw/sources/freyrsolutions-com-blog-resolution-for-regulation-of-software-as-medical-device-samd-in-brazil.md
+  - raw/sources/elendilabs-com-en-articles-bra-software-as-a-medical-device.md
+  - raw/sources/qservegroup-com-en-brazil-medical-device-regulations.md
+  - raw/sources/saudedigitalbrasil-com-br-anvisa-atualiza-regras-para-regularizacao-de-dispositivos-medicos-no-brasil.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -20,12 +26,14 @@ updated: 2026-04-12
 | Resolution | Content | Effective |
 |---|---|---|
 | **RDC 657/2022** | Core SaMD regulation — defines SaMD, classification, exemptions, registration requirements, labeling, lifecycle, cybersecurity | July 1, 2022 |
-| **RDC 751/2022** | General medical device risk classification (Classes I–IV, 22 rules). Rule 11 specifically governs SaMD. Replaces RDC 185/2001 | 2022 |
-| **RDC 777/2023** | Updates and complements RDC 751/2022 | 2023 |
-| **RDC 848/2024** | Essential safety and performance requirements for medical devices and IVDs | 2024 |
+| **RDC 751/2022** | General medical device risk classification (Classes I–IV, 22 rules). Rule 11 specifically governs SaMD. Together with RDC 777/2023, revokes RDC 185/2001; "medical device" replaces "medical product" in nomenclature | 2022 |
+| **RDC 777/2023** | Updates and complements RDC 751/2022; jointly revokes RDC 185/2001 | 2023 |
+| **RDC 848/2024** | Essential safety and performance requirements for medical devices and IVDs | September 2024 |
 | **RDC 665/2022** | Brazilian GMP (Good Manufacturing Practices) — required for Classes III/IV | 2022 |
 
-Sources: [Elendiabs](https://www.elendilabs.com/en/articles/bra-software-as-a-medical-device), [CGM Law](https://cgmlaw.com.br/en/anvisa-resolution-no-657-2022-standard-for-registration-and-notification-of-software-as-a-medical-device/), [ANVISA.gov.br](https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-publica-nova-versao-de-manual-para-regularizacao-de-equipamentos-medicos)
+Sources: [Elendiabs](https://www.elendilabs.com/en/articles/bra-software-as-a-medical-device), [CGM Law](https://cgmlaw.com.br/en/anvisa-resolution-no-657-2022-standard-for-registration-and-notification-of-software-as-a-medical-device/), [ANVISA.gov.br](https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-publica-nova-versao-de-manual-para-regularizacao-de-equipamentos-medicos), [Saúde Digital Brasil](https://saudedigitalbrasil.com.br/anvisa-atualiza-regras-para-regularizacao-de-dispositivos-medicos-no-brasil/), [QServe Group](https://qservegroup.com/en/brazil-medical-device-regulations), [Freyr Solutions](https://www.freyrsolutions.com/blog/resolution-for-regulation-of-software-as-medical-device-samd-in-brazil)
+
+> **October 22, 2025:** ANVISA published a new consolidated manual for SaMD and medical equipment regularization, consolidating guidance across RDC 751/2022, RDC 657/2022, and RDC 848/2024. Developed collaboratively with industry associations ABIIS, Abimed, Abimo, and Abraidi.
 
 ---
 
@@ -39,7 +47,9 @@ SaMD includes **any software intended for medical purposes** (prevention, diagno
 - Cloud-hosted diagnostic image analysis tools
 - Remote monitoring software with clinical alerting
 
-([RDC 657/2022 English PDF](https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude/temas-em-destaque/arquivos/2024/rdc-657-2022-en.pdf))
+**SaaS and cloud explicitly covered:** Subscription-based, centrally-hosted software falls within the SaMD definition under RDC 657/2022. Deployment model (installed vs. cloud-hosted) does not affect classification.
+
+([RDC 657/2022 English PDF](https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude/temas-em-destaque/arquivos/2024/rdc-657-2022-en.pdf), [CGM Law](https://cgmlaw.com.br/en/anvisa-resolution-no-657-2022-standard-for-registration-and-notification-of-software-as-a-medical-device/))
 
 ### Explicitly Excluded from SaMD Regulation
 
@@ -74,6 +84,14 @@ Risk classification is determined by (a) the severity of the condition addressed
 | **Class IV** | Maximum | Software for decisions where errors cause death or irreversible health deterioration | Full registration + BGMP (Brazilian GMP) |
 
 ([Saúde Digital Brasil](https://saudedigitalbrasil.com.br/anvisa-atualiza-regras-para-regularizacao-de-dispositivos-medicos-no-brasil/), [QServe Group](https://qservegroup.com/en/brazil-medical-device-regulations))
+
+### Classification History and Transition
+
+Prior to RDC 751/2022, SaMD was classified under **Rules 9 and 10** (active products). RDC 751/2022 introduced **Rule 11** specifically for SaMD. The **European MDR 2017/745** served as the primary reference framework for SaMD risk classification methodology.
+
+Companies had a **365-day reenquadramento (reclassification) window** from the RDC 751/2022 effective date to reclassify their products under the new Rule 11 framework.
+
+**Rulemaking background:** ANVISA's **Public Survey No. 1,035/2021** gathered stakeholder input that shaped the final text of RDC 657/2022. A **regulatory sandbox** was proposed during consultation but was **not included** in the final regulation.
 
 ---
 
@@ -110,7 +128,8 @@ Health services had a **2-year adaptation period** from July 1, 2022 to bring in
 
 ## Labeling Requirements for SaMD
 
-- Primarily in **Portuguese**
+- **Documentation must be in Portuguese**
+- **Language flexibility for front-end UI text:** English or Spanish are acceptable for the software interface itself; Portuguese is required for documentation, labeling, and instructions for use
 - Must include:
   - Update procedures
   - Hardware and software requirements
@@ -118,6 +137,7 @@ Health services had a **2-year adaptation period** from July 1, 2022 to bring in
   - Interoperability specifications
   - Cybersecurity environment description
 - Electronic distribution is acceptable; no physical labeling required for online-only distribution
+- **INMETRO marks are NOT required** for SaMD — ANVISA operates its own conformity marking system; INMETRO certification (used for general consumer electronics) does not apply
 
 ([Elendiabs](https://www.elendilabs.com/en/articles/bra-software-as-a-medical-device), [Freyr Solutions](https://www.freyrsolutions.com/blog/resolution-for-regulation-of-software-as-medical-device-samd-in-brazil))
 
@@ -132,6 +152,47 @@ Health services had a **2-year adaptation period** from July 1, 2022 to bring in
 - Possible criminal and civil liability
 
 ([CMS Law](https://cms.law/en/int/expert-guides/cms-expert-guide-to-digital-health-apps-and-telemedicine/brazil))
+
+---
+
+## Post-Market Obligations
+
+### Ongoing Monitoring (Mandatory)
+
+Post-market monitoring is **mandatory and ongoing** — it is not a one-time event at registration. Registered SaMD must maintain continuous surveillance of safety and performance in real-world use.
+
+### Adverse Event Reporting (Technovigilance)
+
+Vendors must report **adverse events** to ANVISA under Brazil's **technovigilance** system. This includes unexpected malfunctions, near-misses, or events where the SaMD may have contributed to patient harm. Reporting obligations persist for the full product lifecycle.
+
+### Software Update Notifications
+
+Not all updates require ANVISA notification. The framework distinguishes:
+
+| Update Type | ANVISA Action Required? |
+|---|---|
+| Routine updates, patches, bug fixes | **Exempt** — no notification required |
+| New features or capabilities added | **Yes** — prior approval required |
+| Significant performance impacts | **Yes** — prior approval required |
+| Visual identity changes significant enough that the software is "no longer recognizable" | **Yes** — prior approval required |
+
+The three categories requiring **prior ANVISA approval** are: (a) new functions, (b) significant performance impacts, (c) major visual identity changes.
+
+---
+
+## Administrative and Company Requirements
+
+### AFE — Autorização de Funcionamento de Empresa
+
+In addition to device registration, SaMD companies must obtain an **AFE (Autorização de Funcionamento de Empresa)** — a separate company-level operating authorization from ANVISA. The AFE is distinct from the product registration and must be maintained throughout operations.
+
+### Registration Fees
+
+**ANVISA registration fees** apply to SaMD. Fee amounts vary by company size and product class. Fees are assessed at initial registration and at renewal.
+
+### Foreign SaMD Vendors
+
+International companies marketing SaMD in Brazil must appoint a **representante autorizado** (Brazilian authorized representative) registered with ANVISA. The authorized representative assumes legal responsibility for the product in Brazil and acts as the ANVISA point of contact.
 
 ---
 

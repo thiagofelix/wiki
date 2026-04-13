@@ -3,6 +3,8 @@ title: Easy Health / Essentia Technologies
 type: entity
 sources:
   - raw/major-platforms-research.md
+  - raw/sources/essentiatechnologies-com-br-index.md
+  - raw/sources/essentiatechnologies-com-br-evolutionofcare-ia.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -24,7 +26,7 @@ Easy Health is a cloud-based clinical-management platform developed by **Essenti
 
 ## Founders / Key Personnel
 
-- **Fernando Rodrigues** — Director of Artificial Intelligence at Essentia Group; identified as the **idealizer of Easy Health**. Holds a postgraduate degree in Machine Learning and is an MIT-certified AI specialist in health applications. ([Source – essentiatechnologies.com.br](https://essentiatechnologies.com.br/evolutionofcare-ia/))
+- **Fernando Rodrigues** — "Diretor de inteligência artificial" at Essentia Group; identified as the **idealizer of Easy Health**. Also functions as an AI engineer. Holds a postgraduate degree in Machine Learning and is an MIT-certified AI specialist in health applications. ([Source – essentiatechnologies.com.br](https://essentiatechnologies.com.br/evolutionofcare-ia/))
 
 The broader Essentia Group founders are not named in publicly available sources related to Easy Health.
 
@@ -42,7 +44,8 @@ No publicly disclosed funding rounds or institutional investors identified. Esse
 - **Módulo Financeiro:** Financial and stock control integrated with product ordering
 - **Conteúdo Educativo:** Exclusive health and wellness content, including Harvard materials translated into Portuguese
 - **Easy Patient App:** Patient-facing mobile app that stores all health documents, sends push notifications to reduce no-shows, and strengthens the prescriber-patient relationship
-- **IA (Artificial Intelligence):** AI-driven plan for clinical documentation transcription and predictive analytics (launched 2024–2025)
+- **IA (Artificial Intelligence):** AI-driven plan for clinical documentation transcription and predictive analytics (launched 2024–2025). The advanced plan is branded **Easy Health PRO MAX + AI** and includes predictive/generative AI and intelligent agents.
+- **Módulo Master's Experience:** Recommends clinical insights and treatment options based on the practice patterns of "the greatest masters of medicine" — a proprietary decision-support layer.
 - 10-day free trial available
 
 ## Target Market
@@ -76,6 +79,11 @@ Cloud-based SaaS. Patient-facing mobile app (Easy Patient) for iOS/Android. An A
 | Year | Event |
 |------|-------|
 | 2024–2025 | AI-forward positioning announced; Fernando Rodrigues (MIT-certified AI specialist) cited as product idealizer; AI module for clinical documentation launched |
+| **August 30, 2025** | "Evolution of Care: IA" course held at **Essentia Experience** (physical venue, São Paulo); 10-hour program priced R$4,823–R$6,890. Curriculum covers MAI-DxO, AlphaGenoma, AlphaFold 2, and Evo2 tools. |
 | Early 2026 | Active product development confirmed via social media (Instagram, Facebook) updates |
 
 Easy Health maintains an active social media presence as its primary marketing channel. Essentia Group positions the platform as an AI-forward solution for integrative medicine, differentiating from the broader-market EHR tools that dominate the [[market-overview]].
+
+### Essentia Experience
+
+Essentia operates a physical experience center — **Essentia Experience** — in São Paulo, used for in-person training events such as the "Evolution of Care: IA" course (August 30, 2025). This differentiates the company from pure-digital SaaS competitors and underscores its community/education strategy.

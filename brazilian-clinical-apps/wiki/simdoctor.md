@@ -3,11 +3,13 @@ title: SimDoctor
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/simdoctor-com-br-index.md
+  - raw/sources/simdoctor-com-br-blog-como-a-ia-na-saude-esta-revolucionando-a-gestao-da-saude-no-brasil.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
 
-SimDoctor (also styled "+SimDoctor"; tagline: "Sistema Inovador Modular") is a Brazilian cloud-based medical management platform operating from Rio de Janeiro, with a copyright date of 2012. It markets itself as an AI-driven system for clinics and consultórios, with features including voice-based EHR entry, predictive algorithms, and chatbot triage — giving it an AI positioning comparable to [[amplimed]]'s Amélia suite but at a significantly lower price point (R$ 49–89/month per professional). Its public, three-tier pricing makes it one of the few platforms in this segment with transparent subscription rates alongside [[conclinica]] and [[consultorio-live]].
+SimDoctor (also styled "+SimDoctor"; tagline: "Sistema Inovador Modular") is a Brazilian cloud-based medical management platform operating from Rio de Janeiro, with a copyright spanning 2012–2025, confirming continuous operation for over a decade. It markets itself as an AI-driven system for clinics and consultórios, with features including voice-based EHR entry, predictive algorithms, and chatbot triage — giving it an AI positioning comparable to [[amplimed]]'s Amélia suite but at a significantly lower price point (R$ 49–89/month per professional). Its public, three-tier pricing makes it one of the few platforms in this segment with transparent subscription rates alongside [[conclinica]] and [[consultorio-live]]. Notably, SimDoctor also serves the public health sector — specifically UBS (Unidades Básicas de Saúde) and clínicas populares — for AI-based triage, a niche otherwise occupied in this research primarily by [[medicina-direta]].
 
 ## Key Facts
 
@@ -49,10 +51,22 @@ No publicly disclosed funding rounds. Appears to be a bootstrapped SME.
 | **Algoritmos Preditivos** | Predictive analytics for clinical management (referenced in company blog) |
 | **[[lgpd-health-data]] Compliance** | Data privacy compliance |
 
+## Integrations & Partners
+
+| Integration / Partner | Detail |
+|---|---|
+| **TuoTempo** | Partnership confirmed on homepage; TuoTempo is a patient engagement and scheduling platform |
+| **MobileMed** | Integration partner confirmed |
+| **Memed** | Digital prescription / drug database |
+| **eNotas Gateway** | NFS-e electronic invoice issuance |
+| **ICP-Brasil** | Digital certificate for telemedicine and document signing |
+| **[[tiss]]** | Health plan billing guides; batch export |
+
 ## Target Market
 
 - Clinics and consultórios of all specialties across Brazil
 - Health professionals seeking AI-driven management tools at accessible price points
+- **UBS (Unidades Básicas de Saúde)** and **clínicas populares** for AI-based triage — public-sector positioning confirmed via homepage content
 
 ## Pricing
 
@@ -78,6 +92,8 @@ SimDoctor's pricing is among the lowest in the segment, comparable to [[consulto
 | **Memed** | Digital prescription / drug database with pharmacy confirmation notifications |
 | **eNotas Gateway** | NFS-e / electronic invoice issuance |
 | **ICP-Brasil digital signature** | Document and prescription signing |
+| **TuoTempo** | Patient engagement and scheduling partner (confirmed on homepage) |
+| **MobileMed** | Integration partner (confirmed on homepage) |
 
 No SBIS certification is mentioned in available sources.
 
@@ -91,10 +107,12 @@ No SBIS certification is mentioned in available sources.
 
 | Date | Event |
 |---|---|
-| **~2012** | SimDoctor platform launched |
+| **~2012** | SimDoctor platform launched (copyright 2012–2025 confirms continuous operation) |
 | July 2025 | Blog post: "IA na saúde: Revolucionando a gestão da saúde no Brasil" — highlighting AI positioning |
 | Ongoing | Active blog focused on AI in healthcare: voice transcription, predictive algorithms, chatbot triage, LGPD compliance |
 | Ongoing | Free professional clinic website offered as a patient acquisition tool for practitioners |
+| Ongoing | Homepage confirms TuoTempo and MobileMed as integration/technology partners |
+| Ongoing | Public-sector outreach: AI triage positioning for UBS and clínicas populares |
 
 ## See Also
 

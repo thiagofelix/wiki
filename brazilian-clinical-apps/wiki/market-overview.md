@@ -3,6 +3,12 @@ title: Brazilian Healthtech Market Overview
 type: overview
 sources:
   - raw/market-landscape-research.md
+  - raw/sources/commonwealthfund-org-international-health-policy-center-countries-brazil.md
+  - raw/sources/imarcgroup-com-brazil-digital-health-market.md
+  - raw/sources/grandviewresearch-com-horizon-outlook-telemedicine-market-brazil.md
+  - raw/sources/engage-klasresearch-com-blog-latin-america-ehr-an-update-on-market-share-customer-satisfaction-5496.md
+  - raw/sources/columbiaemergingmarketsreview-com-p-public-health-meets-private-capital.md
+  - raw/sources/frontiersin-org-journals-sociology-articles-10-3389-fsoc-2024-1303295-full.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -43,6 +49,8 @@ Brazil is the dominant healthtech market in Latin America, accounting for nearly
 | Telemedicine CAGR (2025–2030) | 17.8% | [Grand View Research](https://www.grandviewresearch.com/horizon/outlook/telemedicine-market/brazil) |
 | Telemedicine CAGR (2025–2034) | 20.52% | [IMARC Group via LinkedIn](https://www.linkedin.com/pulse/brazil-telemedicine-market-report-2026-2034-analyzing-kishan-kumar-opcoc) |
 | Teleconsultations in 2024 | 30 million+ | [LinkedIn / Ash Frenken](https://www.linkedin.com/posts/ash-frenken-86298042_brasil-vai-de-pa%C3%ADs-das-fintechs-ao-pa%C3%ADs-das-activity-7435870168297316352-44-A) |
+| Brazil share of global telemedicine market (2023) | 2.1% | [Grand View Research](https://www.grandviewresearch.com/horizon/outlook/telemedicine-market/brazil) |
+| Health institutions offering telemedicine (2025) | 68% | [Grand View Research](https://www.grandviewresearch.com/horizon/outlook/telemedicine-market/brazil) |
 
 ## Startup Ecosystem
 
@@ -50,6 +58,7 @@ Brazil is the dominant healthtech market in Latin America, accounting for nearly
 - As of 2024, over **1,200 active healthtechs** operate in Brazil; investment exceeded R$2 billion in 2024, up 18% year-on-year ([LinkedIn](https://www.linkedin.com/posts/ash-frenken-86298042_brasil-vai-de-pa%C3%ADs-das-fintechs-ao-pa%C3%ADs-das-activity-7435870168297316352-44-A)).
 - Nearly **two-thirds** of all digital health companies in Latin America operate in Brazil ([Columbia Emerging Markets Review](https://www.columbiaemergingmarketsreview.com/p/public-health-meets-private-capital)).
 - LatAm healthtech investment rose **37.6%** to USD 253.7 million in 2024 ([Columbia Emerging Markets Review](https://www.columbiaemergingmarketsreview.com/p/public-health-meets-private-capital)).
+- Brazil VC market raised **USD 692M in Q3 2025**, up +47% year-over-year ([BayBrazil](https://www.baybrazil.org/july-2024-deals-investments)).
 
 ---
 
@@ -96,13 +105,26 @@ Brazil is the dominant healthtech market in Latin America, accounting for nearly
 
 SUS (Sistema Único de Saúde) serves approximately **72% of Brazilians — 164 million people** — making it one of the world's largest public health systems ([ITA / Trade.gov](https://www.trade.gov/country-commercial-guides/brazil-healthcare)). The remaining ~51 million have private supplementary health coverage through one of 668 ANS-registered insurers.
 
+**Constitutional basis:** SUS was established in 1988 by the Brazilian constitution; some sources cite **75% of Brazilians relying solely on SUS** ([Commonwealth Fund](https://www.commonwealthfund.org/international-health-policy-center/countries/brazil)).
+
+**Cost pressure in public system:** The Tabela SUS reimbursement for a specialist consultation is less than **BRL 10 (~USD 2.33)** — a fee structure that severely constrains technology investment at the point of care ([Commonwealth Fund](https://www.commonwealthfund.org/international-health-policy-center/countries/brazil)).
+
+**Out-of-pocket burden:** Out-of-pocket health expenditures represent over **27% of total health spending**; in 2014, **5.3% of Brazilian households** experienced catastrophic health spending ([Commonwealth Fund](https://www.commonwealthfund.org/international-health-policy-center/countries/brazil)).
+
+**EHR adoption in primary care (2018):** Of ~42,600 primary care units, approximately **19,000 used EHRs** ([KLAS Research](https://engage.klasresearch.com/blog/latin-america-ehr-an-update-on-market-share-customer-satisfaction/5496/)).
+
+**Pandemic-era teleconsultation:** **42.8% of primary healthcare (PHC) professionals** used WhatsApp for teleconsultations during the COVID-19 pandemic ([Frontiers in Sociology](https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2024.1303295/full)).
+
 Key SUS digitalization investments:
-- **APS Digital:** IT equipment and software deployed to basic care units in 3,613 municipalities (65% of Brazil)
+- **APS Digital:** IT equipment and software deployed to basic care units in **3,613 municipalities across all 26 states** (65% of Brazil)
 - **UBS Digital:** USD 3M investment for telemedicine in remote areas (cardiology, dermatology, endocrinology, geriatrics)
 - **Ministry of Health (2023):** USD 200M for SUS digitalization
 - **Ministry of Health (2024):** USD 84M in informatics for North and Northeast regions
+- **Ministry of Health digital infrastructure:** BRL 1 billion allocated to digital health infrastructure
+- **R$23 billion AI investment plan (2024–2028):** Government plan covering AI across sectors including public health
+- **Brazilian states (2025):** R$2.4 billion in PPP health infrastructure announced
 
-([ITA / Trade.gov](https://www.trade.gov/country-commercial-guides/brazil-healthcare))
+([ITA / Trade.gov](https://www.trade.gov/country-commercial-guides/brazil-healthcare); [Columbia Emerging Markets Review](https://www.columbiaemergingmarketsreview.com/p/public-health-meets-private-capital))
 
 Nearly **40% of SUS primary care units lack stable broadband**, representing both a challenge and a future growth opportunity for digital health vendors ([Columbia Emerging Markets Review](https://www.columbiaemergingmarketsreview.com/p/public-health-meets-private-capital)).
 
@@ -114,10 +136,10 @@ The hospital-facing EHR/HIS market is concentrated among a small number of large
 
 | Vendor | Position | Note |
 |---|---|---|
-| **MV Sistemas (MV)** | Largest acute care market share | Most 2023 hospital wins; SOUL platform |
+| **MV Sistemas (MV)** | Largest acute care market share | Most 2023 hospital wins; SOUL platform; several dozen hospitals migrated to MV SOUL in past 5 years |
 | **Philips Tasy (EMR)** | Second most 2023 hospital wins | Strong in Brazil; legacy migrations |
 | **TOTVS Saúde** | Enterprise ERP player | Part of Brazil's largest ERP company |
-| **Oracle Health (Cerner)** | International enterprise player | Large hospitals |
+| **Oracle Health (Cerner)** | International enterprise player | Large hospitals; Oracle Health i.s.h.med sunset by 2030 (SAP stops support) — creates replacement opportunity |
 | **NTT DATA** | Third most 2023 hospital wins | Stronger in Argentina |
 | **[[pixeon]]** | Diagnostic imaging (PACS, RIS, LIS) | Brazil-native |
 | **[[mv-sistemas]]** | Hospital EHR | Leading native vendor |
@@ -126,6 +148,10 @@ The hospital-facing EHR/HIS market is concentrated among a small number of large
 
 ([KLAS Research](https://engage.klasresearch.com/blog/latin-america-ehr-an-update-on-market-share-customer-satisfaction/5496/))
 
+**Laboratory Information Systems (LIS)** held the largest share of the HIS market in 2024 ([IMARC Group](https://www.imarcgroup.com/brazil-digital-health-market)).
+
+**Additional EHR/HIS vendors** present in the Brazilian market (not exhaustive): Wareline, Benner Saúde, SPDATA, Dedalus Brasil, Eco Sistemas, TOTVS Saúde ([KLAS Research](https://engage.klasresearch.com/blog/latin-america-ehr-an-update-on-market-share-customer-satisfaction/5496/)).
+
 Outpatient/clinic SaaS platforms include: [[iclinic]], [[doctoralia]], [[feegow]], [[amplimed]], [[clinica-nas-nuvens]], [[prontmed]], [[shosp]], [[easy-health]], [[ninsaude]], [[tuotempo]], [[hidoctor]], [[medicina-direta]], [[prodoctor]], [[consultorio-live]], [[simdoctor]], [[conclinica]].
 
 ---
@@ -133,11 +159,18 @@ Outpatient/clinic SaaS platforms include: [[iclinic]], [[doctoralia]], [[feegow]
 ## Key Market Structural Dynamics
 
 1. **Two-tier system:** Private hospitals (63%) are technology-forward; SUS facilities are underinvested and constrained by the digital divide.
-2. **SUS is the scale opportunity:** 164M people, with government investment of USD 200M+ in 2023 alone — but procurement cycles are slow and pricing is compressed.
+2. **SUS is the scale opportunity:** 164M people, with government investment of USD 200M+ in 2023 alone — but procurement cycles are slow and pricing is compressed (Tabela SUS specialist consultation: <BRL 10 / ~USD 2.33).
 3. **Medical inflation (14.2% in 2025)** is forcing consolidation among small insurers and clinics, benefiting scale players ([Matrix BCG](https://matrixbcg.com/blogs/competitors/hapvida)).
 4. **International capital entering:** Valsoft (Canada), Bain Capital, IFC — signaling attractive valuations and growth prospects.
-5. **AI differentiation emerging:** First-movers building ANVISA-compliant, CFM 2.454-ready AI governance will have a regulatory moat.
+5. **AI differentiation emerging:** First-movers building ANVISA-compliant, CFM 2.454-ready AI governance will have a regulatory moat. Brazil placed digital health transformation on the **2025 BRICS agenda**.
 6. **Regulatory complexity as a moat:** [[tiss]], [[lgpd-health-data]], [[sus-integration]], and [[anvisa-samd]] compliance requirements favor well-resourced vendors.
+7. **Smartphone/internet penetration:** ~87% smartphone penetration; internet access 84–92% across sources — enabling broad reach for mobile-first clinical apps ([Frontiers in Sociology](https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2024.1303295/full)).
+8. **Legacy replacement cycle:** Oracle Health i.s.h.med sunset by 2030 and ongoing MV SOUL migrations create near-term displacement opportunities for competitive vendors.
+
+### Notable Policy & Industry Milestones
+
+- **September 22, 2025:** WIPO and ABIMED launched Brazil's first IP Management Clinic for medical device and health innovation companies.
+- **2025 BRICS presidency:** Brazil placed digital health transformation on the BRICS agenda, signaling geopolitical prioritization.
 
 ## See Also
 

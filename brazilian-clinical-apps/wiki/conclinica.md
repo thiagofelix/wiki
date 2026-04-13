@@ -3,6 +3,9 @@ title: Conclínica
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/conclinica-com-br-index.md
+  - raw/sources/conclinica-com-br-software-medico-clinica.md
+  - raw/sources/linkedin-com-company-tecnoartegestao.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -15,14 +18,15 @@ Conclínica is the online clinic management SaaS platform developed by **Tecnoar
 |---|---|
 | **Founded** | 1991 (Conclínica created); 1992 (Tecnoarte founded, per LinkedIn) |
 | **HQ** | Rio de Janeiro, RJ, Brazil |
+| **Address** | Avenida Almirante Barroso 81, Sala 34, Rio de Janeiro, RJ 20031-005 |
 | **Legal owner** | Tecnoarte Informática Ltda. EPP (CNPJ: 01.399.304/0001-36) |
 | **Parent / Developer** | Tecnoarte Tecnologia e Gestão em Saúde |
 | **Website** | https://conclinica.com.br |
-| **Employees** | Not publicly disclosed |
+| **Employees** | 11–50 (Tecnoarte, per LinkedIn) |
 
-## Founders
+## Founders / Key Leadership
 
-Not publicly identified in available sources.
+- **Everaldo Santos** — CEO, Tecnoarte (confirmed via LinkedIn)
 
 ## Funding & Ownership
 
@@ -34,6 +38,13 @@ No publicly disclosed funding rounds. Long-established private company; independ
 |---|---|
 | **Multi Agenda** | Multi-professional, multi-specialty, multi-unit scheduling; supports order-of-arrival or appointment-based flow; full remote access |
 | **Prontuário Eletrônico** | Cloud-stored EHR; per-specialty custom fields; access restricted by login/password |
+| **Prontuário Eletrônico com Assistente IA** | AI-powered EHR module that transcribes and structures consultation audio automatically |
+| **Telemedicina** | Teleconsultation module (confirmed feature) |
+| **Marketing Digital** | Email and SMS campaign management for patient engagement |
+| **Emissão NFSe** | Electronic invoice (Nota Fiscal de Serviço) issuance |
+| **Chat Interno** | Internal team chat for clinic staff |
+| **Prescrição Digital via SMS** | Digital prescription delivery via SMS to patients |
+| **Pagamentos PIX** | PIX payment method integration |
 | **Laudos e Exames Online** | Lab/exam result management; patient categories ("pendente", "digitado", "liberado"); patient portal for downloading results |
 | **Faturamento TISS** | Online health plan authorization; [[tiss]] guide generation; batch export (up to 100 per convênio) |
 | **Controle Financeiro** | Accounts payable/receivable; specialty/professional revenue views; glosa and repasse management; treasury control |
@@ -41,6 +52,7 @@ No publicly disclosed funding rounds. Long-established private company; independ
 | **Cobrança Inteligente** | Subscriber/dependent billing; automated boleto via email; bank system integration; auto-reconciliation on payment |
 | **Relatório Gerencial** | Real-time KPI dashboard; charts for scheduling, attendance, patient, billing, financial, and inventory data |
 | **Agendamento Online** | Patient self-scheduling via internet |
+| **Agendamento 360** | Enhanced scheduling module: serialized/sequential treatment bookings, pre-payment at scheduling, waiting list management, appointment limits per slot |
 | **Lembretes de Consulta** | Automated appointment reminders |
 | **Armazenamento em Nuvem** | Cloud data storage with encryption |
 | **Multi-Clinic Management** | Single platform managing 5+ clinics remotely (documented in customer testimonial from Dr. Pedro Baches) |
@@ -74,7 +86,7 @@ Free trial available at: https://app.conclinica.com.br/cliente/cadastro/novo
 | **Bank system integration** | Boleto issuance and automatic payment reconciliation |
 | **Patient portal** | Patients download exam results directly |
 
-Note: No SBIS certification, SBIS mention, or [[telemedicine-regulation]] module is documented in available sources for Conclínica, distinguishing it from platforms like [[feegow]] (SBIS NGS2) and [[medicina-direta]] (SBIS Level 3).
+Note: No SBIS certification or SBIS mention is documented in available sources for Conclínica, distinguishing it from platforms like [[feegow]] (SBIS NGS2) and [[medicina-direta]] (SBIS Level 3). However, a Telemedicina module is now confirmed as an available feature.
 
 ## Tech Stack
 
@@ -92,6 +104,16 @@ Note: No SBIS certification, SBIS mention, or [[telemedicine-regulation]] module
 | Ongoing | Social media active: TikTok (@conclinica), Instagram (@conclinica) — content marketing on clinic management |
 
 Tecnoarte LinkedIn: "Ao longo deste período centenas de instituições no Brasil que lidam diariamente com a saúde de milhares de pessoas escolheram as soluções em tecnologia da Tecnoarte."
+
+## Consulting Services (Tecnoarte)
+
+In addition to the Conclínica SaaS platform, Tecnoarte offers healthcare management consulting services under the brand:
+
+- **"Consultoria de gestão em saúde"** — healthcare management consulting
+- Process mapping (mapeamento de processos)
+- Outsourcing services
+
+This positions Tecnoarte as both a software vendor and a healthcare operations consultancy, similar to [[mv-sistemas]] which combines technology with professional services.
 
 ## See Also
 

@@ -3,6 +3,12 @@ title: M&A Landscape — Brazilian Healthtech Consolidation
 type: synthesis
 sources:
   - raw/market-landscape-research.md
+  - raw/sources/beyondthelaw-news-mevo-funding-round-brazil-prosus.md
+  - raw/sources/baybrazil-org-july-2024-deals-investments.md
+  - raw/sources/whitespaces-intelligence-azurewebsites-net-Brazil-Products-Private-20Health-3-20Competitive-20Landscape-2-6-ma-daae37df.md
+  - raw/sources/inven-ai-company-lists-top-13-healthcare-consulting-investors-in-latin-america.md
+  - raw/sources/shizune-co-investors-health-care-vc-funds-brazil.md
+  - raw/sources/newswire-com-news-valsoft-corporation-enters-brazils-public-healthcare-software-market-with-fast.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -17,14 +23,20 @@ The largest deals have been in hospital networks and health insurers, creating v
 
 | Deal | Year | Value | Significance |
 |---|---|---|---|
-| **Hapvida + NotreDame Intermédica (GNDI)** | 2022 | Combined market cap briefly exceeded R$100 billion | Created Latin America's largest supplementary health system; 15.9M beneficiaries; 87 hospitals; 77 emergency units |
+| **Hapvida IPO** | 2018 | R$3.3 billion raised | Set stage for subsequent consolidation |
+| **Hapvida acquires Grupo São Francisco** | 2019 | R$5 billion | Major regional expansion |
+| **Hapvida + NotreDame Intermédica (GNDI)** | 2022 | Combined market cap briefly exceeded R$100 billion | Created Latin America's largest supplementary health system; 87 hospitals; 77 ERs; 331 clinics; 269 diagnostic centers |
 | **Rede D'Or + SulAmérica** | December 2022 | R$8 billion | Combined Brazil's largest hospital network (79 hospitals, 13,054 beds) with a major insurer; 5.4M beneficiaries as of 2025 |
+| **Grupo Fleury + Hermes Pardini merger** | April 2023 | — | Diagnostics consolidation; two major lab networks combined |
+| **Amil** | 2024 | — | Acquired by José Seripieri Filho |
+| **Rede D'Or sells Grupo GSH** | April 2025 | R$1.6 billion | Portfolio optimization by Rede D'Or |
+| **DaVita acquires Brasnefro** | 2025 (approval pending) | — | US-based dialysis company expanding into Brazil's renal care market |
 
-Sources: [Matrix BCG — Hapvida](https://matrixbcg.com/blogs/brief-history/hapvida), [PESTEL Analysis — Rede D'Or](https://pestel-analysis.com/blogs/how-it-works/rededor), [Hapvida RI](https://ri.hapvida.com.br/en/company/corporate-profile-and-healthcare-industry/)
+Sources: [Matrix BCG — Hapvida](https://matrixbcg.com/blogs/brief-history/hapvida), [PESTEL Analysis — Rede D'Or](https://pestel-analysis.com/blogs/how-it-works/rededor), [Hapvida RI](https://ri.hapvida.com.br/en/company/corporate-profile-and-healthcare-industry/), [Whitespaces Intelligence](https://whitespaces-intelligence.azurewebsites.net/Brazil/Products/Private%20Health/3.%20Competitive%20Landscape/2.6.ma_movements_analysis_report/)
 
 **Post-consolidation competitive dynamics:**
-- **Hapvida NotreDame Intermédica** holds ~18% of the private insurance market with ~16M beneficiaries
-- **Rede D'Or São Luiz** operates 79 hospitals with 5.4M insured (SulAmérica absorbed)
+- **Hapvida NotreDame Intermédica** holds ~18% of the private insurance market with **16.1M beneficiaries (Q3 2025)**; projected revenue R$31.2B in 2025; MLR of 71.5% vs industry average ~82%; R$1.38B in identified merger synergies
+- **Rede D'Or São Luiz** reported **R$51.32B revenue in 2024**; operates 79 hospitals with 13,054 beds and 55+ oncology clinics; R$7.5B capex plan through 2028; JV with Bradesco Seguros; 5.4M insured (SulAmérica absorbed)
 - Other significant players: Unimed (cooperative federation), Amil, Prevent Senior
 
 ---
@@ -37,14 +49,15 @@ Sources: [Matrix BCG — Hapvida](https://matrixbcg.com/blogs/brief-history/hapv
 | **Afya acquires PEBmed** | 2021 | R$132.9M | Medical content and clinical decision support platform |
 | **Afya acquires Glic** | 2021 | R$22M | Diabetes management app |
 | **Bain Capital's Bionexo acquires Tucano** (linked to Philips) | 2026 | Undisclosed | Healthcare supply chain platform consolidation; M&A-led growth strategy |
-| **Valsoft acquires Fast Medic** | January 2026 | Undisclosed | Canadian acquirer enters Brazil's public healthcare software market; Fast Medic serves municipalities in Paraná, São Paulo, Ceará, Minas Gerais |
+| **Valsoft / TAG Software Group acquires Fast Medic** | January 2026 | Undisclosed | Canadian acquirer (Valsoft operating as TAG Software Group) enters Brazil's public healthcare software market; Fast Medic (Curitiba) serves municipalities in Paraná, São Paulo, Ceará, Minas Gerais |
 
 Sources: [Contxto — Afya/iClinic](https://contxto.com/en/brazil/education-afya-iclinic/), [Globe Newswire — Afya closing](https://www.globenewswire.com/news-release/2021/01/21/2162547/0/en/Afya-Limited-Announces-Closing-of-the-Acquisition-of-iClinic.html), [BNamericas — Bionexo](https://www.bnamericas.com/en/news/bain-capitals-bionexo-goes-ma-to-grow-in-brazils-healthtech-arena), [Newswire — Valsoft](https://www.newswire.com/news/valsoft-corporation-enters-brazils-public-healthcare-software-market-with-fast)
 
 ### Notable Deals Referenced in Market Context
 
 - **DocPlanner + [[feegow]]** — DocPlanner (global marketplace, Polish/Barcelona HQ) acquired [[feegow]], a leading Brazilian clinic management SaaS, expanding its Brazil presence beyond appointment booking.
-- **RD + [[amplimed]]** — [[amplimed]], a Brazilian clinic management platform, was acquired as part of the TOTVS/RD ecosystem consolidation.
+- **Raia Drogasil (RD) acquires [[amplimed]]** — [[amplimed]], a Brazilian clinic management platform, was acquired directly by **Raia Drogasil (RD group, pharmaceutical retail)** — not through TOTVS. This positions RD to own the clinical workflow layer adjacent to its pharmacy distribution network.
+- **DASA acquires GESTO** — GESTO (healthcare operations management) was acquired by DASA; originally a Bossa Invest portfolio company.
 - **Bionexo + [[clinica-nas-nuvens]]** — Referenced in market consolidation discussions; [[clinica-nas-nuvens]] absorbed into Bionexo's healthcare supply and management platform.
 
 ---
@@ -53,9 +66,9 @@ Sources: [Contxto — Afya/iClinic](https://contxto.com/en/brazil/education-afya
 
 | Company | Round | Amount | Lead Investor | Focus |
 |---|---|---|---|---|
-| **Mevo** | Series B extensions | R$300M+ total | Prosus (lead), Matrix, Jefferson River Capital | Digital prescription infrastructure |
+| **Mevo** | Series B extension (2026) | R$95M (extension); total >R$300M raised | Prosus (lead); also Matrix, Lyrical, Floating Point, Jefferson River Capital | Digital prescription infrastructure; free for hospitals/physicians, monetized through prescription volume and pharma marketplace |
 | **Isa Saúde** | Series B | R$160M | IFC (World Bank Group), IDB Lab, Dalus | Accessible health services |
-| **Tivita** | Growth | R$32M | FinTech Collective, K50 Ventures, MAYA Capital | Financial management for clinics |
+| **Tivita** | Growth | R$32M | FinTech Collective; angels include Renato Velloso (Odontoprev co-founder, ex-Dr. Consulta CEO) | Financial management for clinics |
 | **Beep Saúde** | Growth | — | — | Home nursing and health services |
 | **Amigo** | Growth | — | — | AI-guided triage |
 
@@ -67,25 +80,29 @@ Sources: [Beyond The Law — Mevo](https://www.beyondthelaw.news/mevo-funding-ro
 
 ### Top VC Firms by Healthcare Brazil Portfolio (January 2026)
 
-| Investor | HC Brazil Investments | Focus |
+| Investor | HC Brazil Investments | Focus / Notes |
 |---|---|---|
 | **Canary** | 25 | Early-stage, LatAm |
-| **DOMO.VC** | 18 | Early-stage tech |
-| **Bossa Invest** | 17 | Seed/Series A |
+| **DOMO.VC** | 18 | Early-stage tech; portfolio includes Conexa Saúde |
+| **Bossa Invest** | 56 deals in 2024 (active); ~17 HC | Seed/Series A; portfolio includes GESTO (acquired by DASA) |
 | **Monashees** | 14 | Pioneer LatAm VC; health, fintech, logistics |
 | **IKJ Capital** | 13 | Healthcare-specific (mental health, chronic disease) |
 | **Green Rock** | 13 | — |
 | **Norte Ventures** | 11 | Early-stage |
 | **Redpoint eventures** | 11 | Growth-stage |
 | **Kaszek** | 10 | Top LatAm VC; founded by MercadoLibre executives |
+| **KPTL** | 9 HC Brazil | Healthcare-focused; active Brazil investor |
 | **Vox Capital** | 9 | Impact investing, health & inclusion |
 | **ONEVC** | 9 | — |
 | **DNA Capital** | 9 | Healthcare-focused PE/VC |
 | **Valor Capital Group** | 8 | Brazil-US bridge fund |
 | **MAYA Capital** | 7 | Early-stage |
 | **Crescera Investimentos** | 7 | Growth PE |
+| **Actions Capital** (formerly K50 Ventures) | — | Name changed from K50 Ventures |
 
-Source: [Shizune](https://shizune.co/investors/health-care-vc-funds-brazil)
+Source: [Shizune](https://shizune.co/investors/health-care-vc-funds-brazil), [Inven.ai](https://www.inven.ai/company-lists/top-13-healthcare-consulting-investors-in-latin-america)
+
+> Note: Bossa Invest completed **56 deals in 2024** — significantly more active than earlier figures suggested. K50 Ventures has rebranded as **Actions Capital**.
 
 ### Notable International Investors
 
@@ -157,7 +174,7 @@ Despite top-level consolidation, the outpatient clinic software market remains h
 - [[market-overview]] — Market size, infrastructure stats, and competitive landscape
 - [[iclinic]] — Acquired by Afya (Nasdaq: AFYA) for R$182.7M
 - [[feegow]] — Acquired by DocPlanner
-- [[amplimed]] — Acquired into RD/TOTVS ecosystem
+- [[amplimed]] — Acquired directly by Raia Drogasil (RD group, pharmaceutical retail)
 - [[clinica-nas-nuvens]] — Referenced in Bionexo consolidation
 - [[tiss]] — Regulatory driver of consolidation
 - [[sus-integration]] — RNDS integration pressure driving upgrades and acquisitions

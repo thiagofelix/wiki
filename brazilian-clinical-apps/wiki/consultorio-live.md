@@ -3,6 +3,9 @@ title: Consultório Live
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/consultorio-live-index.md
+  - raw/sources/vbbsoftware-com-consultorio-comprar.md
+  - raw/sources/play-google-com-consultorio-live.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -14,9 +17,10 @@ Consultório Live is a cloud-based medical clinic management platform developed 
 | Field | Detail |
 |---|---|
 | **Founded** | VBB Software Ltda: 2004; Consultório Live product launch likely ~2010–2015 (copyright notice "© 2012" on some pages) |
-| **HQ** | Brazil (not explicitly disclosed on website) |
+| **HQ** | Rua Gavião Peixoto 182, Sala 706, Icaraí, Niterói - RJ 24230-101 |
 | **Parent / Owner** | VBB Software Ltda (independent, bootstrapped) |
 | **Website** | https://www.consultorio.live |
+| **WhatsApp / Phone** | +55 21 99735-5285 |
 | **Employees** | Not publicly disclosed |
 
 ## Founders
@@ -42,7 +46,9 @@ No publicly disclosed funding rounds. Long-established bootstrapped SME.
 | **Prescrição Digital** | Integrated with **Memed** (60,000+ drug database); ICP-Brasil digital signature |
 | **Gestão Financeira** | Cash flow, accounts payable/receivable, receipts with auto-fill, [[tiss]]/ANS XML |
 | **TISS / ANS** | Guide generation (Consulta, SP/SADT), XML lot export for health plan operators |
-| **Marketing** | Email marketing integration; post-consultation patient evaluation/review collection |
+| **Marketing** | Email marketing integration (MailChimp); post-consultation patient evaluation/review collection |
+| **IA Summary** | AI-generated intelligent summaries of patient evolution (new feature) |
+| **2-Factor Authentication** | Two-factor authentication for account security |
 | **Estoque** | Product inventory with lot numbers, expiry dates, stock movement alerts |
 | **API** | Open API for developer integrations |
 | **Mobile App** | iOS and Android apps for agenda and patient record access |
@@ -59,7 +65,16 @@ No publicly disclosed funding rounds. Long-established bootstrapped SME.
 
 **Consultório Live (cloud):**
 
-Plans start at **R$ 59/month** for 1 user. Telemedicine billed per video-call minutes; WhatsApp confirmations billed per message as usage-based add-ons.
+Updated pricing (entry price raised from R$59 to **R$73**):
+
+| Plan | Price/month | Users | Teleconsultation Credits | Notes |
+|---|---|---|---|---|
+| **Básico** | R$73 | 1 user + 1 bonus | 50 credits | — |
+| **Clássico** | R$104 | 2 users | — | Most popular |
+| **Dinâmico** | R$157 | 4 users | 100 credits | — |
+| **Premium** | R$258 | 8 users | 150 credits | — |
+
+Teleconsultation credits are now **bundled into plans** rather than billed per minute. WhatsApp confirmations billed per message as usage-based add-on.
 
 **Consultório Desktop (separate product, Windows-installed):**
 
@@ -85,7 +100,7 @@ No fees beyond the plan value except optional add-ons. Free 7-day trial; no cred
 | **ICP-Brasil digital signature** | Digitally signed prescriptions |
 | **WhatsApp** | Automated appointment confirmation messages |
 | **SMS / Email** | Notification gateways |
-| **Email marketing platform** | Post-consultation patient communications |
+| **MailChimp** | Email marketing integration |
 | **Open API** | Developer integrations |
 
 No SBIS certification is mentioned in available sources.
@@ -106,6 +121,7 @@ No SBIS certification is mentioned in available sources.
 | **~2012** | Consultório Live web product launched |
 | Ongoing | One of the longer-operating web-based clinic platforms in Brazil |
 | Ongoing | Free 7-day trial; free clinic website with self-scheduling embed |
+| Ongoing | Google Play: **5,000+ installs** |
 
 VBB Software also maintains a separate legacy product — **Consultório Desktop** — for practices that prefer offline operation over a browser-based solution.
 

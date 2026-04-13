@@ -3,6 +3,14 @@ title: Doctoralia / DocPlanner Group
 type: entity
 sources:
   - raw/major-platforms-research.md
+  - raw/sources/doctoralia-com-br-index.md
+  - raw/sources/capterra-com-p-253301-Doctoralia-Pro.md
+  - raw/sources/techcrunch-com-2016-06-07-docplanner-doctoralia.md
+  - raw/sources/techround-co-uk-interviews-meet-mariusz-gralewski-docplanner.md
+  - raw/sources/tech-eu-2019-05-13-polish-founded-healthcare-platform-docplanner-raises-e80-million.md
+  - raw/sources/startupi-com-br-doctoralia-adquire-startup.md
+  - raw/sources/prnewswire-com-news-releases-docplanner-acquires-feegow-in-a-strategic-move-in-the-healthcare-market-301596954-html.md
+  - raw/sources/pro-doctoralia-com-br-blog-especialistas-doctoralia-adquire-feegow.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -17,7 +25,7 @@ Doctoralia is the Brazilian brand of **DocPlanner Group**, the world's largest h
 | **Brazil Operation Launched** | 2017 |
 | **Brazil HQ** | Curitiba, Paraná, Brazil |
 | **Parent / Owner** | DocPlanner Group (Warsaw, Poland) |
-| **Brazil CEO** | Cadu Lopes (Brazil, Chile, Peru) |
+| **Brazil CEO** | Cadu Lopes — CEO da Doctoralia no Brasil, Peru e Chile |
 | **Website (Brazil)** | [doctoralia.com.br](https://doctoralia.com.br) / [pro.doctoralia.com.br](https://pro.doctoralia.com.br) |
 | **Employees (Brazil)** | 650+ (2021) |
 
@@ -37,7 +45,9 @@ DocPlanner Group has raised approximately **€300 million** in total across mul
 | Series C | June 2016 | $20 million | Target Global (lead), EBRD, ENERN |
 | Series D | May 2017 | €15 million | ENERN (lead), Target Global, One Peak |
 | Series E | May 2019 | €80 million | **One Peak Partners** & **Goldman Sachs Private Capital** (co-lead), Piton, ENERN |
-| Unicorn round | 2021 | Undisclosed | Existing investors; valued at ≥$1 billion |
+| Unicorn round | **September 2021** | Undisclosed | Existing investors; valued at ≥$1 billion |
+
+At the time of the Series E (May 2019), DocPlanner had served **30 million patients**, processed **1.5 million bookings/month**, employed **1,000+** people, and had raised **€130 million** in total.
 
 Sources: [Tech.eu Series E](https://tech.eu/2019/05/13/polish-founded-healthcare-platform-docplanner-raises-e80-million/), [Unquote unicorn round](https://www.unquote.com/cee/news/3024909/docplanner-raises-finance-valuing-business-at-usd-1bn/), [TechCrunch Series C/Doctoralia merger](https://techcrunch.com/2016/06/07/docplanner-doctoralia/)
 
@@ -54,6 +64,7 @@ This funding scale is far larger than any other platform in the Brazilian clinic
 - Telemedicine / teleconsulta scheduling and video
 - Patient communication tools
 - ISO/IEC 27001 certified data security
+- **Noa Notes** — AI virtual assistant (featured as "NOVO" on Pro homepage) that summarizes consultations while the doctor focuses on the patient
 
 ### For Clinics
 - All individual features above
@@ -67,12 +78,12 @@ This funding scale is far larger than any other platform in the Brazilian clinic
 - Patient reviews and doctor ratings
 - Online booking 24/7
 - 18 million+ unique visitors/month in Brazil (as of 2022)
-- 700,000+ health professionals and clinics listed in Brazil
+- 950,000+ health specialists listed in Brazil (updated figure; prior wiki figure was 700,000)
 - Booking via WhatsApp, social networks, and Google My Business
 
 ## Target Market
 
-Both **individual health professionals** (all specialties) and **clinics/hospitals**. Brazil marketplace reaches 18 million+ monthly unique visitors. DocPlanner Group has 280,000+ clients globally. The Brazilian operation focuses heavily on private-pay patients and health-plan patients seeking specialist appointments.
+Both **individual health professionals** (all specialties) and **clinics/hospitals** — the Pro homepage explicitly lists "Hospitais" as a supported segment. Brazil marketplace reaches 18 million+ monthly unique visitors. DocPlanner Group has 280,000+ clients globally. The Brazilian operation focuses heavily on private-pay patients and health-plan patients seeking specialist appointments.
 
 The dual marketplace-plus-SaaS model is Doctoralia's primary competitive moat: practitioners gain visibility in the marketplace in addition to practice-management tools, creating a network effect that pure SaaS competitors like [[iclinic]] and [[shosp]] replicate only partially via their own booking portals (AgendarConsulta and Shosp's online booking).
 
@@ -87,6 +98,20 @@ Subscription SaaS; pricing as reported on [Capterra](https://www.capterra.com/p/
 
 *(Pricing shown in EUR on global review platforms; BRL pricing may differ on the Brazilian site.)*
 
+## User Reviews (Capterra)
+
+Data from [Capterra Doctoralia Pro listing](https://www.capterra.com/p/253301/Doctoralia-Pro/) (409 reviews):
+
+| Metric | Score |
+|--------|-------|
+| Overall | 4.7 / 5 |
+| Value for Money | 4.2 / 5 |
+| Positive reviews | 96% |
+| Dominant complaint | Pricing (54% of negative reviews) |
+| Free trial | None for Pro SaaS |
+
+The relatively low Value for Money score (vs. the high overall score) reflects the pricing complaints: users are broadly satisfied with the product but find the cost high. No free trial is offered for the Pro SaaS tier.
+
 ## Integrations & Compliance
 
 | Integration / Standard | Status |
@@ -100,6 +125,7 @@ Subscription SaaS; pricing as reported on [Capterra](https://www.capterra.com/p/
 | Google My Business | ✅ — Booking integration |
 | Auto check-in | ✅ — Patient self check-in |
 | Payments | ✅ — Financial module with clinic billing |
+| Public API | ❌ — No public API currently available (notable integration gap) |
 
 ## Notable News / Timeline
 
@@ -107,14 +133,19 @@ Subscription SaaS; pricing as reported on [Capterra](https://www.capterra.com/p/
 |------|-------|
 | 2010 | Mariusz Gralewski conceives the idea after struggling to find a specialist doctor |
 | December 2012 | DocPlanner founded in Warsaw; $1M seed round |
-| June 2016 | DocPlanner acquires Doctoralia (Spain); merger forms the brand used in Latin America |
+| 2014 | DocPlanner acquires Eniyihekim (Turkey); rebranded as Doktortakvimi |
+| June 2016 | DocPlanner acquires Doctoralia (Spain); at merger Doctoralia had 9M monthly users in 20 countries; DocPlanner had 8M monthly users in 25 countries, 200 employees, 200K bookings/month |
 | 2017 | DocPlanner opens Brazil operations under the Doctoralia brand; HQ in Curitiba |
-| May 2019 | DocPlanner raises €80 million Series E led by One Peak Partners and Goldman Sachs |
+| May 2019 | DocPlanner raises €80 million Series E; at this point: 30M patients served, 1.5M bookings/month, 1,000+ employees, €130M total raised |
 | 2019 | DocPlanner acquires TuoTempo (Italy) — large-institution CRM suite |
-| 2021 | DocPlanner reaches unicorn valuation (≥$1 billion); 650+ employees in Brazil |
+| January 2020 | DocPlanner becomes aware of COVID-19 |
+| March 2020 | In response to COVID, DocPlanner launches telemedicine, e-prescriptions, online payments, EHR, and patient app in weeks — work that "normally takes 4–6 months" |
+| 2020 | DocPlanner acquires Clinic Cloud (Spain) and Gipo (Italy) |
+| **September 2021** | **DocPlanner reaches unicorn valuation (≥$1 billion)**; 650+ employees in Brazil |
 | 2021 | DocPlanner acquires Jameda (Germany's largest health marketplace) |
-| **July 2022** | **Doctoralia acquires Feegow** (Brazilian clinic-management SaaS), adding full EHR and financial management; deal supported by DNA Capital ([Exame](https://exame.com/negocios/doctoralia-compra-healthtech-de-gestao-de-saude-e-quer-impactar-50-milhoes-de-usuarios/)) |
-| 2023 | DocPlanner acquires MyDr (Poland) |
+| December 2021 | Global scale: 1,800+ employees, 100K+ customers, 2M healthcare professionals listed worldwide |
+| **July 2022** | **Doctoralia acquires Feegow** (Brazilian clinic-management SaaS), adding full EHR and financial management; at this point Doctoralia had 2,400 global employees, 130K global customers, 18M monthly users in Brazil; deal supported by DNA Capital ([Exame](https://exame.com/negocios/doctoralia-compra-healthtech-de-gestao-de-saude-e-quer-impactar-50-milhoes-de-usuarios/)) |
+| **February 2023** | **DocPlanner acquires MyDr (Poland)**; sub-brands: MyDr EDM, Dr100, drNews |
 
 ### DocPlanner Global Scale (2024)
 

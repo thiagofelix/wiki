@@ -3,6 +3,8 @@ title: Ninsaúde / Apolo
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/blog-apolo-app-ninsaude-apolo-tudo-o-que-voce-precisa-saber.md
+  - raw/sources/ninsaude-com-index.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -88,14 +90,28 @@ No SBIS certification is mentioned in available sources.
 - Responsive design: compatible with Windows, Mac, Android, and iOS
 - AI transcription (Ninsaúde Safe)
 
+## Scale & Support
+
+- **April 2020**: 200+ clinics already using the platform — an early-stage adoption figure confirming traction within ~2 years of launch.
+- **Training sessions**: held every Wednesday and Friday at 13:30 (Brasília time) — ongoing onboarding and product education cadence.
+
+## International Marketing
+
+English and Spanish marketing videos are produced and distributed, confirming active, intentional international expansion beyond Brazil. This supports the platform's positioning for Brazilian health professionals operating abroad (UK, USA, Germany).
+
+## Spokesperson
+
+**Helton Marinho** is named as a spokesperson for Ninsaúde, associated with a CNBC interview on AI in healthcare.
+
 ## Notable News / Timeline
 
 | Date | Event |
 |---|---|
 | 2013 | Ninsaúde Software founded |
 | Early 2018 | Ninsaúde Clinic (Apolo) product launched |
+| April 2020 | 200+ clinics using the platform |
 | September 2020 | Featured in NSC (Brazilian media) for AI and system technologies |
-| Ongoing | International expansion: clients using teleconsultation from UK, USA, Germany |
+| Ongoing | International expansion: clients using teleconsultation from UK, USA, Germany; English and Spanish marketing videos in circulation |
 
 Active YouTube channel with product demos: https://www.youtube.com/@ninsaudebr
 

@@ -3,6 +3,11 @@ title: Shosp
 type: entity
 sources:
   - raw/major-platforms-research.md
+  - raw/sources/shosp-com-br-comparativo.md
+  - raw/sources/shosp-com-br-precos.md
+  - raw/sources/capterra-com-br-software-188703-shosp.md
+  - raw/sources/play-google-com-shosp.md
+  - raw/sources/medicinasa-com-br-startuprio-saude.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -32,7 +37,9 @@ Shosp is a Brazilian cloud-based medical software platform focused on clinic and
 
 No larger institutional funding rounds publicly disclosed. Shosp appears to be largely bootstrapped or funded through subscription revenue. It is one of the few platforms in this group that has remained independent — unlike [[iclinic]] (acquired by Afya), [[clinica-nas-nuvens]] (acquired by Bionexo), [[doctoralia]] (DocPlanner Group), [[pixeon]] (joining Vela LatAm), and [[mv-sistemas]] (Insight Partners minority stake).
 
-Source: [Medicina S/A](https://medicinasa.com.br/startuprio-saude/)
+**Potential acquisition flag (unconfirmed):** The Google Play Store listing for the Shosp app shows the developer listed as **"AFYA PARTICIPACOES RP / AFYA PARTICIPACOES S.A."** — the same Afya group that owns [[iclinic]] — and uses iClinic's support email address. This may indicate Shosp was acquired by or integrated into Afya's portfolio, contradicting the bootstrapped/independent characterization above. This could not be corroborated by other sources at time of writing; treat with caution until confirmed via official announcement or press coverage.
+
+Source: [Medicina S/A](https://medicinasa.com.br/startuprio-saude/), Google Play listing (raw/sources/play-google-com-shosp.md)
 
 ## Key Features
 
@@ -62,11 +69,22 @@ Source: [Shosp About Page](https://www.shosp.com.br/funcionalidades/quem-somos)
 
 Subscription SaaS; priced per health professional (prestador). Annual billing available at a 15% discount. Standard contract fidelity of 12 months; early cancellation incurs an activation fee. Devices and users are unlimited across all plans.
 
-| Plan | Monthly Price (BRL) | Key Inclusions |
-|------|---------------------|----------------|
-| **Free** | R$ 0 (R$ 299 activation fee) | Agenda, waitlist, patient registration, WhatsApp integration, mobile app, SSL, chat support; up to 5 users |
-| **Fellowship** | R$ 149 | Free + unlimited users, multi-clinic, online scheduling, EHR, teleconsulta, prescription, data encryption, financial control, [[tiss]] billing, automated reception, digital signatures (Soluti + VIDaaS), patient relations, Flex B.I. spreadsheets |
-| **Excellence** | R$ 229 | Fellowship + intelligent automated patient relationship management, open API, 100 free credits/prestador, full medical repasse, cost center, campaign scheduling, subscription plans, free unrecorded telemedicine, automated WhatsApp, Flex B.I. charts |
+| Plan | Monthly Price (BRL) | Activation Fee | Key Inclusions |
+|------|---------------------|----------------|----------------|
+| **Free** | R$ 0 | R$ 498 (or R$ 299 — two rates observed) | Agenda, waitlist, patient registration, WhatsApp integration, mobile app, SSL, chat support; up to 5 users |
+| **Fellowship** | R$ 149 | R$ 998 (or R$ 0 with promotion) | Free + unlimited users, multi-clinic, online scheduling, EHR, teleconsulta, prescription, data encryption, financial control, [[tiss]] billing (TISS webservice authorization), automated reception, digital signatures (Soluti + VIDaaS), patient relations, Flex B.I. spreadsheets; backup every 5 minutes |
+| **Excellence** | R$ 229 | R$ 1,398 (or R$ 0 with promotion) | Fellowship + intelligent automated patient relationship management, open API, 100 free credits/prestador, full medical repasse, cost center, campaign scheduling, subscription plans, free unrecorded telemedicine, automated WhatsApp, Flex B.I. charts, Totem de atendimento (self-service kiosk), Integração com Orizon; backup every 5 minutes |
+
+**Add-on pricing (per separate contract):**
+
+| Add-on | Price |
+|--------|-------|
+| **Videoconferência gravada** | R$ 0.38/min (Fellowship) or R$ 0.29/min (Excellence) |
+| **Videoconferência não gravada** | R$ 0.06/min (Fellowship) or free (Excellence) |
+| **WhatsApp automation** | R$ 99.99 activation + R$ 59.90/month |
+| **Emissão de nota fiscal** | R$ 199/company/month (Fellowship) or R$ 64.35/company/month (Excellence) |
+
+**Backup cadence:** Free plan: daily; Fellowship and Excellence: every 5 minutes.
 
 Source: [shosp.com.br/precos](https://www.shosp.com.br/precos), [shosp.com.br/comparativo](https://www.shosp.com.br/comparativo)
 
@@ -74,18 +92,20 @@ Source: [shosp.com.br/precos](https://www.shosp.com.br/precos), [shosp.com.br/co
 
 | Integration / Standard | Status |
 |------------------------|--------|
-| [[tiss]] billing | ✅ — Full TISS health-plan billing from Fellowship plan |
+| [[tiss]] billing | ✅ — Full TISS health-plan billing from Fellowship plan; TISS webservice authorization from Fellowship |
 | Telemedicine | ✅ — Integrated teleconsulta (Fellowship and above); [[telemedicine-regulation]] compliant |
 | [[lgpd-health-data]] | ✅ — Data encryption on Fellowship/Excellence |
 | Digital signature | ✅ — ICP-Brasil via Soluti and VIDaaS |
-| WhatsApp automation | ✅ — Excellence plan |
+| WhatsApp automation | ✅ — Excellence plan (R$ 99.99 activation + R$ 59.90/month) |
 | Open API | ✅ — Excellence plan |
 | Online patient payments | ✅ — Parcelamento, card fee tracking |
 | Mobile apps | ✅ — iOS and Android |
+| Integração com Orizon | ✅ — Health plan intermediary integration (Excellence) |
+| Totem de atendimento | ✅ — Self-service kiosk for patient check-in (Excellence) |
 
 ## Tech Stack
 
-Cloud-native SaaS. RSA 2048-bit SSL encryption. Data backup every 5 minutes on Fellowship and Excellence plans. Mobile apps for iOS and Android. Specific underlying infrastructure not publicly disclosed.
+Cloud-native SaaS. RSA 2048-bit SSL encryption. Data backup every 5 minutes on Fellowship and Excellence plans (daily on Free plan). Mobile apps for iOS and Android. Specific underlying infrastructure not publicly disclosed.
 
 ## Notable News / Timeline
 
@@ -95,4 +115,5 @@ Cloud-native SaaS. RSA 2048-bit SSL encryption. Data backup every 5 minutes on F
 | 2016 | Received R$ 60,000 grant from StartupRio; relocated to Rio de Janeiro |
 | COVID-19 pandemic | Offered free telemedicine as a social contribution during the health emergency |
 | 2021 | Selected as one of Brazil's 10 most promising startups by Capterra ([Medicina S/A](https://medicinasa.com.br/startuprio-saude/)) |
-| 2026 | Continues to operate as an independent bootstrapped company — one of the few in this segment without major VC backing |
+| 2026 | Capterra rating: 4.7/5 from 21 reviews |
+| 2026 | Google Play developer listed as "AFYA PARTICIPACOES RP / AFYA PARTICIPACOES S.A." (potential acquisition signal — see Funding section) |

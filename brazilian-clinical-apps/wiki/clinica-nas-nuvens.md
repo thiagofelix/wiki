@@ -3,6 +3,11 @@ title: Clínica nas Nuvens / Bionexo
 type: entity
 sources:
   - raw/major-platforms-research.md
+  - raw/sources/scinova-com-br-startup-clinica-nas-nuvens-e-vendida-para-a-bionexo.md
+  - raw/sources/unoesc-edu-br-blog-venda-milionaria-de-startup-de-ex-professores-da-unoesc-incentiva-a-formacao-em-areas-de-tecnologia.md
+  - raw/sources/medicinasa-com-br-bionexo-aquisicao.md
+  - raw/sources/bnamericas-com-en-news-bain-capitals-bionexo-goes-ma-to-grow-in-brazils-healthtech-arena.md
+  - raw/sources/clinicanasnuvens-com-br-blog-clinica-nas-nuvens-bionexo-a-parceria-que-vai-aumentar-sua-imunidade-contra-probl-a5525dee.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -22,8 +27,16 @@ Clínica nas Nuvens ("Clinic in the Clouds") is a cloud-native clinic-management
 
 ## Founders
 
-- **André Luiz Forchesatto** — CEO and Founder; former professor at Unoesc; remained as CEO post-acquisition. ([Unoesc article](https://www.unoesc.edu.br/blog/venda-milionaria-de-startup-de-ex-professores-da-unoesc-incentiva-a-formacao-em-areas-de-tecnologia/), [SC Inova](https://scinova.com.br/startup-clinica-nas-nuvens-e-vendida-para-a-bionexo/))
-- Additional co-founders (also former Unoesc professors) — names not fully disclosed in public sources
+Full co-founder list (all former Unoesc professors/affiliates):
+
+- **André Luiz Forchesatto** — CEO and Founder; remained as CEO post-acquisition. ([Unoesc article](https://www.unoesc.edu.br/blog/venda-milionaria-de-startup-de-ex-professores-da-unoesc-incentiva-a-formacao-em-areas-de-tecnologia/), [SC Inova](https://scinova.com.br/startup-clinica-nas-nuvens-e-vendida-para-a-bionexo/))
+- **Márcio Henrique Locatelli** — Co-founder
+- **Mauricio Berté** — Co-founder
+- **Davidson Mazzoco Davi** — Co-founder
+- **Cristiano Agosti** — Co-founder
+- **Vitor Zacchi** — Co-founder
+
+The company participated in the **Startup SC** acceleration program during its growth phase.
 
 ## Funding & Ownership
 
@@ -32,11 +45,18 @@ Clínica nas Nuvens ("Clinic in the Clouds") is a cloud-native clinic-management
 | Acquisition by Bionexo | November 2021 | R$ 28.5 million | 100% acquisition; Bionexo's first M&A after Bain Capital investment |
 
 **Parent company context:**
-- Bionexo raised **R$ 440 million** from **Bain Capital Tech Opportunities** in 2021
+- Bionexo raised **R$ 440 million** from **Bain Capital Tech Opportunities** in 2021; **Bain Capital holds ~43% of Bionexo**
 - Bionexo was the first Brazilian healthtech valued at over R$ 1 billion
 - Bionexo's core business prior to acquisition was healthcare procurement and supply-chain management; Clínica nas Nuvens extends its reach into clinical SaaS (EHR, scheduling, telemedicine)
+- Bionexo projected **27% net revenue growth** in 2021; **R$ 15 billion** in annual transaction volume
+- Bionexo registered as a **companhia aberta** (public company) with the CVM (Brazilian securities regulator) in 2021
+- **Rafael Barbosa** was confirmed as CEO of Bionexo at the time of acquisition
+- Bionexo received **BNDES investment** for AI development
+- Bionexo subsequently acquired **Tucano do Brasil** (a Philips company), which was developing the **Tasy EHR** platform
 
-Sources: [Medicina S/A](https://medicinasa.com.br/bionexo-aquisicao/), [Clínica nas Nuvens blog](https://clinicanasnuvens.com.br/blog/clinica-nas-nuvens-bionexo-a-parceria-que-vai-aumentar-sua-imunidade-contra-problemas-de-gestao/)
+**At time of acquisition (November 2021):** ~800 clients, ~19,000 users, ~12,000 professionals connected, ~6 million consultations/year, R$ 1 billion in services billed; ~25 employees. The platform subsequently grew to 35,000+ daily users.
+
+Sources: [Medicina S/A](https://medicinasa.com.br/bionexo-aquisicao/), [Clínica nas Nuvens blog](https://clinicanasnuvens.com.br/blog/clinica-nas-nuvens-bionexo-a-parceria-que-vai-aumentar-sua-imunidade-contra-problemas-de-gestao/), [BNamericas](https://www.bnamericas.com/en/news/bain-capitals-bionexo-goes-ma-to-grow-in-brazils-healthtech-arena)
 
 ## Key Features
 
@@ -67,7 +87,7 @@ SaaS subscription with monthly plans. Secretaries and admin users are unlimited 
 
 | Plan | Monthly Price (BRL) | Notes |
 |------|---------------------|-------|
-| **Essencial** | From R$ 499 | Core features; unlimited secretaries/admins |
+| **Essencial** | From R$ 499 | Core features; unlimited secretaries/admins; **up to 3 health professionals** |
 | **Enterprise** | Higher (undisclosed) | Advanced features; unlimited secretaries/admins |
 
 Source: [Clínica nas Nuvens FAQ blog](https://clinicanasnuvens.com.br/blog/5-perguntas-e-respostas-para-voce-conhecer-melhor-o-clinica-nas-nuvens/)

@@ -3,6 +3,9 @@ title: ProDoctor
 type: entity
 sources:
   - raw/additional-platforms-research.md
+  - raw/sources/rocketreach-co-prodoctor-software-profile_b5f4a13cf42d2b5a.md
+  - raw/sources/medicinasa-com-br-prodoctor-ceo.md
+  - raw/sources/prodoctor-net-index.md
 created: 2026-04-12
 updated: 2026-04-12
 ---
@@ -20,13 +23,25 @@ ProDoctor (legal name: ProDoctor Software S/A) is one of Brazil's longest-runnin
 | **Parent / Owner** | Independent (Sociedade Anônima — joint-stock company) |
 | **Website** | https://prodoctor.net |
 | **Phone** | +55 32 3311-4500 / 3311-4510 |
+| **Toll-free** | 0800 725 2555 |
+| **WhatsApp (sales)** | (32) 98424-5039 |
+| **Employees** | ~85 (RocketReach estimate) |
+| **Revenue (est.)** | ~$16.6M USD/year (RocketReach estimate) |
 
 ## Founders
 
-- **Jomar Fernandes Nascimento** — Co-founder; appointed CEO in July 2021 (previously Head of Technology)
+- **Jomar Fernandes Nascimento** — Co-founder; appointed CEO on **July 20, 2021** (exact date per medicinasa.com.br); was previously "Head de Tecnologia"
 - **Braz Cataldo** — Co-founder; chairs the independent Advisory Board
 
 Advisory Board members: Leonardo Mendonça (attorney) and Paulo Roberto Villela (PhD, Systems and Computer Engineering).
+
+## Staff
+
+| Name | Role |
+|---|---|
+| Ricardo Oliveira | Gerente de Operações |
+| Pedro Nascimento | Diretor de Comunicação Digital |
+| Dalyan Voltas | Coordenadora de Comunicação e Marketing |
 
 ## Funding & Ownership
 
@@ -60,7 +75,7 @@ No publicly disclosed VC funding rounds. ProDoctor has operated as a mature, pri
 | **ProDoctor Cloud +Corp** | +Clínica + full inventory management |
 | **ProDoctor Corp** | Complete with exclusive enterprise features; desktop client available |
 
-Pre-cloud era metrics: 7,900+ installations, 40,000+ licensed users. Current: **65,000+ clients**.
+Pre-cloud era metrics: 7,900+ installations, 40,000+ licensed users. **40,000+ users** were recorded as of July 2021 (the baseline at Jomar Nascimento's CEO appointment); the platform has since grown to **65,000+ clients**.
 
 ## Target Market
 
@@ -68,6 +83,17 @@ Pre-cloud era metrics: 7,900+ installations, 40,000+ licensed users. Current: **
 - Clinics and polyclinics of all sizes
 - Cardiology, gastroenterology, aesthetics, and other specialties (per customer case studies)
 - Long-term customers: some relationships of 20+ years (e.g., Centro Médico Lapacor)
+
+### Named Clients
+
+| Client | Notes |
+|---|---|
+| Atrium Cardio | Customer since 2017 |
+| Clínica Marcelo Quesado | 10+ years |
+| Gastrocenter | Named client |
+| Centro Médico Lapacor | 20 years |
+| Clínica Sanare | Named client |
+| Policlínica Alvorada | Named client |
 
 ## Pricing
 
@@ -83,6 +109,7 @@ Tiered subscription model. Specific pricing not publicly listed; contact-based d
 | **Voa AI** | Third-party AI transcription and clinical assistance |
 | **Open API** | Secure, auditable third-party integrations |
 | **ICP-Brasil digital signature** | Digitally signed prescriptions and records |
+| **WhatsApp (Facebook-homologated)** | Appointment confirmation via Facebook-homologated WhatsApp service |
 
 No SBIS certification is mentioned in available sources.
 
@@ -92,17 +119,19 @@ No SBIS certification is mentioned in available sources.
 - **Desktop client** also available (ProDoctor Corp)
 - Hosted on **AWS** (telemedicine was an AWS global case)
 - LGPD compliant
+- Languages/technologies: **JavaScript, HTML, PHP**
 
 ## Notable News / Timeline
 
 | Date | Event |
 |---|---|
 | **1993** | ProDoctor enters the Brazilian medical software market |
-| **July 2021** | Jomar Fernandes Nascimento appointed CEO; independent Advisory Board established |
+| **July 20, 2021** | Jomar Fernandes Nascimento appointed CEO (exact date); 40,000+ users at this milestone; independent Advisory Board established |
 | Post-2021 | Open API product launch for secure, auditable clinic integrations |
 | Post-2021 | Partnership with Voa for AI-powered clinical transcription |
 | Ongoing | AWS Global Case Study for telemedicine solution |
 | Ongoing | Programa Indicadores referral program for doctors, managers, IT professionals, and billers |
+| Ongoing | "365 dias no ar" — stated uptime commitment |
 
 ## See Also
 
