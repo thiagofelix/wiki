@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching Karpathy's gist to understand the repo pattern",
+  "url": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+  "force_fetch": false,
+  "prompt": "Extract the full content of this gist — the repo structure, README pattern, and any conventions described.",
+  "max_length": 40000
+}

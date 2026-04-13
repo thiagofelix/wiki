@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching IEDI article on Brazil-China trade and industrial competitiveness",
+  "url": "https://www.iedi.org.br/artigos/textos/english/letter_iedi_n_1292.html",
+  "force_fetch": false,
+  "prompt": "Extract all key statistics, data tables, and analysis on Brazil-China trade including industrial sectors, import categories, and trade balance figures",
+  "max_length": 40000
+}

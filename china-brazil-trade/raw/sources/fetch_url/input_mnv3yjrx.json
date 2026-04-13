@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching China Gate website for business model details",
+  "url": "https://www.chinagate.com.br",
+  "force_fetch": false,
+  "prompt": "What is China Gate's business model, services, pricing, and target customers?",
+  "max_length": 40000
+}

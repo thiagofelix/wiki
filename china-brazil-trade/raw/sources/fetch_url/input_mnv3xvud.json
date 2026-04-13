@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching China Briefing article on China-Brazil economic ties",
+  "url": "https://www.china-briefing.com/news/china-brazil-economic-ties-trade-investment-and-opportunities/",
+  "force_fetch": false,
+  "prompt": "Extract all key statistics, import/export categories with dollar values, and trade data for China-Brazil bilateral trade",
+  "max_length": 40000
+}

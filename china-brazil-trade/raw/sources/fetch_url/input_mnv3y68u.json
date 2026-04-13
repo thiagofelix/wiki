@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching JoomPro website for details on their Brazil operation",
+  "url": "https://joom.pro/pt-br",
+  "force_fetch": false,
+  "prompt": "What is JoomPro's business model, pricing, target customers, and key differentiators for the Brazilian market?",
+  "max_length": 40000
+}

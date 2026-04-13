@@ -1,0 +1,7 @@
+{
+  "user_description": "Checking JoomPro Reclame Aqui page for customer complaints and reputation",
+  "url": "https://www.reclameaqui.com.br/empresa/joompro-brazil-ltda/",
+  "force_fetch": false,
+  "prompt": "Extract all available information: total complaints, resolution rate, response rate, average response time, customer satisfaction score, reputation status, and any specific complaint summaries visible on the page.",
+  "max_length": 40000
+}

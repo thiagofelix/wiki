@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching JoomPro's main site to understand their product offering and pricing",
+  "url": "https://joom.pro/pt-br",
+  "force_fetch": false,
+  "prompt": "Extract all information about: pricing model, commission fees, minimum order values, service tiers, how the platform works step-by-step, product categories available, delivery timelines, payment terms, and any specific details about their end-to-end process.",
+  "max_length": 40000
+}

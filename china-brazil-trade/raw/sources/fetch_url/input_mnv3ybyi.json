@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching China Law Vision article on China-Brazil trade opportunities and challenges",
+  "url": "https://www.chinalawvision.com/2025/05/international-trade/opportunities-and-challenges-of-brazil-china-trade-under-the-impact-of-us-tariffs/",
+  "force_fetch": false,
+  "prompt": "Extract all key statistics, policy changes, and data tables on China-Brazil trade including tariff policies and bilateral agreements",
+  "max_length": 40000
+}

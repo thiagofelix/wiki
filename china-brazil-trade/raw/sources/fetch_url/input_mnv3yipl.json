@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching Reuters article on Shein Brazil manufacturing attempts",
+  "url": "https://www.reuters.com/business/retail-consumer/shein-tried-turn-brazil-into-production-hub-local-factories-walked-away-2026-02-04/",
+  "force_fetch": false,
+  "prompt": "Extract key facts and statistics about Shein's revenue in Brazil, market share, and manufacturing efforts",
+  "max_length": 40000
+}

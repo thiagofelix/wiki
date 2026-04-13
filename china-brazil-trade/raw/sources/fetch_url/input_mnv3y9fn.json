@@ -1,0 +1,7 @@
+{
+  "user_description": "Fetching WCO News article on Remessa Conforme program overview",
+  "url": "https://mag.wcoomd.org/magazine/wco-news-103/strengthening-e-commerce-compliance-overview-of-brazil-programa-remessa-conforme/",
+  "force_fetch": false,
+  "prompt": "Extract key statistics, dates, and impacts of the Remessa Conforme program including tax collection data and participation numbers",
+  "max_length": 40000
+}
