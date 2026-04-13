@@ -1,0 +1,732 @@
+{
+  "https://www.youtube.com/watch?v=WwoCfQUAsOE": {
+    "file": "sources/youtube-com-watch.md",
+    "title": "Ninsaúde Clinic - Sistema de Gestão para Clínicas e Franquias",
+    "type": "youtube"
+  },
+  "https://www.youtube.com/watch?v=qM2fumCmTcM": {
+    "file": "sources/youtube-com-watch.md",
+    "title": "Conheça o software de gestão clínica do Essentia Group | Easy Health",
+    "type": "youtube"
+  },
+  "https://www.machadomeyer.com.br/images/ebooks/Regulacao_saude_Digital_2024_v3.pdf": {
+    "file": "sources/machadomeyer-com-br-images-ebooks-Regulacao_saude_Digital_2024_v3-pdf.pdf",
+    "title": "Regulacao_saude_Digital_2024_v3.pdf",
+    "type": "pdf"
+  },
+  "https://www.lavca.org/wp-content/uploads/2023/10/FINAL4-Latin-American-Startup-Directory-2019.pdf": {
+    "file": "sources/lavca-org-wp-content-uploads-2023-10-FINAL4-Latin-American-Startup-Directory-2019-pdf.pdf",
+    "title": "FINAL4-Latin-American-Startup-Directory-2019.pdf",
+    "type": "pdf"
+  },
+  "https://sistemas.cfm.org.br/normas/arquivos/resolucoes/BR/2026/2454_2026.pdf": {
+    "file": "sources/sistemas-cfm-org-br-normas-arquivos-resolucoes-BR-2026-2454_2026-pdf.pdf",
+    "title": "2454_2026.pdf",
+    "type": "pdf"
+  },
+  "https://www.gov.br/anvisa/pt-br/assuntos/produtosparasaude/temas-em-destaque/arquivos/2024/rdc-657-2022-en.pdf": {
+    "file": "sources/gov-br-anvisa-pt-br-assuntos-produtosparasaude-temas-em-destaque-arquivos-2024-rdc-657-2022-en-pdf.pdf",
+    "title": "rdc-657-2022-en.pdf",
+    "type": "pdf"
+  },
+  "https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss/PadroTISS_ComponenteOrganizacional_202401.pdf": {
+    "file": "sources/gov-br-ans-pt-br-assuntos-prestadores-padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss-PadroTISS-79955e32.pdf",
+    "title": "PadroTISS_ComponenteOrganizacional_202401.pdf",
+    "type": "pdf"
+  },
+  "https://blog.apolo.app/ninsaude-apolo-tudo-o-que-voce-precisa-saber/": {
+    "file": "sources/blog-apolo-app-ninsaude-apolo-tudo-o-que-voce-precisa-saber.md",
+    "title": "Ninsaúde Clinic: Tudo o Que Você Precisa Saber Sobre o Software",
+    "type": "web"
+  },
+  "https://conclinica.com.br/software-medico-clinica/": {
+    "file": "sources/conclinica-com-br-software-medico-clinica.md",
+    "title": "Software Médico Conclínica: Gestão Completa para Clínicas",
+    "type": "web"
+  },
+  "https://clinicanasnuvens.com.br/quem-somos": {
+    "file": "sources/clinicanasnuvens-com-br-quem-somos.md",
+    "title": "Quem somos | Clínica nas Nuvens",
+    "type": "web"
+  },
+  "https://blendus.com.br/blog/normas-ans-para-operadoras-de-saude/": {
+    "file": "sources/blendus-com-br-blog-normas-ans-para-operadoras-de-saude.md",
+    "title": "",
+    "type": "web"
+  },
+  "https://contxto.com/en/brazil/education-afya-iclinic/": {
+    "file": "sources/contxto-com-en-brazil-education-afya-iclinic.md",
+    "title": "Education group Afya purchases iClinic for US$32.9 million",
+    "type": "web"
+  },
+  "https://braziljournal.com/fleury-e-sabin-investem-na-prontmed-its-all-about-data/": {
+    "file": "sources/braziljournal-com-fleury-e-sabin-investem-na-prontmed-its-all-about-data.md",
+    "title": "Fleury e Sabin investem na Prontmed — it’s all about data - Brazil Journal",
+    "type": "web"
+  },
+  "https://app.conclinica.com.br/cliente/cadastro/novo": {
+    "file": "sources/app-conclinica-com-br-cliente-cadastro-novo.md",
+    "title": "Conclinica",
+    "type": "web"
+  },
+  "https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources": {
+    "file": "sources/en-wikipedia-org-wiki-Fast_Healthcare_Interoperability_Resources.md",
+    "title": "Fast Healthcare Interoperability Resources - Wikipedia",
+    "type": "web"
+  },
+  "https://conclinica.com.br/quem-somos/": {
+    "file": "sources/conclinica-com-br-quem-somos.md",
+    "title": "Quem Somos: Gestão de Clínicas e Consultótios Conclínica",
+    "type": "web"
+  },
+  "https://clinicanasnuvens.com.br": {
+    "file": "sources/clinicanasnuvens-com-br-index.md",
+    "title": "Software para clínicas médicas | Clínica nas Nuvens",
+    "type": "web"
+  },
+  "https://clinicanasnuvens.com.br/blog/5-perguntas-e-respostas-para-voce-conhecer-melhor-o-clinica-nas-nuvens/": {
+    "file": "sources/clinicanasnuvens-com-br-blog-5-perguntas-e-respostas-para-voce-conhecer-melhor-o-clinica-nas-nuvens.md",
+    "title": "FAQ: Tudo que você precisa saber sobre o Clínica nas Nuvens",
+    "type": "web"
+  },
+  "https://clinicanasnuvens.com.br/blog/clinica-nas-nuvens-bionexo-a-parceria-que-vai-aumentar-sua-imunidade-contra-problemas-de-gestao/": {
+    "file": "sources/clinicanasnuvens-com-br-blog-clinica-nas-nuvens-bionexo-a-parceria-que-vai-aumentar-sua-imunidade-contra-probl-a5525dee.md",
+    "title": "Startup catarinense Clínica nas Nuvens é adquirida pela Bionexo",
+    "type": "web"
+  },
+  "https://docs.voa.health/integracao/rnds": {
+    "file": "sources/docs-voa-health-integracao-rnds.md",
+    "title": "RNDS | Voa Docs",
+    "type": "web"
+  },
+  "https://conclinica.com.br": {
+    "file": "sources/conclinica-com-br-index.md",
+    "title": "Conclínica: Software de Gestão para Clínicas e Consultórios",
+    "type": "web"
+  },
+  "https://cgmlaw.com.br/en/anvisa-resolution-no-657-2022-standard-for-registration-and-notification-of-software-as-a-medical-device/": {
+    "file": "sources/cgmlaw-com-br-en-anvisa-resolution-no-657-2022-standard-for-registration-and-notification-of-software-as-a-med-adafcfc0.md",
+    "title": "Anvisa Resolution No. 657/2022 – Standard for registration and notification of Software as a Medical Device - CGM",
+    "type": "web"
+  },
+  "https://feegowclinic.com.br": {
+    "file": "sources/feegowclinic-com-br-index.md",
+    "title": "Feegow - Software para gestão de Clínicas e Consultórios",
+    "type": "web"
+  },
+  "https://iclinic.com.br": {
+    "file": "sources/iclinic-com-br-index.md",
+    "title": "iClinic: Software médico para clínicas e consultórios",
+    "type": "web"
+  },
+  "https://doctoralia.com.br": {
+    "file": "sources/doctoralia-com-br-index.md",
+    "title": "Doctoralia - Encontre um profissional da saúde - Solicite um agendamento online",
+    "type": "web"
+  },
+  "https://amib.org.br/resoluc%CC%A7a%CC%83o-no-2-314-de-20-de-abril-de-2022/": {
+    "file": "sources/amib-org-br-resoluc-CC-A7a-CC-83o-no-2-314-de-20-de-abril-de-2022.md",
+    "title": "RESOLUÇÃO CFM No 2.314, DE 20 DE ABRIL DE 2022, define e regulamenta a telemedicina como forma de serviços médicos mediados por tecnologias de comunicação &#8211; Amib",
+    "type": "web"
+  },
+  "https://amb.org.br/cfm-regulamenta-consultas-de-telemedicina-no-brasil/": {
+    "file": "sources/amb-org-br-cfm-regulamenta-consultas-de-telemedicina-no-brasil.md",
+    "title": "CFM regulamenta consultas de telemedicina no Brasil - AMB",
+    "type": "web"
+  },
+  "https://latamlist.com/dna-capital-invests-in-brazilian-healthtechs-feegow-and-memed/": {
+    "file": "sources/latamlist-com-dna-capital-invests-in-brazilian-healthtechs-feegow-and-memed.md",
+    "title": "DNA Capital invests in Brazilian healthtechs Feegow and Memed - LatamList",
+    "type": "web"
+  },
+  "https://iclinic.com.br/sistema-medico/": {
+    "file": "sources/iclinic-com-br-sistema-medico.md",
+    "title": "Sistema Médico: Prontuários, Teleconsultas, Agendas e Mais | iClinic",
+    "type": "web"
+  },
+  "https://cms.law/en/int/expert-guides/cms-expert-guide-to-digital-health-apps-and-telemedicine/brazil": {
+    "file": "sources/cms-law-en-int-expert-guides-cms-expert-guide-to-digital-health-apps-and-telemedicine-brazil.md",
+    "title": "Legal Guide: Digital Health Apps & Telemedicine in Brazil",
+    "type": "web"
+  },
+  "https://legismap.com.br/conteudos/artigos-e-noticias/primeiro-hospital-digital-da-america-latina-e-brasileiro": {
+    "file": "sources/legismap-com-br-conteudos-artigos-e-noticias-primeiro-hospital-digital-da-america-latina-e-brasileiro.md",
+    "title": "Primeiro hospital digital da América Latina é brasileiro",
+    "type": "web"
+  },
+  "https://en.ain.ua/2022/08/12/docplanner-acquires-feegow/": {
+    "file": "sources/en-ain-ua-2022-08-12-docplanner-acquires-feegow.md",
+    "title": "Polish healthtech DocPlanner acquires Brazilian software developer Feegow - AIN",
+    "type": "web"
+  },
+  "https://essentiatechnologies.com.br": {
+    "file": "sources/essentiatechnologies-com-br-index.md",
+    "title": "Essentia Technologies",
+    "type": "web"
+  },
+  "https://essentiatechnologies.com.br/evolutionofcare-ia/": {
+    "file": "sources/essentiatechnologies-com-br-evolutionofcare-ia.md",
+    "title": "Evolution of Care: IA",
+    "type": "web"
+  },
+  "https://datasus.saude.gov.br/modelo-padrao-de-dados-mad/": {
+    "file": "sources/datasus-saude-gov-br-modelo-padrao-de-dados-mad.md",
+    "title": "Modelo padrão de dados MAD &#8211; DATASUS",
+    "type": "web"
+  },
+  "https://matrixbcg.com/blogs/competitors/hapvida": {
+    "file": "sources/matrixbcg-com-blogs-competitors-hapvida.md",
+    "title": "What is Competitive Landscape of Hapvida Company? &ndash; MatrixBCG.com",
+    "type": "web"
+  },
+  "https://matrixbcg.com/blogs/brief-history/hapvida": {
+    "file": "sources/matrixbcg-com-blogs-brief-history-hapvida.md",
+    "title": "What is Brief History of Hapvida Company? &ndash; MatrixBCG.com",
+    "type": "web"
+  },
+  "https://latamlist.com/brazilian-software-provider-feegow-clinic-receives-5-2m-investment/": {
+    "file": "sources/latamlist-com-brazilian-software-provider-feegow-clinic-receives-5-2m-investment.md",
+    "title": "Brazilian software provider Feegow Clinic receives $5.2M investment - LatamList",
+    "type": "web"
+  },
+  "https://lgpd-brasil.info/capitulo_02/artigo_11": {
+    "file": "sources/lgpd-brasil-info-capitulo_02-artigo_11.md",
+    "title": "Artigo 11: Tratamento de dados pessoais sensíveis - Capítulo 2 - DO TRATAMENTO DE DADOS PESSOAIS - LGPD Brasil",
+    "type": "web"
+  },
+  "https://latamlist.com/iclinic-raises-undisclosed-series-b-from-softbank/": {
+    "file": "sources/latamlist-com-iclinic-raises-undisclosed-series-b-from-softbank.md",
+    "title": "iClinic raises undisclosed Series B from SoftBank - LatamList",
+    "type": "web"
+  },
+  "https://engage.klasresearch.com/blog/latin-america-ehr-an-update-on-market-share-customer-satisfaction/5496/": {
+    "file": "sources/engage-klasresearch-com-blog-latin-america-ehr-an-update-on-market-share-customer-satisfaction-5496.md",
+    "title": "Latin America EHR: An Update on Market Share &amp; Customer Satisfaction - KLAS Research",
+    "type": "web"
+  },
+  "https://auspin.usp.br/startup-de-servicos-medicos-iclinic-e-vendida-por-1827-milhoes/": {
+    "file": "sources/auspin-usp-br-startup-de-servicos-medicos-iclinic-e-vendida-por-1827-milhoes.md",
+    "title": "Startup de serviços médicos, iClinic, é vendida por 182,7 milhões &#8211; Agência USP de Inovação",
+    "type": "web"
+  },
+  "https://press.doctoralia.com.br/165593-grupo-docplanner-adquire-empresa-lider-na-alemanha": {
+    "file": "sources/press-doctoralia-com-br-165593-grupo-docplanner-adquire-empresa-lider-na-alemanha.md",
+    "title": "The page you were looking for doesn't exist (404)",
+    "type": "web"
+  },
+  "https://portaltelemedicina.com.br/lgpd-na-saude-como-garantir-a-seguranca-de-dados-dos-pacientes": {
+    "file": "sources/portaltelemedicina-com-br-lgpd-na-saude-como-garantir-a-seguranca-de-dados-dos-pacientes.md",
+    "title": "LGPD na Saúde: Segurança dos Dados - Portal Telemedicina",
+    "type": "web"
+  },
+  "https://abes.org.br/pixeon-conclui-aquisicao-da-medicware/": {
+    "file": "sources/abes-org-br-pixeon-conclui-aquisicao-da-medicware.md",
+    "title": "Pixeon conclui aquisição da MedicWare - ABES",
+    "type": "web"
+  },
+  "https://prospeo.io/c/amplimed": {
+    "file": "sources/prospeo-io-c-amplimed.md",
+    "title": "Amplimed Overview, Address &amp; Contact",
+    "type": "web"
+  },
+  "https://pro.doctoralia.com.br": {
+    "file": "sources/pro-doctoralia-com-br-index.md",
+    "title": "Doctoralia Pro | Agenda online completa para clínicas e consultórios",
+    "type": "web"
+  },
+  "https://maislaudo.com.br/blog/tabela-tuss/": {
+    "file": "sources/maislaudo-com-br-blog-tabela-tuss.md",
+    "title": "Tabela TUSS: o que é, qual sua importância e como funciona",
+    "type": "web"
+  },
+  "https://pro.doctoralia.com.br/blog/especialistas/doctoralia-adquire-feegow": {
+    "file": "sources/pro-doctoralia-com-br-blog-especialistas-doctoralia-adquire-feegow.md",
+    "title": "Doctoralia + Feegow: união de 2 líderes das healthtechs",
+    "type": "web"
+  },
+  "https://prodoctor.net": {
+    "file": "sources/prodoctor-net-index.md",
+    "title": "Software médico em nuvem, confiável e completo para clínicas e consultórios | ProDoctor",
+    "type": "web"
+  },
+  "https://prospeo.io/c/tuotempo-revenue": {
+    "file": "sources/prospeo-io-c-tuotempo-revenue.md",
+    "title": "TuoTempo Revenue, Funding &amp; Valuation",
+    "type": "web"
+  },
+  "https://pestel-analysis.com/blogs/how-it-works/rededor": {
+    "file": "sources/pestel-analysis-com-blogs-how-it-works-rededor.md",
+    "title": "How Does Rede D’Or São Luiz Company Work? &ndash; Pestel-analysis.com",
+    "type": "web"
+  },
+  "https://abes.org.br/en/mv-expande-atuacao-e-anuncia-entrada-no-mercado-dos-estados-unidos/": {
+    "file": "sources/abes-org-br-en-mv-expande-atuacao-e-anuncia-entrada-no-mercado-dos-estados-unidos.md",
+    "title": "MV expande atuação e anuncia entrada no mercado dos Estados Unidos - ABES",
+    "type": "web"
+  },
+  "https://medicinasa.com.br/prodoctor-ceo/": {
+    "file": "sources/medicinasa-com-br-prodoctor-ceo.md",
+    "title": "Jomar Nascimento é o novo CEO da ProDoctor - Medicina S/A",
+    "type": "web"
+  },
+  "https://medicinasa.com.br/eval-ia-corporativa/": {
+    "file": "sources/medicinasa-com-br-eval-ia-corporativa.md",
+    "title": "O fim da IA informal: por que a nova resolução do CFM exige a &quot;IA Corporativa&quot; - Medicina S/A",
+    "type": "web"
+  },
+  "https://qservegroup.com/en/brazil-medical-device-regulations": {
+    "file": "sources/qservegroup-com-en-brazil-medical-device-regulations.md",
+    "title": "Qserve Group | Brazil Medical Device Regulations",
+    "type": "web"
+  },
+  "https://secureprivacy.ai/blog/lgpd-compliance-requirements": {
+    "file": "sources/secureprivacy-ai-blog-lgpd-compliance-requirements.md",
+    "title": "",
+    "type": "web"
+  },
+  "https://medicinasa.com.br/vela-latam-pixeon/": {
+    "file": "sources/medicinasa-com-br-vela-latam-pixeon.md",
+    "title": "Pixeon passará a integrar o grupo Vela LatAm - Medicina S/A",
+    "type": "web"
+  },
+  "https://medicinasa.com.br/startuprio-saude/": {
+    "file": "sources/medicinasa-com-br-startuprio-saude.md",
+    "title": "Startups desenvolvem soluções para ajudar no combate à pandemia - Medicina S/A",
+    "type": "web"
+  },
+  "https://iclinic.com.br/blog/novo-marco-na-historia-da-iclinic/": {
+    "file": "sources/iclinic-com-br-blog-novo-marco-na-historia-da-iclinic.md",
+    "title": "Conheça mais um novo marco na história da iClinic",
+    "type": "web"
+  },
+  "https://ri.hapvida.com.br/en/company/corporate-profile-and-healthcare-industry/": {
+    "file": "sources/ri-hapvida-com-br-en-company-corporate-profile-and-healthcare-industry.md",
+    "title": "Corporate Profile and Healthcare Industry - Hapvida RI",
+    "type": "web"
+  },
+  "https://pro.doctoralia.com.br/blog/clinicas/telemedicina-o-que-diz-a-lei-brasileira": {
+    "file": "sources/pro-doctoralia-com-br-blog-clinicas-telemedicina-o-que-diz-a-lei-brasileira.md",
+    "title": "Telemedicina no Brasil: entenda o que diz a legislação",
+    "type": "web"
+  },
+  "https://medicinadireta.com.br": {
+    "file": "sources/medicinadireta-com-br-index.md",
+    "title": "Home - Medicina Direta | Sistema de Prontuário Eletrônico Certificado pela SBIS.",
+    "type": "web"
+  },
+  "https://bvsms.saude.gov.br/bvs/saudelegis/ans/2025/res_0630_07_04_2025.html": {
+    "file": "sources/bvsms-saude-gov-br-bvs-saudelegis-ans-2025-res_0630_07_04_2025-html.md",
+    "title": "Ministério da Saúde",
+    "type": "web"
+  },
+  "https://cremam.org.br/cfm-publica-normas-para-realizacao-da-telemedicina-no-brasil/": {
+    "file": "sources/cremam-org-br-cfm-publica-normas-para-realizacao-da-telemedicina-no-brasil.md",
+    "title": "CFM publica normas para realização da telemedicina no Brasil | Portal Médico",
+    "type": "web"
+  },
+  "https://medicinasa.com.br/bionexo-aquisicao/": {
+    "file": "sources/medicinasa-com-br-bionexo-aquisicao.md",
+    "title": "Bionexo compra a empresa Clínica nas Nuvens por R$ 28,5 milhões - Medicina S/A",
+    "type": "web"
+  },
+  "https://tech.eu/2020/10/15/ayfa-acquires-iclinic/": {
+    "file": "sources/tech-eu-2020-10-15-ayfa-acquires-iclinic.md",
+    "title": "Rockstart makes an exit: Brazilian portfolio company iClinic acquired for almost €28 million - Tech.eu",
+    "type": "web"
+  },
+  "https://tech.eu/2019/05/13/polish-founded-healthcare-platform-docplanner-raises-e80-million/": {
+    "file": "sources/tech-eu-2019-05-13-polish-founded-healthcare-platform-docplanner-raises-e80-million.md",
+    "title": "Polish-founded healthcare platform DocPlanner raises €80 million - Tech.eu",
+    "type": "web"
+  },
+  "https://rocketreach.co/prodoctor-software-profile_b5f4a13cf42d2b5a": {
+    "file": "sources/rocketreach-co-prodoctor-software-profile_b5f4a13cf42d2b5a.md",
+    "title": "ProDoctor Software Information",
+    "type": "web"
+  },
+  "https://www.appvizer.co.uk/health/medical-records/hidoctor": {
+    "file": "sources/appvizer-co-uk-health-medical-records-hidoctor.md",
+    "title": "HiDoctor : Reviews, Test &amp; Pricing | Appvizer",
+    "type": "web"
+  },
+  "https://www.acate.com.br/noticias/pixeon-e-adquirida-pela-vela-latam-e-visa-ampliar-atuacao-no-mercado-de-saude/": {
+    "file": "sources/acate-com-br-noticias-pixeon-e-adquirida-pela-vela-latam-e-visa-ampliar-atuacao-no-mercado-de-saude.md",
+    "title": "Pixeon é adquirida pela Vela LatAm e visa ampliar atuação no mercado de saúde - ACATE",
+    "type": "web"
+  },
+  "https://www.baguete.com.br/noticias/pixeon-aporte-de-r-30-mi-da-riverwood": {
+    "file": "sources/baguete-com-br-noticias-pixeon-aporte-de-r-30-mi-da-riverwood.md",
+    "title": "Pixeon: aporte de R$ 30 mi da Riverwood - Baguete",
+    "type": "web"
+  },
+  "https://whitespaces-intelligence.azurewebsites.net/Brazil/Products/Private%20Health/3.%20Competitive%20Landscape/2.6.ma_movements_analysis_report/": {
+    "file": "sources/whitespaces-intelligence-azurewebsites-net-Brazil-Products-Private-20Health-3-20Competitive-20Landscape-2-6-ma-daae37df.md",
+    "title": "M&A Movements - Industry Whitespaces Intelligence",
+    "type": "web"
+  },
+  "https://saudedigitalbrasil.com.br/anvisa-atualiza-regras-para-regularizacao-de-dispositivos-medicos-no-brasil/": {
+    "file": "sources/saudedigitalbrasil-com-br-anvisa-atualiza-regras-para-regularizacao-de-dispositivos-medicos-no-brasil.md",
+    "title": "Anvisa atualiza regras para regularização de dispositivos médicos no Brasil - Saúde Digital Brasil",
+    "type": "web"
+  },
+  "https://www.cbinsights.com/company/amplimedcombr": {
+    "file": "sources/cbinsights-com-company-amplimedcombr.md",
+    "title": "AmpliMed - Products, Competitors, Financials, Employees, Headquarters Locations",
+    "type": "web"
+  },
+  "https://www.cbinsights.com/company/mv-sistemas": {
+    "file": "sources/cbinsights-com-company-mv-sistemas.md",
+    "title": "MV - Products, Competitors, Financials, Employees, Headquarters Locations",
+    "type": "web"
+  },
+  "https://techround.co.uk/interviews/meet-mariusz-gralewski-docplanner/": {
+    "file": "sources/techround-co-uk-interviews-meet-mariusz-gralewski-docplanner.md",
+    "title": "Meet Mariusz Gralewski, CEO at MedTech Company: Docplanner - TechRound",
+    "type": "web"
+  },
+  "https://www.baybrazil.org/july-2024-deals-investments": {
+    "file": "sources/baybrazil-org-july-2024-deals-investments.md",
+    "title": "July 2024 Deals &amp; Investments - BayBrazil",
+    "type": "web"
+  },
+  "https://www.commonwealthfund.org/international-health-policy-center/countries/brazil": {
+    "file": "sources/commonwealthfund-org-international-health-policy-center-countries-brazil.md",
+    "title": "Brazil | International Health Care System Profiles | Commonwealth Fund",
+    "type": "web"
+  },
+  "https://techcrunch.com/2016/06/07/docplanner-doctoralia/": {
+    "file": "sources/techcrunch-com-2016-06-07-docplanner-doctoralia.md",
+    "title": "Healthcare booking platform DocPlanner scores $20M Series C and merges with Doctoralia | TechCrunch",
+    "type": "web"
+  },
+  "https://www.columbiaemergingmarketsreview.com/p/public-health-meets-private-capital": {
+    "file": "sources/columbiaemergingmarketsreview-com-p-public-health-meets-private-capital.md",
+    "title": "Public Health Meets Private Capital: The Promise and Pitfalls of Brazil’s Digital Health Economy",
+    "type": "web"
+  },
+  "https://simplifier.net/jurisdictions/br": {
+    "file": "sources/simplifier-net-jurisdictions-br.md",
+    "title": "Brazil - SIMPLIFIER.NET",
+    "type": "web"
+  },
+  "https://www.amplimed.com.br": {
+    "file": "sources/amplimed-com-br-index.md",
+    "title": "Sistema para clínicas e consultórios | Amplimed",
+    "type": "web"
+  },
+  "https://www.beyondthelaw.news/brazil-startup-deals-october-2025/": {
+    "file": "sources/beyondthelaw-news-brazil-startup-deals-october-2025.md",
+    "title": "Brazil Startup Deals 2025 – October Venture Capital in Brasil",
+    "type": "web"
+  },
+  "https://telesintese.com.br/decreto-regulamenta-rede-nacional-de-dados-em-saude-e-sus-digital/": {
+    "file": "sources/telesintese-com-br-decreto-regulamenta-rede-nacional-de-dados-em-saude-e-sus-digital.md",
+    "title": "Decreto regulamenta Rede Nacional de Dados em Saúde",
+    "type": "web"
+  },
+  "https://www.folhape.com.br/colunistas/inspiracao-recife/mv-lider-em-softwares-para-todo-o-ecossistema-da-saude/40128/": {
+    "file": "sources/folhape-com-br-colunistas-inspiracao-recife-mv-lider-em-softwares-para-todo-o-ecossistema-da-saude-40128.md",
+    "title": "MV Líder em softwares para todo o ecossistema da saúde - Inspiração Brasil - Folha PE",
+    "type": "web"
+  },
+  "https://www.ans.gov.br/a-ans/sala-de-noticias-ans/operadoras-e-servicos-de-saude/2010-rol-de-procedimentos-e-terminologia-unificada-da-saude-suplementar": {
+    "file": "sources/ans-gov-br-a-ans-sala-de-noticias-ans-operadoras-e-servicos-de-saude-2010-rol-de-procedimentos-e-terminologia--454a0ef3.md",
+    "title": "Rol de Procedimentos e Terminologia Unificada da Saúde Suplementar - ANS - Agência Nacional de Saúde Suplementar",
+    "type": "web"
+  },
+  "https://www.ans.gov.br/prestadores/tiss-troca-de-informacao-de-saude-suplementar": {
+    "file": "sources/ans-gov-br-prestadores-tiss-troca-de-informacao-de-saude-suplementar.md",
+    "title": "TISS - Troca de Informação de Saúde Suplementar - ANS - Agência Nacional de Saúde Suplementar",
+    "type": "web"
+  },
+  "https://www.beyondthelaw.news/mevo-funding-round-brazil-prosus/": {
+    "file": "sources/beyondthelaw-news-mevo-funding-round-brazil-prosus.md",
+    "title": "Mevo Funding Round Prosus Backs Brazil Healthtech Expansion",
+    "type": "web"
+  },
+  "https://www.globenewswire.com/news-release/2021/01/21/2162547/0/en/Afya-Limited-Announces-Closing-of-the-Acquisition-of-iClinic.html": {
+    "file": "sources/globenewswire-com-news-release-2021-01-21-2162547-0-en-Afya-Limited-Announces-Closing-of-the-Acquisition-of-iClinic-html.md",
+    "title": "Afya Limited Announces Closing of the Acquisition of",
+    "type": "web"
+  },
+  "https://www.grandviewresearch.com/horizon/outlook/telemedicine-market/brazil": {
+    "file": "sources/grandviewresearch-com-horizon-outlook-telemedicine-market-brazil.md",
+    "title": "Brazil Telemedicine Market Size &amp; Outlook, 2030",
+    "type": "web"
+  },
+  "https://scinova.com.br/startup-clinica-nas-nuvens-e-vendida-para-a-bionexo/": {
+    "file": "sources/scinova-com-br-startup-clinica-nas-nuvens-e-vendida-para-a-bionexo.md",
+    "title": "Startup Clínica nas Nuvens, de Xanxerê, é vendida por R$ 28,5 milhões para a Bionexo - SC Inova",
+    "type": "web"
+  },
+  "https://www.dlapiperintelligence.com/telehealth/countries/brazil/02-regulation-of-telehealth.html": {
+    "file": "sources/dlapiperintelligence-com-telehealth-countries-brazil-02-regulation-of-telehealth-html.md",
+    "title": "How is telehealth regulated? in Brazil - DLA Piper Telehealth Around the World",
+    "type": "web"
+  },
+  "https://www.inven.ai/company-lists/top-13-healthcare-consulting-investors-in-latin-america": {
+    "file": "sources/inven-ai-company-lists-top-13-healthcare-consulting-investors-in-latin-america.md",
+    "title": "Top 13 Healthcare Consulting Investors in Latin America",
+    "type": "web"
+  },
+  "https://www.imarcgroup.com/brazil-digital-health-market": {
+    "file": "sources/imarcgroup-com-brazil-digital-health-market.md",
+    "title": "Brazil Digital Health Market Size Outlook Forecast 2026-2034",
+    "type": "web"
+  },
+  "https://www.gov.br/ans/pt-br/assuntos/prestadores/padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss/marco-2024": {
+    "file": "sources/gov-br-ans-pt-br-assuntos-prestadores-padrao-para-troca-de-informacao-de-saude-suplementar-2013-tiss-marco-2024.md",
+    "title": "Padrão TISS – Março/2024 — Agência Nacional de Saúde Suplementar",
+    "type": "web"
+  },
+  "https://www.ibanet.org/protections-health-data-brazilds": {
+    "file": "sources/ibanet-org-protections-health-data-brazilds.md",
+    "title": "The protection of health data in Brazil | International Bar Association",
+    "type": "web"
+  },
+  "https://www.ibanet.org/telemedicine-regulation-brazil-covid-pandemic": {
+    "file": "sources/ibanet-org-telemedicine-regulation-brazil-covid-pandemic.md",
+    "title": "The progress in telemedicine regulation and the emergence of the advanced practice of medicine in Brazil after the Covid-19 pandemic | International Bar Association",
+    "type": "web"
+  },
+  "https://www.gov.br/saude/pt-br/composicao/seidigi/rnds": {
+    "file": "sources/gov-br-saude-pt-br-composicao-seidigi-rnds.md",
+    "title": "Rede Nacional de Dados em Saúde — Ministério da Saúde",
+    "type": "web"
+  },
+  "https://www.jdsupra.com/legalnews/brazilian-cfm-issues-resolution-on-the-6731720/": {
+    "file": "sources/jdsupra-com-legalnews-brazilian-cfm-issues-resolution-on-the-6731720.md",
+    "title": "Brazilian CFM Issues Resolution on the Use of Artificial Intelligence in Medicine | Mayer Brown - JDSupra",
+    "type": "web"
+  },
+  "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-publica-nova-versao-de-manual-para-regularizacao-de-equipamentos-medicos": {
+    "file": "sources/gov-br-anvisa-pt-br-assuntos-noticias-anvisa-2025-anvisa-publica-nova-versao-de-manual-para-regularizacao-de-e-544b1e9a.md",
+    "title": "Anvisa publica nova versão de manual para regularização de equipamentos médicos — Agência Nacional de Vigilância Sanitária - Anvisa",
+    "type": "web"
+  },
+  "https://www.frontiersin.org/journals/sociology/articles/10.3389/fsoc.2024.1303295/full": {
+    "file": "sources/frontiersin-org-journals-sociology-articles-10-3389-fsoc-2024-1303295-full.md",
+    "title": "Frontiers | Alignment and specifics of Brazilian health agencies in relation to the international premises for the implementation of digital health in primary health care: a rhetorical analysis",
+    "type": "web"
+  },
+  "https://www.gov.br/saude/pt-br/acesso-a-informacao/lgpd": {
+    "file": "sources/gov-br-saude-pt-br-acesso-a-informacao-lgpd.md",
+    "title": "Lei Geral de Proteção de Dados Pessoais (LGPD) — Ministério da Saúde",
+    "type": "web"
+  },
+  "https://www.demarest.com.br/en/law-that-regulates-telehealth-sector-sanctioned-by-the-president-of-brazil/": {
+    "file": "sources/demarest-com-br-en-law-that-regulates-telehealth-sector-sanctioned-by-the-president-of-brazil.md",
+    "title": "Law that regulates telehealth sector sanctioned by the President of Brazil - Demarest",
+    "type": "web"
+  },
+  "https://www.knowledge-sourcing.com/report/brazil-electronic-health-records-ehr-market": {
+    "file": "sources/knowledge-sourcing-com-report-brazil-electronic-health-records-ehr-market.md",
+    "title": "Brazil Electronic Health Records Market Report: Forecast 2031",
+    "type": "web"
+  },
+  "https://www.freyrsolutions.com/blog/resolution-for-regulation-of-software-as-medical-device-samd-in-brazil": {
+    "file": "sources/freyrsolutions-com-blog-resolution-for-regulation-of-software-as-medical-device-samd-in-brazil.md",
+    "title": "SaMD Regulation in Brazil – Key Requirements | Freyr",
+    "type": "web"
+  },
+  "https://www.elendilabs.com/en/articles/bra-software-as-a-medical-device": {
+    "file": "sources/elendilabs-com-en-articles-bra-software-as-a-medical-device.md",
+    "title": "Brazil ANVISA RDC 657/2022: Regulatory Framework for Software as a Medical Device (SaMD) | ElendiLabs",
+    "type": "web"
+  },
+  "https://www.ninsaude.com": {
+    "file": "sources/ninsaude-com-index.md",
+    "title": "Sistema para gestão de franquias e clínicas | Ninsaúde",
+    "type": "web"
+  },
+  "https://www.prnewswire.com/news-releases/docplanner-acquires-feegow-in-a-strategic-move-in-the-healthcare-market-301596954.html": {
+    "file": "sources/prnewswire-com-news-releases-docplanner-acquires-feegow-in-a-strategic-move-in-the-healthcare-market-301596954-html.md",
+    "title": "DOCPLANNER ACQUIRES FEEGOW IN A STRATEGIC MOVE IN THE HEALTHCARE MARKET",
+    "type": "web"
+  },
+  "https://neofeed.com.br/startups/pixeon-compra-boaconsulta-e-entra-em-telemedicina/": {
+    "file": "sources/neofeed-com-br-startups-pixeon-compra-boaconsulta-e-entra-em-telemedicina.md",
+    "title": "Pixeon compra BoaConsulta e entra em telemedicina - NeoFeed",
+    "type": "web"
+  },
+  "https://www.prnewswire.com/news-releases/mv-sistemas-announces-minority-investment-from-insight-venture-partners-165404696.html": {
+    "file": "sources/prnewswire-com-news-releases-mv-sistemas-announces-minority-investment-from-insight-venture-partners-165404696-html.md",
+    "title": "MV Sistemas Announces Minority Investment From Insight Venture Partners",
+    "type": "web"
+  },
+  "https://www.newswire.com/news/valsoft-corporation-enters-brazils-public-healthcare-software-market-with-fast": {
+    "file": "sources/newswire-com-news-valsoft-corporation-enters-brazils-public-healthcare-software-market-with-fast.md",
+    "title": "Valsoft Corporation Enters Brazil&#039;s Public Healthcare Software Market with Fast Medic | Newswire",
+    "type": "web"
+  },
+  "https://startupi.com.br/doctoralia-adquire-startup/": {
+    "file": "sources/startupi-com-br-doctoralia-adquire-startup.md",
+    "title": "Doctoralia adquire provedora de soluções tecnológicas para setor médico da Polônia | Startupi",
+    "type": "web"
+  },
+  "https://www.scielo.br/j/cebape/a/qm9rwQQrLvbyHjhTmYXLWFc/?lang=en": {
+    "file": "sources/scielo-br-j-cebape-a-qm9rwQQrLvbyHjhTmYXLWFc.md",
+    "title": "Establishing a secure connection ...",
+    "type": "web"
+  },
+  "https://www.insightpartners.com/portfolio/mv-sistemas/": {
+    "file": "sources/insightpartners-com-portfolio-mv-sistemas.md",
+    "title": "MV Sistemas | Investment | Insight Partners",
+    "type": "web"
+  },
+  "https://www.selecthub.com/p/medical-software/hidoctor/": {
+    "file": "sources/selecthub-com-p-medical-software-hidoctor.md",
+    "title": "HiDoctor Reviews 2026: Pricing, Features & More",
+    "type": "web"
+  },
+  "https://www.researchandmarkets.com/reports/5397905/brazil-electronic-medical-record-emr-market": {
+    "file": "sources/researchandmarkets-com-reports-5397905-brazil-electronic-medical-record-emr-market.md",
+    "title": "Brazil Electronic Medical Record (EMR) Market - Forecasts from 2025 to 2030",
+    "type": "web"
+  },
+  "https://www.pixeon.com/blog/pixeon-recebeu-aporte-de-r-50-milhoes-do-fundo-de-investimento-riverwood-capital/": {
+    "file": "sources/pixeon-com-blog-pixeon-recebeu-aporte-de-r-50-milhoes-do-fundo-de-investimento-riverwood-capital.md",
+    "title": "Pixeon recebeu aporte de R$ 50 milhões do fundo de investimento Riverwood Capital - Pixeon",
+    "type": "web"
+  },
+  "https://www.pixeon.com/blog/lgpd-na-saude/": {
+    "file": "sources/pixeon-com-blog-lgpd-na-saude.md",
+    "title": "LGPD na Saúde: segurança de dados na jornada do paciente",
+    "type": "web"
+  },
+  "https://www.researchandmarkets.com/reports/6209342/brazil-digital-healthcare-telemedicine-market": {
+    "file": "sources/researchandmarkets-com-reports-6209342-brazil-digital-healthcare-telemedicine-market.md",
+    "title": "Brazil Digital Healthcare and Telemedicine Market",
+    "type": "web"
+  },
+  "https://www.pixeon.com/en/cases/": {
+    "file": "sources/pixeon-com-en-cases.md",
+    "title": "Cases | Pixeon",
+    "type": "web"
+  },
+  "https://www.riverwoodcapital.com/investment/pixeon/": {
+    "file": "sources/riverwoodcapital-com-investment-pixeon.md",
+    "title": "Pixeon | Riverwood Capital",
+    "type": "web"
+  },
+  "https://www.legal500.com/gc-powerlist/brazil-2023/elton-da-silva-de-oliveira/": {
+    "file": "sources/legal500-com-gc-powerlist-brazil-2023-elton-da-silva-de-oliveira.md",
+    "title": "Elton da Silva de Oliveira &#8211; GC Powerlist",
+    "type": "web"
+  },
+  "https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/life-sciences-e-saude/cfm-regulamenta-o-uso-de-inteligencia-artificial-na-medicina": {
+    "file": "sources/machadomeyer-com-br-pt-inteligencia-juridica-publicacoes-ij-life-sciences-e-saude-cfm-regulamenta-o-uso-de-int-ff72649d.md",
+    "title": "CFM regulamenta o uso de inteligência artificial na medicina",
+    "type": "web"
+  },
+  "https://www.pixeon.com/novidades/vela-latam-aposta-na-pixeon/": {
+    "file": "sources/pixeon-com-novidades-vela-latam-aposta-na-pixeon.md",
+    "title": "Vela LatAm aposta na Pixeon para ampliar atuação no mercado de saúde - Pixeon",
+    "type": "web"
+  },
+  "https://www.pixeon.com/en/about/": {
+    "file": "sources/pixeon-com-en-about.md",
+    "title": "About - Pixeon | Pixeon",
+    "type": "web"
+  },
+  "https://www.shosp.com.br/comparativo": {
+    "file": "sources/shosp-com-br-comparativo.md",
+    "title": "Comparativo de planos de sistema para clínicas | Shosp",
+    "type": "web"
+  },
+  "https://www.shosp.com.br/precos": {
+    "file": "sources/shosp-com-br-precos.md",
+    "title": "Planos e Preços de software para clínicas e consultórios | Shosp",
+    "type": "web"
+  },
+  "https://www.shosp.com.br/funcionalidades/quem-somos": {
+    "file": "sources/shosp-com-br-funcionalidades-quem-somos.md",
+    "title": "Conheça o Shosp: um sistema médico completo | Shosp",
+    "type": "web"
+  },
+  "https://www.kenresearch.com/brazil-e-health-telemedicine-market": {
+    "file": "sources/kenresearch-com-brazil-e-health-telemedicine-market.md",
+    "title": "Brazil Telemedicine Market | 2019 – 2030 | Ken Research",
+    "type": "web"
+  },
+  "https://www.pixeon.com/en/novidades/vela-latam-partners-with-pixeon/": {
+    "file": "sources/pixeon-com-en-novidades-vela-latam-partners-with-pixeon.md",
+    "title": "Vela LatAm partners with Pixeon to expand its presence in the healthcare market - Pixeon",
+    "type": "web"
+  },
+  "https://www.prontmed.com": {
+    "file": "sources/prontmed-com-index.md",
+    "title": "Prontmed | Prontuário Eletrônico",
+    "type": "web"
+  },
+  "https://www.pixeon.com/en/": {
+    "file": "sources/pixeon-com-en.md",
+    "title": "Pixeon | Management, Software for Medicine and Healthcare",
+    "type": "web"
+  },
+  "https://www.wipo.int/en/web/global-health/w/blogs/strengthening-ip-capabilities-brazil-healthtech-industry": {
+    "file": "sources/wipo-int-en-web-global-health-w-blogs-strengthening-ip-capabilities-brazil-healthtech-industry.md",
+    "title": "Strengthening IP Capabilities in Brazil’s HealthTech Industry",
+    "type": "web"
+  },
+  "https://www.shosp.com.br": {
+    "file": "sources/shosp-com-br-index.md",
+    "title": "Software médico para clínicas e consultórios | Shosp",
+    "type": "web"
+  },
+  "https://www.tuotempo.com": {
+    "file": "sources/tuotempo-com-index.md",
+    "title": "Request your Demo | TuoTempo",
+    "type": "web"
+  },
+  "https://www.simdoctor.com.br": {
+    "file": "sources/simdoctor-com-br-index.md",
+    "title": "Software para clínicas - SimDoctor - Sistema Inovador Modular",
+    "type": "web"
+  },
+  "https://www.soutocorrea.com.br/en/client-alerts/lei-que-regulamenta-a-telessaude-no-brasil-e-sancionada-e-entra-em-vigor-imediatamente/": {
+    "file": "sources/soutocorrea-com-br-en-client-alerts-lei-que-regulamenta-a-telessaude-no-brasil-e-sancionada-e-entra-em-vigor-i-b71f0a47.md",
+    "title": "Brazilian Telehealth act Comes Into Force - Souto Correa Advogados",
+    "type": "web"
+  },
+  "https://www.workingnomads.com/jobs/backend-engineer-docplanner-1528935": {
+    "file": "sources/workingnomads-com-jobs-backend-engineer-docplanner-1528935.md",
+    "title": "Backend Engineer at Docplanner | Working Nomads",
+    "type": "web"
+  },
+  "https://www.trade.gov/country-commercial-guides/brazil-healthcare": {
+    "file": "sources/trade-gov-country-commercial-guides-brazil-healthcare.md",
+    "title": "Brazil - Healthcare",
+    "type": "web"
+  },
+  "https://www.unquote.com/cee/news/3024909/docplanner-raises-finance-valuing-business-at-usd-1bn": {
+    "file": "sources/unquote-com-cee-news-3024909-docplanner-raises-finance-valuing-business-at-usd-1bn.md",
+    "title": "DocPlanner raises round valuing business at USD 1bn | Unquote",
+    "type": "web"
+  },
+  "https://www.projetodraft.com/a-iclinic-conecta-medicos-e-pacientes-com-um-modulo-de-telemedicina/": {
+    "file": "sources/projetodraft-com-a-iclinic-conecta-medicos-e-pacientes-com-um-modulo-de-telemedicina.md",
+    "title": "Impossível conseguir uma consulta em meio à pandemia? A iClinic conecta médicos e pacientes com um módulo de telemedicina",
+    "type": "web"
+  },
+  "https://www.simdoctor.com.br/blog/como-a-ia-na-saude-esta-revolucionando-a-gestao-da-saude-no-brasil/": {
+    "file": "sources/simdoctor-com-br-blog-como-a-ia-na-saude-esta-revolucionando-a-gestao-da-saude-no-brasil.md",
+    "title": "IA na saúde: Revolucionando a gestão da saúde no Brasil - SimDoctor",
+    "type": "web"
+  },
+  "https://www.bnamericas.com/en/news/bain-capitals-bionexo-goes-ma-to-grow-in-brazils-healthtech-arena": {
+    "file": "sources/bnamericas-com-en-news-bain-capitals-bionexo-goes-ma-to-grow-in-brazils-healthtech-arena.md",
+    "title": "Bain Capital's Bionexo bets on M&A to grow in Brazil's healthtech arena - BNamericas",
+    "type": "web"
+  },
+  "https://www.unoesc.edu.br/blog/venda-milionaria-de-startup-de-ex-professores-da-unoesc-incentiva-a-formacao-em-areas-de-tecnologia/": {
+    "file": "sources/unoesc-edu-br-blog-venda-milionaria-de-startup-de-ex-professores-da-unoesc-incentiva-a-formacao-em-areas-de-tecnologia.md",
+    "title": "Venda milionária de startup de ex-professores da Unoesc incentiva à formação em áreas de tecnologia - Unoesc",
+    "type": "web"
+  },
+  "https://www.unquote.com/cee/news/3024909/docplanner-raises-finance-valuing-business-at-usd-1bn/": {
+    "file": "sources/unquote-com-cee-news-3024909-docplanner-raises-finance-valuing-business-at-usd-1bn.md",
+    "title": "DocPlanner raises round valuing business at USD 1bn | Unquote",
+    "type": "web"
+  }
+}
